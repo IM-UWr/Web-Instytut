@@ -174,6 +174,10 @@ content:
     label: Pokaż na stronie głównej
     type: boolean
     default: true
+  - name: zawsze
+    label: Zawsze pokazuj na stronie głównej (nie losuj; zwykle zostaw puste)
+    type: boolean
+    default: false
   - name: kolejnosc
     label: Kolejność (mniejsza = wcześniej)
     type: number
