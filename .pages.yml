@@ -53,6 +53,9 @@ content:
   - name: zdjecie_opis
     label: Podpis zdjęcia
     type: string
+  - name: zdjecie_opis_en
+    label: 'EN: podpis zdjęcia'
+    type: string
   - name: kolejnosc
     label: Kolejność na liście
     type: number
