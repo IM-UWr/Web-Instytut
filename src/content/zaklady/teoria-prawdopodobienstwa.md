@@ -19,6 +19,8 @@ obszary_en:
   - "Markov chains"
 opis: "Procesy stochastyczne i zastosowania rachunku prawdopodobieństwa, m.in. w ubezpieczeniach i finansach."
 opis_en: "Stochastic processes and applied probability, including insurance and finance."
+haslo: "Procesy gaussowskie i teoria ryzyka"
+haslo_en: "Gaussian processes and risk theory"
 tresc_en: |
   The department continues the Wrocław tradition in probability theory. Research covers stochastic processes (including Gaussian and Lévy processes), risk theory and insurance mathematics, queueing theory, Markov chains and stochastic modelling.
 

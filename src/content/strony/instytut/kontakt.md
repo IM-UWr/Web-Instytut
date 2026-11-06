@@ -3,6 +3,8 @@ tytul: "Kontakt"
 opis: "Adres, telefony i e-mail Instytutu Matematycznego oraz Dziekanatu WMI."
 tytul_en: "Contact"
 opis_en: "Address, phone numbers and e-mail of the Mathematical Institute and the Faculty Office."
+haslo: "pl. Grunwaldzki 2, Wrocław"
+haslo_en: "pl. Grunwaldzki 2, Wrocław"
 tresc_en: |
   ## Mathematical Institute
 

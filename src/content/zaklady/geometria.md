@@ -17,6 +17,8 @@ obszary_en:
   - "geometry"
 opis: "Geometryczna teoria grup, topologia i geometria przestrzeni niedodatnio zakrzywionych."
 opis_en: "Geometric group theory, topology and the geometry of non-positively curved spaces."
+haslo: "Geometryczna teoria grup"
+haslo_en: "Geometric group theory"
 tresc_en: |
   The department works in geometric group theory — the study of groups through the spaces they act on — as well as topology and the geometry of non-positively curved complexes, automatic groups and their boundaries.
 

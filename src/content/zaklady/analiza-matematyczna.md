@@ -17,6 +17,8 @@ obszary_en:
   - "combinatorics"
 opis: "Wielomiany ortogonalne, nieprzemienna probabilistyka i dyskretna analiza harmoniczna."
 opis_en: "Orthogonal polynomials, noncommutative probability and discrete harmonic analysis."
+haslo: "Problem momentów i operatory"
+haslo_en: "The moment problem and operators"
 tresc_en: |
   The department works on orthogonal polynomials and the moment problem, operator theory, discrete harmonic analysis, and noncommutative (quantum) probability and its connections with combinatorics.
 

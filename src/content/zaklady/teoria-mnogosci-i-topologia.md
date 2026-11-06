@@ -19,6 +19,8 @@ obszary_en:
   - "Boolean algebras"
 opis: "Teoria mnogości, topologia ogólna i ich zastosowania w teorii miary i przestrzeni Banacha."
 opis_en: "Set theory, general topology and their applications in measure theory and Banach spaces."
+haslo: "Od zbiorów do przestrzeni Banacha"
+haslo_en: "From sets to Banach spaces"
 tresc_en: |
   The department works in set theory and general topology and their applications in analysis: measure theory, Banach spaces of continuous functions, Boolean algebras and ideals.
 

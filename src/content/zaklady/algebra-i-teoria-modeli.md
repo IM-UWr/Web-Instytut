@@ -19,6 +19,8 @@ obszary_en:
   - "fields with operators"
 opis: "Teoria modeli i jej związki z algebrą, geometrią i teorią liczb."
 opis_en: "Model theory and its connections with algebra, geometry and number theory."
+haslo: "Teoria modeli spotyka algebrę"
+haslo_en: "Where model theory meets algebra"
 tresc_en: |
   The department works in model theory — the branch of mathematical logic that studies mathematical structures through their definable sets — and its applications in algebra. Research topics include definable groups, fields with operators and stable theories, as well as questions in number theory.
 

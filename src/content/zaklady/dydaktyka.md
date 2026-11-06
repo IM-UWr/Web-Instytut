@@ -17,6 +17,8 @@ obszary_en:
   - "work with gifted students"
 opis: "Kształcenie nauczycieli matematyki, dydaktyka i popularyzacja matematyki."
 opis_en: "Mathematics teacher training, mathematics education and outreach."
+haslo: "Kształcimy nauczycieli matematyki"
+haslo_en: "We train mathematics teachers"
 tresc_en: |
   The unit works on mathematics education and the training of future teachers, including teaching placements for students of the mathematics teaching specialisation, and on popularising mathematics among pupils and teachers.
 

@@ -19,6 +19,8 @@ obszary_en:
   - "diffusion"
 opis: "Nieliniowe równania różniczkowe cząstkowe i ich zastosowania, m.in. w biologii i fizyce."
 opis_en: "Nonlinear partial differential equations and their applications, e.g. in biology and physics."
+haslo: "Nieliniowe równania cząstkowe"
+haslo_en: "Nonlinear PDEs"
 tresc_en: |
   The department studies nonlinear partial differential equations: evolution equations with local and nonlocal diffusion, chemotaxis and pattern formation models, large-time behaviour of solutions and self-similar solutions.
 

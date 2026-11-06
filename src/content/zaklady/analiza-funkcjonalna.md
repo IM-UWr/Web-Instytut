@@ -19,6 +19,8 @@ obszary_en:
   - "analysis on groups"
 opis: "Analiza harmoniczna, analiza na grupach i jej związki z teorią prawdopodobieństwa."
 opis_en: "Harmonic analysis, analysis on groups and its links with probability theory."
+haslo: "Analiza na grupach Liego"
+haslo_en: "Analysis on Lie groups"
 tresc_en: |
   The department continues the tradition of the Wrocław school of harmonic analysis founded by Professor Andrzej Hulanicki. Research covers harmonic analysis on Lie groups and homogeneous spaces, Hardy spaces and integral operators, as well as applications of analysis in probability theory, including stochastic recursions and heavy-tailed processes.
 

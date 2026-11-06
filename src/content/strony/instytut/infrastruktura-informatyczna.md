@@ -3,6 +3,8 @@ tytul: "Infrastruktura informatyczna"
 opis: "Sieć komputerowa, pracownie i oprogramowanie w Instytucie."
 tytul_en: "IT infrastructure"
 opis_en: "Computer network, labs and software at the Institute."
+haslo: "Sieć, pracownie, programy"
+haslo_en: "Network, labs, software"
 tresc_en: |
   Computer network and laboratories are run by the Institute computer lab ([staff directory](/en/pracownicy)). Contact the network administrators at [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl) or in room 402.
 

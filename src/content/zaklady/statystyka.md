@@ -17,6 +17,8 @@ obszary_en:
   - "applications in biology and medicine"
 opis: "Statystyka matematyczna, metody dla danych wysokowymiarowych i ich zastosowania."
 opis_en: "Mathematical statistics, methods for high-dimensional data and their applications."
+haslo: "Statystyka wysokowymiarowa"
+haslo_en: "High-dimensional statistics"
 tresc_en: |
   The department works in mathematical statistics and its applications: methods for high-dimensional data (including SLOPE and FDR control), statistical testing and Bayesian statistics, and the analysis of biological and medical data, including proteomics.
 
