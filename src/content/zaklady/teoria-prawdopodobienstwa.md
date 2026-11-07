@@ -1,26 +1,27 @@
 ---
 kolejnosc: 7
 nazwa: "Zakład Teorii Prawdopodobieństwa"
-nazwa_krotka: "Teoria prawdopodobieństwa"
-nazwa_krotka_en: "Probability theory"
+karta:
+  nazwa_krotka: "Teoria prawdopodobieństwa"
+  nazwa_krotka_en: "Probability theory"
+  kierownik: "Krzysztof Dębicki"
+  obszary:
+    - "procesy stochastyczne"
+    - "procesy gaussowskie"
+    - "teoria ryzyka"
+    - "teoria kolejek"
+    - "łańcuchy Markowa"
+  obszary_en:
+    - "stochastic processes"
+    - "Gaussian processes"
+    - "risk theory"
+    - "queueing theory"
+    - "Markov chains"
+  opis: "Procesy stochastyczne i zastosowania rachunku prawdopodobieństwa, m.in. w ubezpieczeniach i finansach."
+  opis_en: "Stochastic processes and applied probability, including insurance and finance."
+  haslo: "Procesy gaussowskie i teoria ryzyka"
+  haslo_en: "Gaussian processes and risk theory"
 nazwa_en: "Department of Probability Theory"
-kierownik: "Krzysztof Dębicki"
-obszary:
-  - "procesy stochastyczne"
-  - "procesy gaussowskie"
-  - "teoria ryzyka"
-  - "teoria kolejek"
-  - "łańcuchy Markowa"
-obszary_en:
-  - "stochastic processes"
-  - "Gaussian processes"
-  - "risk theory"
-  - "queueing theory"
-  - "Markov chains"
-opis: "Procesy stochastyczne i zastosowania rachunku prawdopodobieństwa, m.in. w ubezpieczeniach i finansach."
-opis_en: "Stochastic processes and applied probability, including insurance and finance."
-haslo: "Procesy gaussowskie i teoria ryzyka"
-haslo_en: "Gaussian processes and risk theory"
 tresc_en: |
   The department continues the Wrocław tradition in probability theory. Research covers stochastic processes (including Gaussian and Lévy processes), risk theory and insurance mathematics, queueing theory, Markov chains and stochastic modelling.
 

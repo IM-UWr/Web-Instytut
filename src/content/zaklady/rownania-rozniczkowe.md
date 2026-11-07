@@ -1,26 +1,27 @@
 ---
 kolejnosc: 5
 nazwa: "Zakład Równań Różniczkowych"
-nazwa_krotka: "Równania różniczkowe"
-nazwa_krotka_en: "Differential equations"
+karta:
+  nazwa_krotka: "Równania różniczkowe"
+  nazwa_krotka_en: "Differential equations"
+  kierownik: "Piotr Biler"
+  obszary:
+    - "równania cząstkowe"
+    - "równania nielokalne"
+    - "modele biologiczne"
+    - "tworzenie się wzorców"
+    - "dyfuzja"
+  obszary_en:
+    - "partial differential equations"
+    - "nonlocal equations"
+    - "biological models"
+    - "pattern formation"
+    - "diffusion"
+  opis: "Nieliniowe równania różniczkowe cząstkowe i ich zastosowania, m.in. w biologii i fizyce."
+  opis_en: "Nonlinear partial differential equations and their applications, e.g. in biology and physics."
+  haslo: "Nieliniowe równania cząstkowe"
+  haslo_en: "Nonlinear PDEs"
 nazwa_en: "Department of Differential Equations"
-kierownik: "Piotr Biler"
-obszary:
-  - "równania cząstkowe"
-  - "równania nielokalne"
-  - "modele biologiczne"
-  - "tworzenie się wzorców"
-  - "dyfuzja"
-obszary_en:
-  - "partial differential equations"
-  - "nonlocal equations"
-  - "biological models"
-  - "pattern formation"
-  - "diffusion"
-opis: "Nieliniowe równania różniczkowe cząstkowe i ich zastosowania, m.in. w biologii i fizyce."
-opis_en: "Nonlinear partial differential equations and their applications, e.g. in biology and physics."
-haslo: "Nieliniowe równania cząstkowe"
-haslo_en: "Nonlinear PDEs"
 tresc_en: |
   The department studies nonlinear partial differential equations: evolution equations with local and nonlocal diffusion, chemotaxis and pattern formation models, large-time behaviour of solutions and self-similar solutions.
 

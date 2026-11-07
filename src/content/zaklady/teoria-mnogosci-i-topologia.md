@@ -1,26 +1,27 @@
 ---
 kolejnosc: 6
 nazwa: "Zakład Teorii Mnogości i Topologii"
-nazwa_krotka: "Teoria mnogości i topologia"
-nazwa_krotka_en: "Set theory and topology"
+karta:
+  nazwa_krotka: "Teoria mnogości i topologia"
+  nazwa_krotka_en: "Set theory and topology"
+  kierownik: "Grzegorz Plebanek"
+  obszary:
+    - "teoria mnogości"
+    - "topologia"
+    - "przestrzenie Banacha"
+    - "teoria miary"
+    - "algebry Boole’a"
+  obszary_en:
+    - "set theory"
+    - "topology"
+    - "Banach spaces"
+    - "measure theory"
+    - "Boolean algebras"
+  opis: "Teoria mnogości, topologia ogólna i ich zastosowania w teorii miary i przestrzeni Banacha."
+  opis_en: "Set theory, general topology and their applications in measure theory and Banach spaces."
+  haslo: "Od zbiorów do przestrzeni Banacha"
+  haslo_en: "From sets to Banach spaces"
 nazwa_en: "Department of Set Theory and Topology"
-kierownik: "Grzegorz Plebanek"
-obszary:
-  - "teoria mnogości"
-  - "topologia"
-  - "przestrzenie Banacha"
-  - "teoria miary"
-  - "algebry Boole’a"
-obszary_en:
-  - "set theory"
-  - "topology"
-  - "Banach spaces"
-  - "measure theory"
-  - "Boolean algebras"
-opis: "Teoria mnogości, topologia ogólna i ich zastosowania w teorii miary i przestrzeni Banacha."
-opis_en: "Set theory, general topology and their applications in measure theory and Banach spaces."
-haslo: "Od zbiorów do przestrzeni Banacha"
-haslo_en: "From sets to Banach spaces"
 tresc_en: |
   The department works in set theory and general topology and their applications in analysis: measure theory, Banach spaces of continuous functions, Boolean algebras and ideals.
 

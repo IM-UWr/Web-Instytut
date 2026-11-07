@@ -1,24 +1,25 @@
 ---
 kolejnosc: 3
 nazwa: "Zakład Analizy Matematycznej"
-nazwa_krotka: "Analiza matematyczna"
-nazwa_krotka_en: "Mathematical analysis"
+karta:
+  nazwa_krotka: "Analiza matematyczna"
+  nazwa_krotka_en: "Mathematical analysis"
+  kierownik: "Ryszard Szwarc"
+  obszary:
+    - "wielomiany ortogonalne"
+    - "nieprzemienna probabilistyka"
+    - "operatory"
+    - "kombinatoryka"
+  obszary_en:
+    - "orthogonal polynomials"
+    - "noncommutative probability"
+    - "operators"
+    - "combinatorics"
+  opis: "Wielomiany ortogonalne, nieprzemienna probabilistyka i dyskretna analiza harmoniczna."
+  opis_en: "Orthogonal polynomials, noncommutative probability and discrete harmonic analysis."
+  haslo: "Problem momentów i operatory"
+  haslo_en: "The moment problem and operators"
 nazwa_en: "Department of Mathematical Analysis"
-kierownik: "Ryszard Szwarc"
-obszary:
-  - "wielomiany ortogonalne"
-  - "nieprzemienna probabilistyka"
-  - "operatory"
-  - "kombinatoryka"
-obszary_en:
-  - "orthogonal polynomials"
-  - "noncommutative probability"
-  - "operators"
-  - "combinatorics"
-opis: "Wielomiany ortogonalne, nieprzemienna probabilistyka i dyskretna analiza harmoniczna."
-opis_en: "Orthogonal polynomials, noncommutative probability and discrete harmonic analysis."
-haslo: "Problem momentów i operatory"
-haslo_en: "The moment problem and operators"
 tresc_en: |
   The department works on orthogonal polynomials and the moment problem, operator theory, discrete harmonic analysis, and noncommutative (quantum) probability and its connections with combinatorics.
 

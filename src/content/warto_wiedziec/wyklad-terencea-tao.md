@@ -1,18 +1,19 @@
 ---
 tytul: "Wykład Terence’a Tao we Wrocławiu"
 tytul_en: "Terence Tao’s lecture in Wrocław"
-rok: "2017"
-zajawka: "6 września 2017 r. laureat Medalu Fieldsa Terence Tao wygłosił we Wrocławiu otwarty wykład The Erdős discrepancy problem. Według szacunków przyszło ponad pół tysiąca osób."
-zajawka_en: "On 6 September 2017, Fields Medallist Terence Tao gave an open lecture, The Erdős discrepancy problem, in Wrocław. An estimated audience of more than five hundred people attended."
+karta:
+  rok: "2017"
+  zajawka: "6 września 2017 r. laureat Medalu Fieldsa Terence Tao wygłosił we Wrocławiu otwarty wykład The Erdős discrepancy problem. Według szacunków przyszło ponad pół tysiąca osób."
+  zajawka_en: "On 6 September 2017, Fields Medallist Terence Tao gave an open lecture, The Erdős discrepancy problem, in Wrocław. An estimated audience of more than five hundred people attended."
+  obraz: /pliki/warto-wiedziec/s6301575.jpg
+  obraz_opis: "Pełna sala podczas wykładu Terence’a Tao, 6 września 2017 r."
+  obraz_opis_en: "A packed lecture hall during Terence Tao’s lecture, 6 September 2017"
+  link: "https://www.youtube.com/watch?v=_TWzrNhYNXc"
+  link_etykieta: "Obejrzyj wykład na YouTube"
+  link_etykieta_en: "Watch the lecture on YouTube"
 dzial: nauka
 na_glownej: true
 kolejnosc: 20
-obraz: /pliki/warto-wiedziec/s6301575.jpg
-obraz_opis: "Pełna sala podczas wykładu Terence’a Tao, 6 września 2017 r."
-obraz_opis_en: "A packed lecture hall during Terence Tao’s lecture, 6 September 2017"
-link: "https://www.youtube.com/watch?v=_TWzrNhYNXc"
-link_etykieta: "Obejrzyj wykład na YouTube"
-link_etykieta_en: "Watch the lecture on YouTube"
 zrodla:
   - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej"
   - "https://www.math.uni.wroc.pl/news/wyklad-terencea-tao"

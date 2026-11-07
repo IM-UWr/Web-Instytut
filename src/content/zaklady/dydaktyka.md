@@ -1,24 +1,25 @@
 ---
 kolejnosc: 9
 nazwa: "Pracownia Dydaktyki i Popularyzacji Matematyki"
-nazwa_krotka: "Dydaktyka i popularyzacja"
-nazwa_krotka_en: "Education and outreach"
+karta:
+  nazwa_krotka: "Dydaktyka i popularyzacja"
+  nazwa_krotka_en: "Education and outreach"
+  kierownik: "Małgorzata Mikołajczyk"
+  obszary:
+    - "dydaktyka matematyki"
+    - "popularyzacja"
+    - "kształcenie nauczycieli"
+    - "praca z uczniami zdolnymi"
+  obszary_en:
+    - "mathematics education"
+    - "outreach"
+    - "teacher training"
+    - "work with gifted students"
+  opis: "Kształcenie nauczycieli matematyki, dydaktyka i popularyzacja matematyki."
+  opis_en: "Mathematics teacher training, mathematics education and outreach."
+  haslo: "Kształcimy nauczycieli matematyki"
+  haslo_en: "We train mathematics teachers"
 nazwa_en: "Mathematics Education and Outreach Unit"
-kierownik: "Małgorzata Mikołajczyk"
-obszary:
-  - "dydaktyka matematyki"
-  - "popularyzacja"
-  - "kształcenie nauczycieli"
-  - "praca z uczniami zdolnymi"
-obszary_en:
-  - "mathematics education"
-  - "outreach"
-  - "teacher training"
-  - "work with gifted students"
-opis: "Kształcenie nauczycieli matematyki, dydaktyka i popularyzacja matematyki."
-opis_en: "Mathematics teacher training, mathematics education and outreach."
-haslo: "Kształcimy nauczycieli matematyki"
-haslo_en: "We train mathematics teachers"
 tresc_en: |
   The unit works on mathematics education and the training of future teachers, including teaching placements for students of the mathematics teaching specialisation, and on popularising mathematics among pupils and teachers.
 

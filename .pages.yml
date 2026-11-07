@@ -104,7 +104,7 @@ content:
   view:
     fields:
     - nazwa
-    - kierownik
+    - karta.kierownik
     primary: nazwa
     sort: kolejnosc
   fields:
@@ -112,67 +112,76 @@ content:
     label: Pełna nazwa
     type: string
     required: true
-  - name: nazwa_krotka
-    label: Krótka nazwa (np. Geometria)
-    type: string
-  - name: kierownik
-    label: Kierownik (imię i nazwisko jak w spisie pracowników)
-    type: string
-  - name: telefon
-    label: Telefon zakładu (tylko numer ogólny, np. sekretariat — nie podajemy numerów pracowników naukowych)
-    type: string
-  - name: opis
-    label: Jedno zdanie o zakładzie
-    type: text
-  - name: haslo
-    label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
-    type: string
-  - name: obszary
-    label: Obszary badań (tagi)
-    type: string
-    list: true
-  - name: strona
-    label: Zewnętrzna strona zespołu
-    type: string
-  - name: zdjecie
-    label: Zdjęcie zespołu
-    type: image
-    options:
-      path: public/pliki/zaklady
-  - name: zdjecie_opis
-    label: Podpis zdjęcia
-    type: string
-  - name: zdjecie_opis_en
-    label: 'EN: podpis zdjęcia'
-    type: string
-  - name: kolejnosc
-    label: Kolejność na liście
-    type: number
   - name: body
     label: Opis zakładu (czym się zajmuje, historia, tematy prac dla studentów)
     type: rich-text
     options:
       format: markdown
       path: public/pliki/zaklady
+  - name: tresc_en
+    label: Treść EN
+    description: Opis zakładu po angielsku, w tym samym układzie. Puste = strona angielska pokaże opis polski.
+    type: rich-text
+    options:
+      format: markdown
+      path: public/pliki/zaklady
+  - name: karta
+    label: Karta
+    description: 'Karta zakładu na liście „Struktura i zakłady” i ramka jego strony: krótka nazwa, kierownik, telefon, zdanie, hasło na banerze, obszary badań, strona zespołu, zdjęcie (i EN).'
+    type: object
+    fields:
+    - name: nazwa_krotka
+      label: Krótka nazwa (np. Geometria)
+      type: string
+    - name: kierownik
+      label: Kierownik (imię i nazwisko jak w spisie pracowników)
+      type: string
+    - name: telefon
+      label: Telefon zakładu (tylko numer ogólny, np. sekretariat — nie podajemy numerów pracowników naukowych)
+      type: string
+    - name: opis
+      label: Jedno zdanie o zakładzie
+      type: text
+    - name: haslo
+      label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
+      type: string
+    - name: obszary
+      label: Obszary badań (tagi)
+      type: string
+      list: true
+    - name: strona
+      label: Zewnętrzna strona zespołu
+      type: string
+    - name: zdjecie
+      label: Zdjęcie zespołu
+      type: image
+      options:
+        path: public/pliki/zaklady
+    - name: zdjecie_opis
+      label: Podpis zdjęcia
+      type: string
+    - name: zdjecie_opis_en
+      label: 'EN: podpis zdjęcia'
+      type: string
+    - name: nazwa_krotka_en
+      label: 'EN: krótka nazwa'
+      type: string
+    - name: opis_en
+      label: 'EN: jedno zdanie'
+      type: text
+    - name: haslo_en
+      label: 'EN: hasło na banerze'
+      type: string
+    - name: obszary_en
+      label: 'EN: obszary badań'
+      type: string
+      list: true
   - name: nazwa_en
     label: 'EN: pełna nazwa'
     type: string
-  - name: nazwa_krotka_en
-    label: 'EN: krótka nazwa'
-    type: string
-  - name: opis_en
-    label: 'EN: jedno zdanie'
-    type: text
-  - name: haslo_en
-    label: 'EN: hasło na banerze'
-    type: string
-  - name: obszary_en
-    label: 'EN: obszary badań'
-    type: string
-    list: true
-  - name: tresc_en
-    label: 'EN: opis (Markdown)'
-    type: text
+  - name: kolejnosc
+    label: Kolejność na liście
+    type: number
 - name: strony
   label: Strony Instytutu
   description: 'Adres strony = ścieżka pliku, np. instytut/kontakt.md → /instytut/kontakt (nowe strony działu zakładaj w folderze instytut). Teksty stron z listą (tytuł, opis, hasło i tekst nad listą) to też strony: instytut/struktura.md (Struktura i zakłady), warto-wiedziec.md (Warto wiedzieć). Brak takiej strony nic nie psuje — lista pokaże domyślny tytuł i hasło, bez tekstu.'
@@ -190,11 +199,55 @@ content:
     label: Tytuł
     type: string
     required: true
+  - name: body
+    label: Treść
+    type: rich-text
+    options:
+      format: markdown
+      path: public/pliki/instytut
+    description: |-
+      Piszesz jak w zwykłym edytorze; akapity oddziela Enter. Nagłówek 2 = nowa sekcja (pojawi się w spisie „Na tej stronie”).
+
+      Gdy włączone jest pole „Bloki” (niżej), kilka układów strona rozpoznaje sama:
+
+      • Punkt listy zaczynający się pogrubieniem = kafelek.
+
+      • Lista numerowana z pogrubionym początkiem = oś kroków.
+
+      • Punkt z rolą kursywą i nazwiskiem pogrubionym = kontakt.
+
+      • Lista samych linków = lista plików (PDF / strona).
+
+      • Nagłówek 3 zakończony znakiem „?” = rozwijane pytanie.
+
+      • Tekst nad listą (Seminaria, Konferencje, Aktualności…): lista stoi pod całym tekstem, chyba że jest kotwica — np. na stronie Publikacje tekst pod nagłówkiem 2 „Czasopisma redagowane w Instytucie” stoi nad listą czasopism.
+
+      • Plik PDF: wgraj w „Media” i wklej link.
+
+      • Akapit zaczynający się od dwuliterowego skrótu z kropką („Np.”, „Dr.”, „No.”) edytor zapisze jako listę numerowaną „1.” — zacznij akapit inaczej albo pogrub skrót.
+
+      Więcej: ściągawka edytora (dok/sciagawka-edytora.md w Web-Core).
+  - name: tytul_en
+    label: Tytuł EN
+    type: string
+  - name: tresc_en
+    label: Treść EN
+    description: Cała strona po angielsku, w tym samym układzie co Treść (nagłówki sekcji po angielsku). Puste = strona angielska pokaże treść polską.
+    type: rich-text
+    options:
+      format: markdown
+      path: public/pliki/instytut
   - name: opis
     label: Krótki opis (pod tytułem i w Google)
     type: text
+  - name: opis_en
+    label: 'EN: opis'
+    type: text
   - name: haslo
     label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
+    type: string
+  - name: haslo_en
+    label: 'EN: hasło na banerze'
     type: string
   - name: liczby
     label: Liczby pod hasłem na banerze (tylko gdy nie da się ich policzyć z danych)
@@ -228,24 +281,11 @@ content:
         label: Tylko menu działu (podstrony)
       - name: brak
         label: Bez prawego paska (strona na całą szerokość)
-  - name: body
-    label: Treść
-    type: rich-text
-    options:
-      format: markdown
-      path: public/pliki/instytut
-  - name: tytul_en
-    label: 'EN: tytuł'
-    type: string
-  - name: opis_en
-    label: 'EN: opis'
-    type: text
-  - name: haslo_en
-    label: 'EN: hasło na banerze'
-    type: string
-  - name: tresc_en
-    label: 'EN: treść (Markdown)'
-    type: text
+  - name: bloki
+    label: Kafelki, oś i kontakty z list — zob. ściągawka
+    type: boolean
+    default: false
+    description: 'Włączone: listy w treści stają się blokami (kafelki, oś kroków, kontakty, lista plików, rozwijane pytania) — opis przy polu „Treść”. Wyłączone: zwykłe listy.'
 - name: warto_wiedziec
   label: Warto wiedzieć
   description: Krótka lista wyjątkowych, trwałych osiągnięć (np. Annals of Mathematics, wykład T. Tao). Bieżące nagrody i granty → Aktualności, rodzaj „sukces”.
@@ -256,7 +296,7 @@ content:
   view:
     fields:
     - tytul
-    - rok
+    - karta.rok
     - dzial
     - na_glownej
     primary: tytul
@@ -266,18 +306,54 @@ content:
     label: Tytuł
     type: string
     required: true
+  - name: body
+    label: Opis (opcjonalnie; z opisem pozycja ma własną podstronę, bez opisu karta prowadzi do linku)
+    type: rich-text
+    options:
+      format: markdown
+  - name: tresc_en
+    label: Treść EN
+    description: Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże opis polski.
+    type: rich-text
+    options:
+      format: markdown
+  - name: karta
+    label: Karta
+    description: 'Karta pozycji: rok (duża liczba), zajawka, zdjęcie z opisem i link z napisem na przycisku (i EN).'
+    type: object
+    fields:
+    - name: rok
+      label: Rok (np. 2017) — duża liczba na karcie
+      type: string
+    - name: zajawka
+      label: Zajawka na kartę (1–2 zdania)
+      type: text
+    - name: zajawka_en
+      label: 'EN: zajawka'
+      type: text
+    - name: obraz
+      label: Zdjęcie (tylko z prawem do publikacji)
+      type: image
+      options:
+        path: public/pliki/warto-wiedziec
+    - name: obraz_opis
+      label: Opis zdjęcia
+      type: string
+    - name: obraz_opis_en
+      label: 'EN: opis zdjęcia'
+      type: string
+    - name: link
+      label: Link (artykuł, nagranie; /… albo https://…)
+      type: string
+    - name: link_etykieta
+      label: Napis na przycisku linku
+      type: string
+    - name: link_etykieta_en
+      label: 'EN: napis na przycisku'
+      type: string
   - name: tytul_en
     label: 'EN: tytuł'
     type: string
-  - name: rok
-    label: Rok (np. 2017) — duża liczba na karcie
-    type: string
-  - name: zajawka
-    label: Zajawka na kartę (1–2 zdania)
-    type: text
-  - name: zajawka_en
-    label: 'EN: zajawka'
-    type: text
   - name: dzial
     label: Gdzie pokazać poza stroną główną
     type: select
@@ -301,34 +377,6 @@ content:
   - name: kolejnosc
     label: Kolejność (mniejsza = wcześniej)
     type: number
-  - name: obraz
-    label: Zdjęcie (tylko z prawem do publikacji)
-    type: image
-    options:
-      path: public/pliki/warto-wiedziec
-  - name: obraz_opis
-    label: Opis zdjęcia
-    type: string
-  - name: obraz_opis_en
-    label: 'EN: opis zdjęcia'
-    type: string
-  - name: link
-    label: Link (artykuł, nagranie; /… albo https://…)
-    type: string
-  - name: link_etykieta
-    label: Napis na przycisku linku
-    type: string
-  - name: link_etykieta_en
-    label: 'EN: napis na przycisku'
-    type: string
-  - name: body
-    label: Opis (opcjonalnie; z opisem pozycja ma własną podstronę, bez opisu karta prowadzi do linku)
-    type: rich-text
-    options:
-      format: markdown
-  - name: tresc_en
-    label: 'EN: opis (Markdown; puste = pokaże opis po polsku)'
-    type: text
   - name: zrodla
     label: Źródła (dla redakcji, niewyświetlane)
     type: string

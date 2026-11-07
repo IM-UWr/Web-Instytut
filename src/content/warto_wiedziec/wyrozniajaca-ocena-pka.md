@@ -1,15 +1,16 @@
 ---
 tytul: "Wyróżniająca ocena PKA dla kierunku matematyka"
 tytul_en: "Distinction from the Polish Accreditation Committee for Mathematics"
-rok: "2018"
-zajawka: "Polska Komisja Akredytacyjna przyznała kierunkowi matematyka ocenę wyróżniającą i Certyfikat Jakości Kształcenia."
-zajawka_en: "The Polish Accreditation Committee gave the Mathematics programme a distinction rating and its Certificate of Quality of Education."
+karta:
+  rok: "2018"
+  zajawka: "Polska Komisja Akredytacyjna przyznała kierunkowi matematyka ocenę wyróżniającą i Certyfikat Jakości Kształcenia."
+  zajawka_en: "The Polish Accreditation Committee gave the Mathematics programme a distinction rating and its Certificate of Quality of Education."
+  obraz: /pliki/warto-wiedziec/certyfikat_pka_2018_1.jpg
+  obraz_opis: "Certyfikat Jakości Kształcenia Polskiej Komisji Akredytacyjnej dla kierunku matematyka, 6 grudnia 2018 r."
+  obraz_opis_en: "Certificate of Quality of Education from the Polish Accreditation Committee for the Mathematics programme, 6 December 2018"
 dzial: studia
 na_glownej: true
 kolejnosc: 30
-obraz: /pliki/warto-wiedziec/certyfikat_pka_2018_1.jpg
-obraz_opis: "Certyfikat Jakości Kształcenia Polskiej Komisji Akredytacyjnej dla kierunku matematyka, 6 grudnia 2018 r."
-obraz_opis_en: "Certificate of Quality of Education from the Polish Accreditation Committee for the Mathematics programme, 6 December 2018"
 zrodla:
   - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej (z obrazem certyfikatu)"
   - "https://www.math.uni.wroc.pl/sites/default/files/certyfikat_pka_2018_1.jpg"
