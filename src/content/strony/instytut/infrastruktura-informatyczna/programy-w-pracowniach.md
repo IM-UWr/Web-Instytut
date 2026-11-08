@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Programy dostępne w pracowniach komputerowych"
 opis: "Systemy operacyjne i oprogramowanie zainstalowane w laboratoriach komputerowych Instytutu."
 tytul_en: "Software in the computer labs"

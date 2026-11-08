@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 6
 nazwa: "Zakład Teorii Mnogości i Topologii"
 karta:

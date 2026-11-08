@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Godziny otwarcia laboratorium komputerowego"
 opis: "Gdzie są pracownie komputerowe dla studentów, kiedy są czynne i jak z nich korzystać."
 tytul_en: "Computer laboratory opening hours"

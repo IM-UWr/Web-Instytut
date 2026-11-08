@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Sieć komputerowa dla pracowników i doktorantów"
 opis: "Administratorzy sieci, strony domowe WWW i dostęp przez VPN dla pracowników i doktorantów Instytutu."
 tytul_en: "Computer network for staff and PhD students"

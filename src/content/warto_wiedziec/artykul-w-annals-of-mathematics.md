@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Artykuł w Annals of Mathematics"
 tytul_en: "A paper in the Annals of Mathematics"
 karta:
@@ -11,10 +12,6 @@ karta:
 dzial: nauka
 na_glownej: true
 kolejnosc: 10
-zrodla:
-  - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej"
-  - "https://annals.math.princeton.edu/2022/195-3/p04"
-  - "https://www.math.uni.wroc.pl/~pborod/preprints/mirek.pdf"
 tresc_en: |
   Prof. **Mariusz Mirek** of our Institute, together with **Ben Krause** and **Terence Tao**, is a co-author of the paper *Pointwise ergodic theorems for non-conventional bilinear polynomial averages*, published in the **Annals of Mathematics**, the most prestigious mathematical journal in the world.
 

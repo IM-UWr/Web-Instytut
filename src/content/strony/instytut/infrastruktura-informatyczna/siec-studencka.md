@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Sieć studencka i laboratoria komputerowe"
 opis: "Konta studentów w sieci Instytutu, laboratoria komputerowe i dostęp przez VPN."
 tytul_en: "Student network and computer labs"

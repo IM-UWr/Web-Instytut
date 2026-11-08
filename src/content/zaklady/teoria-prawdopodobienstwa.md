@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 7
 nazwa: "Zakład Teorii Prawdopodobieństwa"
 karta:

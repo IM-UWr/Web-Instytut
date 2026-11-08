@@ -1,5 +1,4 @@
-# Pages CMS — Web-Instytut: Instytut: zakłady, władze, kontakt, infrastruktura informatyczna, „Warto wiedzieć”.
-# Wygenerowane przy migracji z Avean/IM-Website-test; pola „Opublikowany” usunięte (bez wersji roboczych).
+# Pages CMS — formularze aktualnej strony Instytutu Matematycznego UWr.
 media:
   input: public/pliki
   output: /pliki
@@ -10,7 +9,8 @@ settings:
 content:
 - name: strona-dzialu
   label: Strona działu Instytut
-  description: 'Strona /instytut: tytuł i tekst „O Instytucie” (po polsku i po angielsku), niżej drobne pola — tekst pod tytułem, hasło, „W skrócie” i godziny sekretariatu. Liczby, kafelki (z menu „Instytut”), ostatnie sukcesy i kontakt budują się same z danych.'
+  description: Tekst strony działu Instytut, opis do wyszukiwarek, hasło i ramka W skrócie. Zestawienia powstają
+    z pozostałych treści.
   type: file
   path: src/data/instytut.md
   format: yaml-frontmatter
@@ -19,32 +19,23 @@ content:
     label: Tytuł
     type: string
     required: true
+    description: Nazwa strony lub wpisu, widoczna także na odpowiednich listach i w wynikach wyszukiwania.
+  - name: status_publikacji
+    label: Status publikacji
+    type: select
+    required: true
+    default: oficjalna
+    description: Zapisuje wybór do przyszłej publikacji. Obecnie nie zmienia widoczności. Podgląd jest publiczny.
+    options:
+      values:
+      - name: oficjalna
+        label: Opublikowana — strona oficjalna i podgląd
+      - name: podglad
+        label: Tylko podgląd
   - name: body
     label: Treść
-    description: |-
-      Tekst sekcji „O Instytucie” (pierwszy akapit strona pokazuje większą czcionką). Zdanie nad ostatnimi sukcesami: na końcu tekstu pod nagłówkiem 2 „Ostatnie sukcesy” (kotwica; bez niej sukcesy są bez zdania).
-
-      Piszesz jak w zwykłym edytorze; akapity oddziela Enter. Nagłówek 2 = nowa sekcja (pojawi się w spisie „Na tej stronie”).
-
-      Kilka układów strona rozpoznaje sama:
-
-      • Punkt listy zaczynający się pogrubieniem = kafelek.
-
-      • Lista numerowana z pogrubionym początkiem = oś kroków.
-
-      • Punkt z rolą kursywą i nazwiskiem pogrubionym = kontakt.
-
-      • Lista samych linków = lista plików (PDF / strona).
-
-      • Nagłówek 3 zakończony znakiem „?” = rozwijane pytanie.
-
-      • Tekst nad listą (Seminaria, Konferencje, Aktualności…): lista stoi pod całym tekstem, chyba że jest kotwica — np. na stronie Publikacje tekst pod nagłówkiem 2 „Czasopisma redagowane w Instytucie” stoi nad listą czasopism.
-
-      • Plik PDF: wgraj w „Media” i wklej link.
-
-      • Akapit zaczynający się od dwuliterowego skrótu z kropką („Np.”, „Dr.”, „No.”) edytor zapisze jako listę numerowaną „1.” — zacznij akapit inaczej albo pogrub skrót.
-
-      Więcej: ściągawka edytora (dok/sciagawka-edytora.md w Web-Core).
+    description: Tekst strony. Nagłówek 2 tworzy sekcję; listy z pogrubionym początkiem tworzą bloki cech lub etapów,
+      a nagłówek 3 zakończony pytajnikiem — rozwijane pytanie.
     type: rich-text
     options:
       format: markdown
@@ -52,54 +43,69 @@ content:
   - name: tytul_en
     label: Tytuł EN
     type: string
+    description: Angielska wersja pola Tytuł; puste oznacza użycie wersji polskiej.
   - name: tresc_en
     label: Treść EN
     type: rich-text
     options:
       format: markdown
       path: public/pliki/instytut
-    description: Tekst „O Instytucie” po angielsku, w tym samym układzie co Treść (nagłówek „Recent achievements”). Puste = strona angielska pokaże tekst polski.
+    description: Tekst strony po angielsku; puste oznacza wyświetlanie tekstu polskiego. Układ treści jest taki
+      sam jak w polskim opisie.
   - name: wstep
-    label: Wstęp pod tytułem (1–3 zdania)
+    label: Opis do wyszukiwarek
     type: text
+    description: Opis strony do wyszukiwarek i udostępniania linków; nagłówek nowej strony nie pokazuje tego akapitu.
   - name: wstep_en
-    label: 'EN: wstęp'
+    label: Opis do wyszukiwarek EN
     type: text
+    description: Angielska wersja pola Opis do wyszukiwarek; puste oznacza użycie wersji polskiej.
   - name: haslo
-    label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
+    label: Hasło w nagłówku
     type: string
+    description: Krótkie hasło w nagłówku, widoczne razem z liczbami. Na okładce działu służy również jako podpis.
   - name: haslo_en
     label: 'EN: hasło na banerze'
     type: string
+    description: Angielska wersja hasła; puste oznacza użycie wersji polskiej.
   - name: o_instytucie_fakty
     label: Ramka „W skrócie” obok tekstu „O Instytucie” (komputer; puste = bez ramki)
     type: object
     list:
       collapsible:
         collapsed: true
-        summary: "{wartosc} {opis}"
+        summary: '{wartosc} {opis}'
     fields:
     - name: wartosc
       label: Wartość (krótko, np. 1945, A+, 8)
       type: string
+      description: Krótka wartość, np. 6 semestrów lub A+.
     - name: wartosc_en
       label: 'EN: wartość (puste = jak po polsku, np. liczby i lata)'
       type: string
+      description: Angielska wersja pola Wartość (krótko, np. 1945, A+, 8); puste oznacza użycie wersji polskiej.
     - name: opis
       label: Opis pod wartością
       type: string
+      description: Krótki opis używany na stronie lub w jej zapowiedzi.
     - name: opis_en
       label: 'EN: opis'
       type: string
+      description: Angielska wersja pola Opis pod wartością; puste oznacza użycie wersji polskiej.
+    description: Wartości i opisy w ramce W skrócie przy tekście o Instytucie.
   - name: kontakt_godziny
     label: Godziny pracy sekretariatu (opcjonalnie — puste = nie wyświetla się)
     type: string
+    description: Godziny sekretariatu w sekcji Kontakt i dojazd na stronie Instytut.
   - name: kontakt_godziny_en
     label: 'EN: godziny pracy sekretariatu'
     type: string
+    description: Angielska wersja pola Godziny pracy sekretariatu (opcjonalnie — puste = nie wyświetla się); puste
+      oznacza użycie wersji polskiej.
 - name: zaklady
   label: Zakłady
-  description: Skład zakładu bierze się z pola „Zakład” w kartach pracowników; seminaria, granty i konferencje — z ich pola „Zakład”.
+  description: Strony zakładów i ich kolejność. Skład, seminaria, projekty i wydarzenia są dobierane według powiązań
+    w odpowiednich wpisach.
   type: collection
   path: src/content/zaklady
   format: yaml-frontmatter
@@ -108,86 +114,130 @@ content:
     fields:
     - nazwa
     - karta.kierownik
+    - status_publikacji
     primary: nazwa
-    sort: kolejnosc
+    sort:
+    - kolejnosc
+    default:
+      sort: kolejnosc
+      order: asc
   fields:
   - name: nazwa
     label: Pełna nazwa
     type: string
     required: true
+    description: Nazwa wyświetlana na stronie i powiązanych listach.
+  - name: status_publikacji
+    label: Status publikacji
+    type: select
+    required: true
+    default: oficjalna
+    description: Zapisuje wybór do przyszłej publikacji. Obecnie nie zmienia widoczności. Podgląd jest publiczny.
+    options:
+      values:
+      - name: oficjalna
+        label: Opublikowana — strona oficjalna i podgląd
+      - name: podglad
+        label: Tylko podgląd
   - name: body
     label: Opis zakładu (czym się zajmuje, historia, tematy prac dla studentów)
     type: rich-text
     options:
       format: markdown
       path: public/pliki/zaklady
+    description: Tekst strony. Nagłówek 2 tworzy sekcję; listy z pogrubionym początkiem tworzą bloki cech lub etapów,
+      a nagłówek 3 zakończony pytajnikiem — rozwijane pytanie.
   - name: tresc_en
     label: Treść EN
-    description: Opis zakładu po angielsku, w tym samym układzie. Puste = strona angielska pokaże opis polski.
+    description: Tekst strony po angielsku; puste oznacza wyświetlanie tekstu polskiego. Układ treści jest taki
+      sam jak w polskim opisie.
     type: rich-text
     options:
       format: markdown
       path: public/pliki/zaklady
   - name: karta
     label: Karta
-    description: 'Karta zakładu na liście „Struktura i zakłady” i ramka jego strony: krótka nazwa, kierownik, telefon, zdanie, hasło na banerze, obszary badań, strona zespołu, zdjęcie (i EN).'
+    description: Dane używane w zapowiedzi oraz na stronie tego wpisu.
     type: object
     fields:
     - name: nazwa_krotka
       label: Krótka nazwa (np. Geometria)
       type: string
+      description: Krótka nazwa zakładu na listach i w nawigacji pomiędzy zakładami.
     - name: kierownik
       label: Kierownik (imię i nazwisko jak w spisie pracowników)
       type: string
+      description: Imię i nazwisko kierownika; dopasowanie do spisu pozwala pokazać kontakt i zakład.
     - name: telefon
       label: Telefon zakładu (tylko numer ogólny, np. sekretariat — nie podajemy numerów pracowników naukowych)
       type: string
+      description: Numer telefonu do kontaktu; przy osobach spoza administracji obowiązują zasady spisu pracowników.
     - name: opis
       label: Jedno zdanie o zakładzie
       type: text
+      description: Krótki opis używany na stronie lub w jej zapowiedzi.
     - name: haslo
-      label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
+      label: Hasło w nagłówku
       type: string
+      description: Krótkie hasło w nagłówku, widoczne razem z liczbami. Na okładce działu służy również jako podpis.
     - name: obszary
       label: Obszary badań (tagi)
       type: string
       list: true
+      description: Obszary badań wymienione na stronie zakładu.
     - name: strona
       label: Zewnętrzna strona zespołu
       type: string
+      description: Pełny adres strony zewnętrznej, do której prowadzi link.
     - name: zdjecie
       label: Zdjęcie zespołu
       type: image
       options:
         path: public/pliki/zaklady
+      description: Zdjęcie wpisu lub strony, używane także w powiązanych zapowiedziach.
     - name: zdjecie_opis
       label: Podpis zdjęcia
       type: string
+      description: Tekst alternatywny opisujący zdjęcie; pomaga osobom korzystającym z czytnika ekranu.
     - name: zdjecie_opis_en
       label: 'EN: podpis zdjęcia'
       type: string
+      description: Angielska wersja pola Podpis zdjęcia; puste oznacza użycie wersji polskiej.
     - name: nazwa_krotka_en
       label: 'EN: krótka nazwa'
       type: string
+      description: Angielska wersja pola Krótka nazwa (np. Geometria); puste oznacza użycie wersji polskiej.
     - name: opis_en
       label: 'EN: jedno zdanie'
       type: text
+      description: Angielska wersja pola Jedno zdanie o zakładzie; puste oznacza użycie wersji polskiej.
     - name: haslo_en
       label: 'EN: hasło na banerze'
       type: string
+      description: Angielskie hasło; puste pole nie zastępuje go polskim hasłem.
     - name: obszary_en
       label: 'EN: obszary badań'
       type: string
       list: true
+      description: Angielska wersja pola Obszary badań (tagi); puste oznacza użycie wersji polskiej.
   - name: nazwa_en
     label: 'EN: pełna nazwa'
     type: string
+    description: Angielska wersja pola Pełna nazwa; puste oznacza użycie wersji polskiej.
   - name: kolejnosc
     label: Kolejność na liście
     type: number
+    description: Mniejsza liczba oznacza wcześniejszą pozycję na liście.
+  - name: opublikowany
+    label: Dotychczasowe uwzględnianie w zestawieniach
+    type: boolean
+    hidden: true
+    default: true
+    description: Zachowuje dotychczasową widoczność w zestawieniach i indeksowanie. To osobna opcja od statusu publikacji.
 - name: strony
   label: Strony Instytutu
-  description: 'Adres strony = ścieżka pliku, np. instytut/kontakt.md → /instytut/kontakt (nowe strony działu zakładaj w folderze instytut). Teksty stron z listą (tytuł, opis, hasło i tekst nad listą) to też strony: instytut/struktura.md (Struktura i zakłady), warto-wiedziec.md (Warto wiedzieć). Brak takiej strony nic nie psuje — lista pokaże domyślny tytuł i hasło, bez tekstu.'
+  description: Strony informacyjne oraz teksty stron z listami. Adres wynika ze ścieżki pliku; nie zmieniaj nazw
+    istniejących plików. Nowe strony nie są dopisywane do menu.
   type: collection
   path: src/content/strony
   format: yaml-frontmatter
@@ -196,46 +246,42 @@ content:
   view:
     fields:
     - tytul
+    - status_publikacji
     primary: tytul
   fields:
   - name: tytul
     label: Tytuł
     type: string
     required: true
+    description: Nazwa strony lub wpisu, widoczna także na odpowiednich listach i w wynikach wyszukiwania.
+  - name: status_publikacji
+    label: Status publikacji
+    type: select
+    required: true
+    default: oficjalna
+    description: Zapisuje wybór do przyszłej publikacji. Obecnie nie zmienia widoczności. Podgląd jest publiczny.
+    options:
+      values:
+      - name: oficjalna
+        label: Opublikowana — strona oficjalna i podgląd
+      - name: podglad
+        label: Tylko podgląd
   - name: body
     label: Treść
     type: rich-text
     options:
       format: markdown
       path: public/pliki/instytut
-    description: |-
-      Piszesz jak w zwykłym edytorze; akapity oddziela Enter. Nagłówek 2 = nowa sekcja (pojawi się w spisie „Na tej stronie”).
-
-      Gdy włączone jest pole „Bloki” (niżej), kilka układów strona rozpoznaje sama:
-
-      • Punkt listy zaczynający się pogrubieniem = kafelek.
-
-      • Lista numerowana z pogrubionym początkiem = oś kroków.
-
-      • Punkt z rolą kursywą i nazwiskiem pogrubionym = kontakt.
-
-      • Lista samych linków = lista plików (PDF / strona).
-
-      • Nagłówek 3 zakończony znakiem „?” = rozwijane pytanie.
-
-      • Tekst nad listą (Seminaria, Konferencje, Aktualności…): lista stoi pod całym tekstem, chyba że jest kotwica — np. na stronie Publikacje tekst pod nagłówkiem 2 „Czasopisma redagowane w Instytucie” stoi nad listą czasopism.
-
-      • Plik PDF: wgraj w „Media” i wklej link.
-
-      • Akapit zaczynający się od dwuliterowego skrótu z kropką („Np.”, „Dr.”, „No.”) edytor zapisze jako listę numerowaną „1.” — zacznij akapit inaczej albo pogrub skrót.
-
-      Więcej: ściągawka edytora (dok/sciagawka-edytora.md w Web-Core).
+    description: Tekst strony; nagłówek 2 tworzy sekcję. Opcja Bloki włącza układy cech, etapów, kontaktów, plików
+      i pytań z list w tekście.
   - name: tytul_en
     label: Tytuł EN
     type: string
+    description: Angielska wersja pola Tytuł; puste oznacza użycie wersji polskiej.
   - name: tresc_en
     label: Treść EN
-    description: Cała strona po angielsku, w tym samym układzie co Treść (nagłówki sekcji po angielsku). Puste = strona angielska pokaże treść polską.
+    description: Tekst strony po angielsku; puste oznacza wyświetlanie tekstu polskiego. Układ treści jest taki
+      sam jak w polskim opisie.
     type: rich-text
     options:
       format: markdown
@@ -243,37 +289,46 @@ content:
   - name: opis
     label: Krótki opis (pod tytułem i w Google)
     type: text
+    description: Opis strony do wyszukiwarek i udostępniania linku.
   - name: opis_en
     label: 'EN: opis'
     type: text
+    description: Angielska wersja pola Krótki opis (pod tytułem i w Google); puste oznacza użycie wersji polskiej.
   - name: haslo
-    label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
+    label: Hasło w nagłówku
     type: string
+    description: Krótkie hasło w nagłówku, widoczne razem z liczbami. Na okładce działu służy również jako podpis.
   - name: haslo_en
     label: 'EN: hasło na banerze'
     type: string
+    description: Angielskie hasło; puste pole nie zastępuje go polskim hasłem.
   - name: liczby
     label: Liczby pod hasłem na banerze (tylko gdy nie da się ich policzyć z danych)
     type: object
     list:
       collapsible:
         collapsed: true
-        summary: "{n} {etykieta}"
+        summary: '{n} {etykieta}'
     fields:
     - name: n
       label: Liczba (np. 8 albo 3 lata)
       type: string
       required: true
+      description: Wartość w nagłówku, np. 8 albo 3 lata.
     - name: n_en
       label: 'EN: liczba (puste = jak po polsku)'
       type: string
+      description: Angielska wersja pola Liczba (np. 8 albo 3 lata); puste oznacza użycie wersji polskiej.
     - name: etykieta
       label: Podpis
       type: string
       required: true
+      description: Napis wyświetlany przy tej pozycji.
     - name: etykieta_en
       label: 'EN: podpis'
       type: string
+      description: Angielska wersja pola Podpis; puste oznacza użycie wersji polskiej.
+    description: Wartości i podpisy w nagłówku. Nie powtarzaj danych, które dana strona oblicza samodzielnie.
   - name: pasek_boczny
     label: 'Prawy pasek: spis „Na tej stronie”, menu działu czy oba (puste = domyślnie tylko spis)'
     type: select
@@ -287,14 +342,22 @@ content:
         label: Tylko menu działu (podstrony)
       - name: brak
         label: Bez prawego paska (strona na całą szerokość)
+    description: Spis sekcji jest widoczny przy opcji Spis lub Oba. Menu i Brak wyłączają spis; ta wersja strony
+      nie wyświetla bocznego menu działu.
   - name: bloki
     label: Kafelki, oś i kontakty z list — zob. ściągawka
     type: boolean
     default: false
-    description: 'Włączone: listy w treści stają się blokami (kafelki, oś kroków, kontakty, lista plików, rozwijane pytania) — opis przy polu „Treść”. Wyłączone: zwykłe listy.'
+    description: 'Włącz, aby z list w tekście powstawały bloki treści: cechy, etapy, kontakty, pliki i pytania.'
+  - name: opublikowany
+    label: Dotychczasowe uwzględnianie w zestawieniach
+    type: boolean
+    hidden: true
+    default: true
+    description: Zachowuje dotychczasową widoczność w zestawieniach i indeksowanie. To osobna opcja od statusu publikacji.
 - name: warto_wiedziec
   label: Warto wiedzieć
-  description: Krótka lista wyjątkowych, trwałych osiągnięć (np. Annals of Mathematics, wykład T. Tao). Bieżące nagrody i granty → Aktualności, rodzaj „sukces”.
+  description: Trwałe osiągnięcia na stronie głównej i w działach. Bieżące sukcesy dodawaj jako aktualności.
   type: collection
   path: src/content/warto_wiedziec
   format: yaml-frontmatter
@@ -305,61 +368,92 @@ content:
     - karta.rok
     - dzial
     - na_glownej
+    - status_publikacji
     primary: tytul
-    sort: kolejnosc
+    sort:
+    - kolejnosc
+    default:
+      sort: kolejnosc
+      order: asc
   fields:
   - name: tytul
     label: Tytuł
     type: string
     required: true
+    description: Nazwa strony lub wpisu, widoczna także na odpowiednich listach i w wynikach wyszukiwania.
+  - name: status_publikacji
+    label: Status publikacji
+    type: select
+    required: true
+    default: oficjalna
+    description: Zapisuje wybór do przyszłej publikacji. Obecnie nie zmienia widoczności. Podgląd jest publiczny.
+    options:
+      values:
+      - name: oficjalna
+        label: Opublikowana — strona oficjalna i podgląd
+      - name: podglad
+        label: Tylko podgląd
   - name: body
     label: Opis (opcjonalnie; z opisem pozycja ma własną podstronę, bez opisu karta prowadzi do linku)
     type: rich-text
     options:
       format: markdown
+    description: Tekst strony. Nagłówek 2 tworzy sekcję; listy z pogrubionym początkiem tworzą bloki cech lub etapów,
+      a nagłówek 3 zakończony pytajnikiem — rozwijane pytanie.
   - name: tresc_en
     label: Treść EN
-    description: Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże opis polski.
+    description: Tekst strony po angielsku; puste oznacza wyświetlanie tekstu polskiego. Układ treści jest taki
+      sam jak w polskim opisie.
     type: rich-text
     options:
       format: markdown
   - name: karta
     label: Karta
-    description: 'Karta pozycji: rok (duża liczba), zajawka, zdjęcie z opisem i link z napisem na przycisku (i EN).'
+    description: Dane używane w zapowiedzi oraz na stronie tego wpisu.
     type: object
     fields:
     - name: rok
       label: Rok (np. 2017) — duża liczba na karcie
       type: string
+      description: Rok lub krótki zapis lat wyświetlany przy pozycji.
     - name: zajawka
       label: Zajawka na kartę (1–2 zdania)
       type: text
+      description: Krótka zapowiedź na listach oraz przy wyróżnionym wpisie.
     - name: zajawka_en
       label: 'EN: zajawka'
       type: text
+      description: Angielska wersja pola Zajawka na kartę (1–2 zdania); puste oznacza użycie wersji polskiej.
     - name: obraz
       label: Zdjęcie (tylko z prawem do publikacji)
       type: image
       options:
         path: public/pliki/warto-wiedziec
+      description: Ilustracja osiągnięcia.
     - name: obraz_opis
       label: Opis zdjęcia
       type: string
+      description: Opis alternatywny i podpis ilustracji.
     - name: obraz_opis_en
       label: 'EN: opis zdjęcia'
       type: string
+      description: Angielska wersja pola Opis zdjęcia; puste oznacza użycie wersji polskiej.
     - name: link
       label: Link (artykuł, nagranie; /… albo https://…)
       type: string
+      description: Adres przycisku lub powiązanej strony.
     - name: link_etykieta
       label: Napis na przycisku linku
       type: string
+      description: Napis na przycisku prowadzącym pod wskazany adres.
     - name: link_etykieta_en
       label: 'EN: napis na przycisku'
       type: string
+      description: Angielska wersja pola Napis na przycisku linku; puste oznacza użycie wersji polskiej.
   - name: tytul_en
     label: 'EN: tytuł'
     type: string
+    description: Angielska wersja pola Tytuł; puste oznacza użycie wersji polskiej.
   - name: dzial
     label: Gdzie pokazać poza stroną główną
     type: select
@@ -372,24 +466,31 @@ content:
         label: Studia (/studia)
       - name: instytut
         label: Tylko strona główna i lista
+    description: Dział, w którym jest pokazywane to osiągnięcie.
   - name: na_glownej
     label: Pokaż na stronie głównej
     type: boolean
     default: true
+    description: Dopuszcza osiągnięcie do puli na stronie głównej.
   - name: zawsze
     label: Zawsze pokazuj na stronie głównej (nie losuj; zwykle zostaw puste)
     type: boolean
     default: false
+    description: Rezerwuje miejsce na stronie głównej; pozostałe miejsca są losowane.
   - name: kolejnosc
     label: Kolejność (mniejsza = wcześniej)
     type: number
-  - name: zrodla
-    label: Źródła (dla redakcji, niewyświetlane)
-    type: string
-    list: true
+    description: Mniejsza liczba oznacza wcześniejszą pozycję na liście.
+  - name: opublikowany
+    label: Dotychczasowe uwzględnianie w zestawieniach
+    type: boolean
+    hidden: true
+    default: true
+    description: Zachowuje dotychczasową widoczność w zestawieniach i indeksowanie. To osobna opcja od statusu publikacji.
 - name: wladze
   label: Władze Instytutu (strona /instytut/wladze)
-  description: Pierwsza osoba na liście = dyrektor (duża karta). Tytuł, e-mail, pokój, stronę domową i zakład strona bierze z „Pracowników” — imię i nazwisko wpisz dokładnie jak tam. Telefonów pracowników naukowych nie podajemy.
+  description: Strona władz. Pierwsza osoba to dyrektor. Imię i nazwisko pozwala pobrać kontakt ze spisu pracowników;
+    wpisane tu dane kontaktowe mają pierwszeństwo.
   type: file
   path: src/data/wladze.json
   format: json
@@ -397,69 +498,102 @@ content:
   - name: tytul
     label: Tytuł strony
     type: string
+    description: Nazwa strony lub wpisu, widoczna także na odpowiednich listach i w wynikach wyszukiwania.
+  - name: status_publikacji
+    label: Status publikacji
+    type: select
+    required: true
+    default: oficjalna
+    description: Zapisuje wybór do przyszłej publikacji. Obecnie nie zmienia widoczności. Podgląd jest publiczny.
+    options:
+      values:
+      - name: oficjalna
+        label: Opublikowana — strona oficjalna i podgląd
+      - name: podglad
+        label: Tylko podgląd
   - name: tytul_en
     label: 'EN: tytuł'
     type: string
+    description: Angielska wersja pola Tytuł strony; puste oznacza użycie wersji polskiej.
   - name: wstep
-    label: Tekst pod tytułem
+    label: Opis do wyszukiwarek
     type: text
+    description: Opis strony do wyszukiwarek i udostępniania linków; nagłówek nowej strony nie pokazuje tego akapitu.
   - name: wstep_en
-    label: 'EN: tekst pod tytułem'
+    label: Opis do wyszukiwarek EN
     type: text
+    description: Angielska wersja pola Opis do wyszukiwarek; puste oznacza użycie wersji polskiej.
   - name: haslo
-    label: Hasło na banerze (jedna linia; liczby w banerze pokażą się tylko razem z hasłem)
+    label: Hasło w nagłówku
     type: string
+    description: Krótkie hasło w nagłówku, widoczne razem z liczbami. Na okładce działu służy również jako podpis.
   - name: haslo_en
     label: 'EN: hasło na banerze'
     type: string
+    description: Angielskie hasło; puste pole nie zastępuje go polskim hasłem.
   - name: osoby
     label: Dyrekcja (pierwsza osoba = dyrektor)
     type: object
     list:
       collapsible:
         collapsed: true
-        summary: "{imie_nazwisko}"
+        summary: '{imie_nazwisko}'
     fields:
     - name: rola
       label: Funkcja (np. Zastępca dyrektora ds. dydaktycznych)
       type: string
       required: true
+      description: Funkcja tej osoby widoczna przy nazwisku.
     - name: imie_nazwisko
       label: Imię i nazwisko (dokładnie jak w Pracownikach)
       type: string
       required: true
+      description: Wpisz pełne imię i nazwisko. Służy także do łączenia danych tej osoby w innych działach.
     - name: zakres
       label: Zakres obowiązków (1–2 zdania, opcjonalnie)
       type: text
+      description: Zakres obowiązków pokazywany przy osobie.
     - name: dyzur
       label: Dyżur / godziny przyjęć (opcjonalnie)
       type: string
+      description: Termin dyżuru lub konsultacji wyświetlany przy osobie.
     - name: zdjecie
       label: Zdjęcie (portret pionowy 4:5, np. 600×750 px)
       type: image
       options:
         path: public/pliki/wladze
+      description: Zdjęcie wpisu lub strony, używane także w powiązanych zapowiedziach.
     - name: rola_en
       label: 'EN: funkcja'
       type: string
+      description: Angielska wersja pola Funkcja (np. Zastępca dyrektora ds. dydaktycznych); puste oznacza użycie
+        wersji polskiej.
     - name: zakres_en
       label: 'EN: zakres obowiązków'
       type: text
+      description: Angielska wersja pola Zakres obowiązków (1–2 zdania, opcjonalnie); puste oznacza użycie wersji
+        polskiej.
     - name: dyzur_en
       label: 'EN: dyżur'
       type: string
+      description: Angielska wersja pola Dyżur / godziny przyjęć (opcjonalnie); puste oznacza użycie wersji polskiej.
     - name: stopien
       label: Tytuł/stopień — tylko gdy osoby nie ma w Pracownikach
       type: string
+      description: Tytuł lub stopień pokazywany przed nazwiskiem.
     - name: email
       label: E-mail — tylko gdy osoby nie ma w Pracownikach
       type: string
+      description: Adres e-mail do kontaktu.
     - name: pokoj
       label: Pokój — tylko gdy osoby nie ma w Pracownikach
       type: string
+      description: Numer lub nazwa pokoju wyświetlana w danych kontaktowych.
     - name: strona
       label: Strona domowa — tylko gdy osoby nie ma w Pracownikach
       type: string
+      description: Pełny adres strony zewnętrznej, do której prowadzi link.
+    description: Osoby w kolejności prezentacji. W dyrekcji pierwsza osoba jest dyrektorem.
   - name: wydzial
     label: Władze Wydziału (dziekan, prodziekan)
     type: object
@@ -467,57 +601,73 @@ content:
     - name: tytul
       label: Nagłówek sekcji
       type: string
+      description: Nazwa strony lub wpisu, widoczna także na odpowiednich listach i w wynikach wyszukiwania.
     - name: tytul_en
       label: 'EN: nagłówek'
       type: string
+      description: Angielska wersja pola Nagłówek sekcji; puste oznacza użycie wersji polskiej.
     - name: opis
       label: Zdanie pod nagłówkiem
       type: string
+      description: Krótki opis używany na stronie lub w jej zapowiedzi.
     - name: opis_en
       label: 'EN: zdanie pod nagłówkiem'
       type: string
+      description: Angielska wersja pola Zdanie pod nagłówkiem; puste oznacza użycie wersji polskiej.
     - name: osoby
       label: Osoby
       type: object
       list:
         collapsible:
           collapsed: true
-          summary: "{imie_nazwisko}"
+          summary: '{imie_nazwisko}'
       fields:
       - name: rola
         label: Funkcja (np. Dziekan Wydziału Matematyki i Informatyki)
         type: string
         required: true
+        description: Funkcja tej osoby widoczna przy nazwisku.
       - name: imie_nazwisko
         label: Imię i nazwisko (dokładnie jak w Pracownikach)
         type: string
         required: true
+        description: Wpisz pełne imię i nazwisko. Służy także do łączenia danych tej osoby w innych działach.
       - name: email
         label: E-mail (jeśli inny niż w Pracownikach, np. wydziałowy)
         type: string
+        description: Adres e-mail do kontaktu.
       - name: dyzur
         label: Dyżur / godziny przyjęć (opcjonalnie)
         type: string
+        description: Termin dyżuru lub konsultacji wyświetlany przy osobie.
       - name: zdjecie
         label: Zdjęcie (portret pionowy 4:5)
         type: image
         options:
           path: public/pliki/wladze
+        description: Zdjęcie wpisu lub strony, używane także w powiązanych zapowiedziach.
       - name: zakres
         label: Zakres obowiązków (opcjonalnie)
         type: text
+        description: Zakres obowiązków pokazywany przy osobie.
       - name: pokoj
         label: Pokój / biuro (opcjonalnie)
         type: string
+        description: Numer lub nazwa pokoju wyświetlana w danych kontaktowych.
       - name: rola_en
         label: 'EN: funkcja'
         type: string
+        description: Angielska wersja pola Funkcja (np. Dziekan Wydziału Matematyki i Informatyki); puste oznacza
+          użycie wersji polskiej.
       - name: dyzur_en
         label: 'EN: dyżur'
         type: string
+        description: Angielska wersja pola Dyżur / godziny przyjęć (opcjonalnie); puste oznacza użycie wersji polskiej.
       - name: zakres_en
         label: 'EN: zakres obowiązków'
         type: text
+        description: Angielska wersja pola Zakres obowiązków (opcjonalnie); puste oznacza użycie wersji polskiej.
+      description: Osoby w kolejności prezentacji. W dyrekcji pierwsza osoba jest dyrektorem.
     - name: link
       label: Link do pełnej listy władz Wydziału
       type: object
@@ -525,12 +675,17 @@ content:
       - name: etykieta
         label: Tekst linku
         type: string
+        description: Napis wyświetlany przy tej pozycji.
       - name: etykieta_en
         label: 'EN: tekst linku'
         type: string
+        description: Angielska wersja pola Tekst linku; puste oznacza użycie wersji polskiej.
       - name: adres
         label: Adres
         type: string
+        description: Adres naszej strony zaczyna się od /; zewnętrzny od https://.
+      description: Adres przycisku lub powiązanej strony.
+    description: Władze wydziału na stronie władz Instytutu.
   - name: sekretariat
     label: Sekretariat
     type: object
@@ -538,47 +693,62 @@ content:
     - name: nazwa
       label: Nazwa sekcji
       type: string
+      description: Nazwa wyświetlana na stronie i powiązanych listach.
     - name: opis
       label: Zdanie pod nazwą (opcjonalnie)
       type: string
+      description: Krótki opis używany na stronie lub w jej zapowiedzi.
     - name: email
       label: E-mail
       type: string
+      description: Adres e-mail do kontaktu.
     - name: telefony
       label: Telefony (np. +48 71 375 74 01)
       type: string
       list: true
+      description: Numery telefonów sekretariatu.
     - name: adres
       label: Adres
       type: string
+      description: Adres naszej strony zaczyna się od /; zewnętrzny od https://.
     - name: pokoj
       label: Pokój
       type: string
+      description: Numer lub nazwa pokoju wyświetlana w danych kontaktowych.
     - name: godziny
       label: Godziny pracy
       type: string
+      description: Godziny pracy sekretariatu.
     - name: osoby
       label: Osoby (imię i nazwisko jak w Pracownikach — e-mail i telefon dobiorą się same)
       type: string
       list: true
+      description: Osoby w kolejności prezentacji. W dyrekcji pierwsza osoba jest dyrektorem.
     - name: nazwa_en
       label: 'EN: nazwa sekcji'
       type: string
+      description: Angielska wersja pola Nazwa sekcji; puste oznacza użycie wersji polskiej.
     - name: opis_en
       label: 'EN: zdanie pod nazwą'
       type: string
+      description: Angielska wersja pola Zdanie pod nazwą (opcjonalnie); puste oznacza użycie wersji polskiej.
     - name: adres_en
       label: 'EN: adres'
       type: string
+      description: Angielska wersja pola Adres; puste oznacza użycie wersji polskiej.
     - name: godziny_en
       label: 'EN: godziny pracy'
       type: string
+      description: Angielska wersja pola Godziny pracy; puste oznacza użycie wersji polskiej.
+    description: Dane sekretariatu na stronie władz.
   - name: kadencja
     label: Kadencja (Markdown; puste = sekcja ukryta)
     type: text
+    description: Informacja o kadencji wyświetlana na stronie władz.
   - name: kadencja_en
     label: 'EN: kadencja'
     type: text
+    description: Angielska wersja pola Kadencja (Markdown; puste = sekcja ukryta); puste oznacza użycie wersji polskiej.
   - name: rada
     label: Rada Instytutu
     type: object
@@ -586,39 +756,40 @@ content:
     - name: tytul
       label: Nagłówek
       type: string
+      description: Nazwa strony lub wpisu, widoczna także na odpowiednich listach i w wynikach wyszukiwania.
     - name: opis
       label: Opis (Markdown; puste = sekcja ukryta)
       type: text
+      description: Krótki opis używany na stronie lub w jej zapowiedzi.
     - name: tytul_en
       label: 'EN: nagłówek'
       type: string
+      description: Angielska wersja pola Nagłówek; puste oznacza użycie wersji polskiej.
     - name: opis_en
       label: 'EN: opis'
       type: text
+      description: Angielska wersja pola Opis (Markdown; puste = sekcja ukryta); puste oznacza użycie wersji polskiej.
+    description: Tytuł i opis sekcji Rady Instytutu.
   - name: linki
     label: Zobacz też (linki na dole strony)
     type: object
     list:
       collapsible:
         collapsed: true
-        summary: "{etykieta}"
+        summary: '{etykieta}'
     fields:
     - name: etykieta
       label: Napis
       type: string
       required: true
+      description: Napis wyświetlany przy tej pozycji.
     - name: adres
       label: Adres (https://… albo /ścieżka)
       type: string
       required: true
+      description: Adres naszej strony zaczyna się od /; zewnętrzny od https://.
     - name: etykieta_en
       label: 'EN: napis'
       type: string
-  - name: zrodla
-    label: Źródła (nie wyświetlają się)
-    type: string
-    list: true
-  - name: do_uzupelnienia
-    label: Do uzupełnienia (nie wyświetla się)
-    type: string
-    list: true
+      description: Angielska wersja pola Napis; puste oznacza użycie wersji polskiej.
+    description: Linki w kolejności wyświetlania.

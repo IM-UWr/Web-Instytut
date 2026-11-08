@@ -107,24 +107,6 @@
       "adres": "/instytut/kontakt"
     }
   ],
-  "zrodla": [
-    "https://www.math.uni.wroc.pl/wladze-instytutu (skład dyrekcji, zdjęcia)",
-    "https://www.math.uni.wroc.pl/en/node/1113 (angielskie nazwy funkcji)",
-    "https://www.math.uni.wroc.pl/sukcesy (większa wersja zdjęcia G. Wyłupka)",
-    "https://www.math.uni.wroc.pl/administracja-i-pracownicy-techniczni (sekretariat)",
-    "https://www.math.uni.wroc.pl/kontakt (e-mail i telefony Instytutu)",
-    "https://www.math.uni.wroc.pl/regulamin-instytutu-matematycznego-uniwersytetu-wroclawskiego (kadencja, Rada Instytutu)",
-    "https://www.math.uni.wroc.pl/news/zmiany-we-wladzach-instytutu-matematycznego (zmiana dyrekcji 2016)",
-    "https://www.math.uni.wroc.pl/procedura-dyplomowania (Komisja Prac Dyplomowych)",
-    "Władze Wydziału: https://wmi.uwr.edu.pl/wladze-wydzialu/ (stan z 24.10.2026); zdjęcia dziekana i prodziekana ze starej strony IM (buraczewski_succ.jpg, andrzej_raczynski.png)."
-  ],
-  "do_uzupelnienia": [
-    "Zakres obowiązków zastępców dyrektora ds. ogólnych, ds. naukowych i ds. promocji (stara strona podaje tylko nazwy funkcji).",
-    "Godziny przyjęć (dyżury) dyrekcji — brak w źródłach.",
-    "Numer pokoju i godziny pracy sekretariatu — brak w źródłach.",
-    "Zdjęcia w lepszej rozdzielczości (zwłaszcza T. Elsner — oryginał 100×130 px, K. Dębicki — 150×150 px).",
-    "Dyżur prodziekana ds. dydaktyki matematyki: na stronie WMI „zawieszony do września” — uzupełnić aktualny."
-  ],
   "wydzial": {
     "tytul": "Władze Wydziału",
     "tytul_en": "Faculty authorities",
@@ -153,5 +135,6 @@
       "etykieta_en": "All Faculty authorities (in Polish)",
       "adres": "https://wmi.uwr.edu.pl/wladze-wydzialu/"
     }
-  }
+  },
+  "status_publikacji": "oficjalna"
 }

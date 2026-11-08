@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Wykład Terence’a Tao we Wrocławiu"
 tytul_en: "Terence Tao’s lecture in Wrocław"
 karta:
@@ -14,12 +15,6 @@ karta:
 dzial: nauka
 na_glownej: true
 kolejnosc: 20
-zrodla:
-  - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej"
-  - "https://www.math.uni.wroc.pl/news/wyklad-terencea-tao"
-  - "https://www.math.uni.wroc.pl/news/tlumy-na-wykladzie-terencea-tao"
-  - "https://www.math.uni.wroc.pl/news/wyklad-terencea-tao-juz-na-youtube"
-  - "https://www.math.uni.wroc.pl/news/konferencja-analysis-and-applications-2017"
 tresc_en: |
   Fields Medallist Prof. **Terence Tao** (UCLA) gave an open popular-science lecture, *The Erdős discrepancy problem*, on 6 September 2017. The lecture was part of the conference [Analysis and Applications](/nauka/konferencje#rok-2017) in honour of Professor Elias M. Stein, organised at our Institute on 4–8 September 2017. Its participants included four Fields Medallists: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss and Terence Tao.
 

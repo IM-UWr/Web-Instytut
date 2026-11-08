@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Regulamin lokalnej sieci komputerowej Instytutu Matematycznego"
 opis: "Zasady korzystania z sieci komputerowej i Laboratorium Komputerowego Instytutu Matematycznego UWr."
 tytul_en: "Regulations of the Mathematical Institute local computer network"

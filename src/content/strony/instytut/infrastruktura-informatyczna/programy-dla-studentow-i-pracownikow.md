@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Programy dostępne dla studentów i pracowników"
 opis: "Oprogramowanie, które studenci i pracownicy UWr mogą zainstalować na własnych komputerach: MS Office 365, programy Microsoft, STATISTICA, KNOPPIX."
 tytul_en: "Software available to students and staff"

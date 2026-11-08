@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 8
 nazwa: "Zakład Statystyki"
 karta:

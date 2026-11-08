@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: Struktura i zakłady
 tytul_en: Structure and departments
 tresc_en: |-

@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Tablica interaktywna"
 opis: "Jak pracować z tablicą interaktywną w laboratorium 416."
 tytul_en: "Interactive whiteboard"

@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 9
 nazwa: "Pracownia Dydaktyki i Popularyzacji Matematyki"
 karta:

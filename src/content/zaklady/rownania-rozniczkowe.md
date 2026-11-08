@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 5
 nazwa: "Zakład Równań Różniczkowych"
 karta:

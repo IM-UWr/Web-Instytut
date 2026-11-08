@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Kontakt"
 opis: "Adres, telefony i e-mail Instytutu Matematycznego oraz Dziekanatu WMI."
 tytul_en: "Contact"

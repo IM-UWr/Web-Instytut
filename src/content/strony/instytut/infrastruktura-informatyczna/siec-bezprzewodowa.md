@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Dostęp do sieci bezprzewodowej"
 opis: "Sieć eduroam w Instytucie Matematycznym: kto może się podłączyć i jak to zrobić; sieć „matematyka” dla gości."
 tytul_en: "Wireless network access"

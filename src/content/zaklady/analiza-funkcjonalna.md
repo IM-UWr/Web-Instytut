@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 2
 nazwa: "Zakład Analizy Funkcjonalnej"
 karta:

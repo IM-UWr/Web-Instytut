@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Wyróżniająca ocena PKA dla kierunku matematyka"
 tytul_en: "Distinction from the Polish Accreditation Committee for Mathematics"
 karta:
@@ -11,11 +12,6 @@ karta:
 dzial: studia
 na_glownej: true
 kolejnosc: 30
-zrodla:
-  - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej (z obrazem certyfikatu)"
-  - "https://www.math.uni.wroc.pl/sites/default/files/certyfikat_pka_2018_1.jpg"
-  - "https://www.math.uni.wroc.pl/news/kierunek-matematyka-w-uwr-otrzymal-od-panstwowej-komisji-akredytacyjnej-ocene-wyrozniajaca"
-  - "https://www.math.uni.wroc.pl/sites/default/files/news_attachment/akredytacja_opis.pdf"
 tresc_en: |
   Having carried out a programme assessment of the **Mathematics** programme run at the Faculty of Mathematics and Computer Science of the University of Wrocław at first- and second-cycle level with a general academic profile, the Presidium of the **Polish Accreditation Committee** (PKA) gave the programme a **distinction** rating by resolution no. 744/2018 of 6 December 2018. This is confirmed by the PKA Certificate of Quality of Education.
 

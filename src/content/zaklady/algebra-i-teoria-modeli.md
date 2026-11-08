@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 1
 nazwa: "Zakład Algebry i Teorii Modeli"
 karta:

@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 4
 nazwa: "Zakład Geometrii"
 karta:

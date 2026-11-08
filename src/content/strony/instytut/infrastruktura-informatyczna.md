@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: "Infrastruktura informatyczna"
 opis: "Sieć komputerowa, pracownie i oprogramowanie w Instytucie."
 tytul_en: "IT infrastructure"

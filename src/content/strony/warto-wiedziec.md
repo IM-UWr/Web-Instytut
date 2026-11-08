@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: Warto wiedzieć
 tytul_en: Highlights
 opis: Wyjątkowe wydarzenia i osiągnięcia, którymi Instytut Matematyczny chwali się od lat.

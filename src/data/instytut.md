@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 tytul: Instytut
 tytul_en: Institute
 tresc_en: |-

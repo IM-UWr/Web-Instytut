@@ -1,4 +1,5 @@
 ---
+status_publikacji: oficjalna
 kolejnosc: 3
 nazwa: "Zakład Analizy Matematycznej"
 karta:
