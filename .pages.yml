@@ -45,19 +45,17 @@ content:
       • Akapit zaczynający się od dwuliterowego skrótu z kropką („Np.”, „Dr.”, „No.”) edytor zapisze jako listę numerowaną „1.” — zacznij akapit inaczej albo pogrub skrót.
 
       Więcej: ściągawka edytora (dok/sciagawka-edytora.md w Web-Core).
-    type: rich-text
+    type: code
     options:
       format: markdown
-      path: public/pliki/instytut
   - name: tytul_en
     label: Tytuł EN
     type: string
   - name: tresc_en
     label: Treść EN
-    type: rich-text
+    type: code
     options:
       format: markdown
-      path: public/pliki/instytut
     description: Tekst „O Instytucie” po angielsku, w tym samym układzie co Treść (nagłówek „Recent achievements”). Puste = strona angielska pokaże tekst polski.
   - name: wstep
     label: Wstęp pod tytułem (1–3 zdania)
@@ -117,17 +115,15 @@ content:
     required: true
   - name: body
     label: Opis zakładu (czym się zajmuje, historia, tematy prac dla studentów)
-    type: rich-text
+    type: code
     options:
       format: markdown
-      path: public/pliki/zaklady
   - name: tresc_en
     label: Treść EN
     description: Opis zakładu po angielsku, w tym samym układzie. Puste = strona angielska pokaże opis polski.
-    type: rich-text
+    type: code
     options:
       format: markdown
-      path: public/pliki/zaklady
   - name: karta
     label: Karta
     description: 'Karta zakładu na liście „Struktura i zakłady” i ramka jego strony: krótka nazwa, kierownik, telefon, zdanie, hasło na banerze, obszary badań, strona zespołu, zdjęcie (i EN).'
@@ -204,10 +200,9 @@ content:
     required: true
   - name: body
     label: Treść
-    type: rich-text
+    type: code
     options:
       format: markdown
-      path: public/pliki/instytut
     description: |-
       Piszesz jak w zwykłym edytorze; akapity oddziela Enter. Nagłówek 2 = nowa sekcja (pojawi się w spisie „Na tej stronie”).
 
@@ -236,10 +231,9 @@ content:
   - name: tresc_en
     label: Treść EN
     description: Cała strona po angielsku, w tym samym układzie co Treść (nagłówki sekcji po angielsku). Puste = strona angielska pokaże treść polską.
-    type: rich-text
+    type: code
     options:
       format: markdown
-      path: public/pliki/instytut
   - name: opis
     label: Krótki opis (pod tytułem i w Google)
     type: text
@@ -314,13 +308,13 @@ content:
     required: true
   - name: body
     label: Opis (opcjonalnie; z opisem pozycja ma własną podstronę, bez opisu karta prowadzi do linku)
-    type: rich-text
+    type: code
     options:
       format: markdown
   - name: tresc_en
     label: Treść EN
     description: Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże opis polski.
-    type: rich-text
+    type: code
     options:
       format: markdown
   - name: karta
@@ -575,7 +569,9 @@ content:
       type: string
   - name: kadencja
     label: Kadencja (Markdown; puste = sekcja ukryta)
-    type: text
+    type: code
+    options:
+      format: markdown
   - name: kadencja_en
     label: 'EN: kadencja'
     type: text
@@ -588,7 +584,9 @@ content:
       type: string
     - name: opis
       label: Opis (Markdown; puste = sekcja ukryta)
-      type: text
+      type: code
+      options:
+        format: markdown
     - name: tytul_en
       label: 'EN: nagłówek'
       type: string
