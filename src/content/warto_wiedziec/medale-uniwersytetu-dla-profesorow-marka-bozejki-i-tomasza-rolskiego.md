@@ -19,6 +19,7 @@ karta:
   zajawka: Medale Uniwersytetu dla profesorów Marka Bożejki i Tomasza Rolskiego
   zajawka_en: University Medals Awarded to Professors Marek Bożejko and Tomasz Rolski
   obraz: /pliki/warto-wiedziec/ceremonia.png
+  obraz_opis: Uroczystość wręczenia Medalu Uniwersytetu
 dzial: nauka
 na_glownej: true
 zawsze: false
@@ -31,6 +32,6 @@ Serdecznie gratulujemy obu Profesorom tego prestiżowego wyróżnienia!
 
 Z tej wyjątkowej okazji zachęcamy do lektury załączonych not biograficznych, przybliżających sylwetki, dorobek naukowy i działalność obu Laureatów. Ich życiorysy są zarazem fascynującym świadectwem historii Instytutu Matematycznego Uniwersytetu Wrocławskiego, jego tradycji naukowych oraz dokonań wybitnych uczonych, którzy przez dziesięciolecia kształtowali jego oblicze i pozycję w światowej matematyce.
 
-[Nota biograficzna profesora Marka Bożejki](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/marekbozejkonotabiograficzna.pdf)
+-[Nota biograficzna profesora Marka Bożejki](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/marekbozejkonotabiograficzna.pdf)
 
-[Nota biograficzna profesora Tomasza Rolskiego](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/tomaszrolskinotabiograficzna.pdf)
+-[Nota biograficzna profesora Tomasza Rolskiego](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/tomaszrolskinotabiograficzna.pdf)
