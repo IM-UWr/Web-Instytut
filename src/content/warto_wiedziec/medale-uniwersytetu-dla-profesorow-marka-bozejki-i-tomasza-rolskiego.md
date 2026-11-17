@@ -29,3 +29,6 @@ To zaszczytne wyróżnienie jest wyrazem najwyższego uznania dla ich wybitnych 
 Serdecznie gratulujemy obu Profesorom tego prestiżowego wyróżnienia!
 
 Z tej wyjątkowej okazji zachęcamy do lektury załączonych not biograficznych, przybliżających sylwetki, dorobek naukowy i działalność obu Laureatów. Ich życiorysy są zarazem fascynującym świadectwem historii Instytutu Matematycznego Uniwersytetu Wrocławskiego, jego tradycji naukowych oraz dokonań wybitnych uczonych, którzy przez dziesięciolecia kształtowali jego oblicze i pozycję w światowej matematyce.
+
+[Nota biograficzna profesora Marka Bożejki](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/marekbozejkonotabiograficzna.pdf)
+
