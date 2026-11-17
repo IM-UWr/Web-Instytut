@@ -32,3 +32,4 @@ Z tej wyjątkowej okazji zachęcamy do lektury załączonych not biograficznych,
 
 [Nota biograficzna profesora Marka Bożejki](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/marekbozejkonotabiograficzna.pdf)
 
+[Nota biograficzna profesora Tomasza Rolskiego](https://im-uwr.github.io/Web-Podglad/pliki/aktualnosci/tomaszrolskinotabiograficzna.pdf)
