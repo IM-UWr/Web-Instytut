@@ -18,6 +18,7 @@ karta:
   rok: "2026"
   zajawka: Medale Uniwersytetu dla profesorów Marka Bożejki i Tomasza Rolskiego
   zajawka_en: University Medals Awarded to Professors Marek Bożejko and Tomasz Rolski
+  obraz: /pliki/warto-wiedziec/ceremonia.png
 dzial: nauka
 na_glownej: true
 zawsze: false
