@@ -38,10 +38,10 @@ o_instytucie_fakty:
   wartosc_en: Live goose
   opis: nagroda z lwowskiej Księgi Szkockiej, którą kontynuuje nasza Nowa Księga; Per Enflo odebrał ją w 1972 roku
   opis_en: a prize in the Lwów Scottish Book, continued by our New Scottish Book; Per Enflo collected it in 1972
-- wartosc: 3 rektorów
-  wartosc_en: 3 rectors
-  opis: matematycy Marczewski, Urbanik i Duda kierowali Uniwersytetem Wrocławskim jako rektorzy
-  opis_en: the mathematicians Marczewski, Urbanik and Duda led the University of Wrocław
+- wartosc: 4 rektorów
+  wartosc_en: 4 rectors
+  opis: matematycy Marczewski, Urbanik, Łukaszewicz i Duda kierowali Uniwersytetem Wrocławskim jako rektorzy
+  opis_en: the mathematicians Marczewski, Urbanik, Łukaszewicz and Duda led the University of Wrocław
 format_tresci: jawne
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->

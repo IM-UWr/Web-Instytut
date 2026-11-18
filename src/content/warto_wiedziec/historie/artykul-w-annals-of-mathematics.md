@@ -1,6 +1,8 @@
 ---
 tytul: "Artykuł w Annals of Mathematics"
 tytul_en: "A paper in the Annals of Mathematics"
+opublikowany: true
+rocznica: ""
 karta:
   rok: "2022"
   zajawka: "Prof. Mariusz Mirek wraz z Benem Krause i Terencem Tao opublikował artykuł w Annals of Mathematics — najbardziej prestiżowym czasopiśmie matematycznym na świecie."
@@ -8,13 +10,11 @@ karta:
   link: "https://annals.math.princeton.edu/2022/195-3/p04"
   link_etykieta: "Artykuł na stronie Annals of Mathematics"
   link_etykieta_en: "The paper on the Annals of Mathematics website"
-dzial: nauka
 na_glownej: true
-kolejnosc: 10
-zrodla:
-  - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej"
-  - "https://annals.math.princeton.edu/2022/195-3/p04"
-  - "https://www.math.uni.wroc.pl/~pborod/preprints/mirek.pdf"
+ulubione: true
+zawsze: false
+dodano: ""
+format_tresci: "jawne"
 tresc_en: |
   Prof. **Mariusz Mirek** of our Institute, together with **Ben Krause** and **Terence Tao**, is a co-author of the paper *Pointwise ergodic theorems for non-conventional bilinear polynomial averages*, published in the **Annals of Mathematics**, the most prestigious mathematical journal in the world.
 
@@ -25,8 +25,14 @@ tresc_en: |
   ## Bibliographic details
 
   B. Krause, M. Mirek, T. Tao, *Pointwise ergodic theorems for non-conventional bilinear polynomial averages*, Annals of Mathematics **195** (2022), no. 3, pp. 997–1109, DOI: [10.4007/annals.2022.195.3.4](https://doi.org/10.4007/annals.2022.195.3.4).
-opublikowany: true
+zrodla:
+  - "https://www.math.uni.wroc.pl/ — blok „Ciekawostki” na stronie głównej"
+  - "https://annals.math.princeton.edu/2022/195-3/p04"
+  - "https://www.math.uni.wroc.pl/~pborod/preprints/mirek.pdf"
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+<!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
 Prof. **Mariusz Mirek** z naszego Instytutu jest — wraz z **Benem Krause** i **Terencem Tao** — współautorem artykułu *Pointwise ergodic theorems for non-conventional bilinear polynomial averages*, opublikowanego w czasopiśmie **Annals of Mathematics**, najbardziej prestiżowym czasopiśmie matematycznym na świecie.
 
