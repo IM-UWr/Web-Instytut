@@ -80,6 +80,7 @@ content:
     - name: wartosc
       label: Wartość (krótko, np. 1945, A+, 8)
       type: string
+      required: true
     - name: wartosc_en
       label: 'EN: wartość (puste = jak po polsku, np. liczby i lata)'
       type: string
@@ -89,6 +90,9 @@ content:
     - name: opis_en
       label: 'EN: opis'
       type: string
+    - name: pozycja
+      type: boolean
+      hidden: true
   - name: kontakt_godziny
     label: Godziny pracy sekretariatu (opcjonalnie — puste = nie wyświetla się)
     type: string
@@ -268,6 +272,9 @@ content:
     - name: etykieta_en
       label: 'EN: podpis'
       type: string
+    - name: pozycja
+      type: boolean
+      hidden: true
   - name: pasek_boczny
     label: 'Prawy pasek: spis „Na tej stronie”, menu działu czy oba (puste = domyślnie tylko spis)'
     type: select
@@ -454,6 +461,9 @@ content:
     - name: strona
       label: Strona domowa — tylko gdy osoby nie ma w Pracownikach
       type: string
+    - name: pozycja
+      type: boolean
+      hidden: true
   - name: wydzial
     label: Władze Wydziału (dziekan, prodziekan)
     type: object
@@ -512,6 +522,9 @@ content:
       - name: zakres_en
         label: 'EN: zakres obowiązków'
         type: text
+      - name: pozycja
+        type: boolean
+        hidden: true
     - name: link
       label: Link do pełnej listy władz Wydziału
       type: object
@@ -612,6 +625,9 @@ content:
     - name: etykieta_en
       label: 'EN: napis'
       type: string
+    - name: pozycja
+      type: boolean
+      hidden: true
   - name: zrodla
     label: Źródła (nie wyświetlają się)
     type: string
