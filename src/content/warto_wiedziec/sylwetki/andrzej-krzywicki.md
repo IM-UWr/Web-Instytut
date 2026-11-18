@@ -4,6 +4,19 @@ opublikowany: false
 lata: "ur. 1928"
 podpis: "Pionier wrocławskich badań nad równaniami różniczkowymi"
 podpis_en: ""
+liczby:
+  - n: "1962"
+    n_en: ""
+    etykieta: "twierdzenie AKS"
+    etykieta_en: "AKS theorem"
+  - n: "6"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
+  - n: "1970"
+    n_en: ""
+    etykieta: "Nagroda Zaremby"
+    etykieta_en: "Zaremba Prize"
 rocznica_urodzin: ""
 karta:
   zajawka: "Uczeń Witolda Wolibnera, od którego – według monografii wrocławskich szkół naukowych – zaczęła się we Wrocławiu teoria równań różniczkowych. Współautor twierdzenia Aronszajna–Krzywickiego–Szarskiego."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1957** — doktorat na Uniwersytecie Wrocławskim
-- **1962** — twierdzenie Aronszajna–Krzywickiego–Szarskiego
-- **1970** — Nagroda PTM im. Stanisława Zaremby
-- **6** — wypromowanych doktorów (wg [Mathematics Genealogy Project](https://mathgenealogy.org/id.php?id=150535))
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

@@ -4,6 +4,19 @@ opublikowany: false
 lata: "xxxx"
 podpis: "Probabilista: teoria kolejek, ryzyka i matematyka ubezpieczeniowa"
 podpis_en: ""
+liczby:
+  - n: "5000+"
+    n_en: ""
+    etykieta: "cytowań"
+    etykieta_en: "citations"
+  - n: "8"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
+  - n: "1996"
+    n_en: ""
+    etykieta: "dyrektor Instytutu"
+    etykieta_en: "Institute director"
 rocznica_urodzin: ""
 karta:
   zajawka: "Jeden z najwybitniejszych polskich specjalistów od procesów stochastycznych; twórca wrocławskiej grupy probabilistyki stosowanej i dyrektor Instytutu w latach 1996–2002."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **ok. 90** — prac naukowych i 3 książki
-- **5000+** — cytowań (Google Scholar)
-- **8** — wypromowanych doktorów
-- **1996–2002** — dyrektor Instytutu
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

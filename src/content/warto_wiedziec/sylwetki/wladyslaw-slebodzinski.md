@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1884–1972"
 podpis: "Geometra różniczkowy, twórca pochodnej Liego"
 podpis_en: ""
+liczby:
+  - n: "1931"
+    n_en: ""
+    etykieta: "pochodna Liego"
+    etykieta_en: "Lie derivative"
+  - n: "11"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
+  - n: "1961"
+    n_en: ""
+    etykieta: "prezes PTM"
+    etykieta_en: "PTM president"
 rocznica_urodzin: "02-06"
 karta:
   zajawka: "Przez lata uczył w szkołach średnich, doktorat obronił w wieku 44 lat, a trzy lata później wprowadził pochodną Liego. Przeżył Auschwitz i zbudował we Wrocławiu ośrodek geometrii różniczkowej."
@@ -18,15 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1931** — pochodna Liego
-- **11** — wypromowanych doktorów (wg [Mathematics Genealogy Project](https://mathgenealogy.org/id.php?id=157629))
-- **1961–1963** — prezes Polskiego Towarzystwa Matematycznego
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

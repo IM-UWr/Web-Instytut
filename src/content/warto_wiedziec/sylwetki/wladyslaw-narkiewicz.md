@@ -4,6 +4,19 @@ opublikowany: false
 lata: "ur. 1936"
 podpis: "Specjalista od teorii liczb i historyk matematyki"
 podpis_en: ""
+liczby:
+  - n: "1968"
+    n_en: ""
+    etykieta: "Nagroda Banacha"
+    etykieta_en: "Banach Prize"
+  - n: "1996"
+    n_en: ""
+    etykieta: "pierwszy dziekan WMI"
+    etykieta_en: "first Faculty dean"
+  - n: "1961"
+    n_en: ""
+    etykieta: "doktorat u Hartmana"
+    etykieta_en: "PhD under Hartman"
 rocznica_urodzin: "02-19"
 karta:
   zajawka: "Specjalista od teorii liczb, autor cenionych monografii o liczbach algebraicznych i dziejach teorii liczb, laureat Nagrody PTM im. Banacha (1968), pierwszy dziekan Wydziału Matematyki i Informatyki."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1961** — doktorat u Stanisława Hartmana
-- **1968** — Nagroda Główna PTM im. Stefana Banacha
-- **1974** — pierwsze wydanie monografii o liczbach algebraicznych
-- **1996** — pierwszy dziekan Wydziału Matematyki i Informatyki
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1933–2008"
 podpis: "Twórca wrocławskiej szkoły analizy harmonicznej, członek PAN"
 podpis_en: ""
+liczby:
+  - n: "1964"
+    n_en: ""
+    etykieta: "grupy średniowalne"
+    etykieta_en: "amenable groups"
+  - n: "17"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
+  - n: "2002"
+    n_en: ""
+    etykieta: "doktorat h.c."
+    etykieta_en: "honorary doctorate"
 rocznica_urodzin: "12-25"
 karta:
   zajawka: "Twórca wrocławskiej szkoły analizy harmonicznej i autor klasycznego twierdzenia o grupach średniowalnych. Wypromował 17 doktorów, a konferencjami i wymianą naukową otworzył Instytut na świat."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1964** — twierdzenie o grupach średniowalnych
-- **17** — wypromowanych doktorów (wg [„Studia Mathematica”](https://impan.pl/shop/media/wysiwyg/sm/189/sm189-2-01.pdf))
-- **1972** — pierwsza z cyklu konferencji z analizy harmonicznej
-- **2002** — doktorat honoris causa Uniwersytetu w Orleanie
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

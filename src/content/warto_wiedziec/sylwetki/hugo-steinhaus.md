@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1887–1972"
 podpis: "Współtwórca szkoły lwowskiej i wrocławskiej, mistrz aforyzmu"
 podpis_en: ""
+liczby:
+  - n: "1945"
+    n_en: ""
+    etykieta: "pierwszy dziekan"
+    etykieta_en: "first dean"
+  - n: "1946"
+    n_en: ""
+    etykieta: "Nowa Księga Szkocka"
+    etykieta_en: "New Scottish Book"
+  - n: "20"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
 rocznica_urodzin: "01-14"
 karta:
   zajawka: "Odkrył talent Banacha i współtworzył szkołę lwowską. Po wojnie, jako jeden z czterech pionierów, budował matematykę we Wrocławiu: był pierwszym dziekanem i zapoczątkował Nową Księgę Szkocką."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1945** — pierwszy dziekan wspólnego Wydziału Matematyki, Fizyki i Chemii Uniwersytetu i Politechniki we Wrocławiu
-- **1946** — pierwsze zagadnienie w Nowej Księdze Szkockiej
-- **1953** — założenie czasopisma „Zastosowania Matematyki”
-- **20** — wypromowanych doktorów (według [Mathematics Genealogy Project](https://www.mathgenealogy.org/id.php?id=7383))
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1913–1965"
 podpis: "Matematyk zastosowań, współtwórca taksonomii wrocławskiej"
 podpis_en: ""
+liczby:
+  - n: "1951"
+    n_en: ""
+    etykieta: "taksonomia wrocławska"
+    etykieta_en: "Wrocław taxonomy"
+  - n: "1956"
+    n_en: ""
+    etykieta: "dziekan wydziału"
+    etykieta_en: "faculty dean"
+  - n: "1961"
+    n_en: ""
+    etykieta: "Tow. Biometryczne"
+    etykieta_en: "Biometric Society"
 rocznica_urodzin: "04-24"
 karta:
   zajawka: "Uczeń Steinhausa, który przenosił matematykę na łąki, do lasu i do gabinetu pediatry. Współtwórca taksonomii wrocławskiej, autor ε-długości i pierwszy przewodniczący Polskiego Towarzystwa Biometrycznego."
@@ -18,15 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1951** — taksonomia wrocławska (z Florkiem, Łukaszewiczem, Steinhausem i Zubrzyckim)
-- **1956–1958** — dziekan Wydziału Matematyki, Fizyki i Chemii
-- **1959** — przewodniczący sekcji biometrycznej, z której wyrosło Polskie Towarzystwo Biometryczne
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

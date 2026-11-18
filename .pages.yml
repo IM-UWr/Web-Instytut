@@ -3,6 +3,7 @@
 # Zlecenie 33: pole „Opublikowane” wróciło w Stronach i na stronie działu (odznaczone = szkic, widoczny tylko na Podglądzie).
 # Zlecenie 40: Strony i strona działu w jawnym Markdownie (ukryte format_tresci), ściągawki przy Treści, pola EN pod polskimi, szablony Treści zakładu i „Warto wiedzieć”, ukryte notatki i hasło władz.
 # Zlecenie 47: „Warto wiedzieć” jako grupa trzech kolekcji (Sylwetki, Nagrody i wyróżnienia, Historie) w podkatalogach src/content/warto_wiedziec/; formularze według wzoru Studiów, „Dodano” z default "".
+# Zlecenie 52: Sylwetki — pole „Liczby w banerze (3 pozycje)” (liczby) pod Podpisem EN; opis i szablon Treści bez bloku :::w-skrocie.
 media:
   input: public/pliki
   output: /pliki
@@ -322,22 +323,16 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka: :::w-skrocie (liczby obok portretu), wstęp, sekcje ## z {#id}, „## Do pobrania {#do-pobrania}” z :::pliki, na końcu „## Źródła {#zrodla}” (na stronie zwinięte). Link do innej sylwetki, nagrody albo historii (/instytut/warto-wiedziec/…) łączy wpisy. Pusta Treść (albo same komentarze) = sylwetka „TBA”."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka: wstęp (obok portretu), sekcje ## z {#id}, „## Do pobrania {#do-pobrania}” z :::pliki, na końcu „## Źródła {#zrodla}” (na stronie zwinięte). Liczby do banera wpisuje się w polu „Liczby”. Link do innej sylwetki, nagrody albo historii (/instytut/warto-wiedziec/…) łączy wpisy. Pusta Treść (albo same komentarze) = sylwetka „TBA”."
       type: code
       options:
         format: markdown
       default: |-
         <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
-        <!-- TBA: Pusta Treść = sylwetka „TBA” (imię, lata i znaczek TBA). Tekst pisz według innych sylwetek: :::w-skrocie, sekcje ## z {#id}, „## Źródła {#zrodla}”. -->
+        <!-- TBA: Pusta Treść = sylwetka „TBA” (imię, lata i znaczek TBA). Tekst pisz według innych sylwetek: wstęp, sekcje ## z {#id}, „## Źródła {#zrodla}”. Liczby do banera wpisuje się w polu „Liczby”. -->
 
         <!-- SZKIELET SYLWETKI: skopiuj poniższe linie nad ten komentarz (bez znaczników komentarza) i wypełnij; komentarz TBA wyżej usuń.
-        :::w-skrocie
-
-        - **1950** — doktorat na Uniwersytecie Wrocławskim
-
-        :::
-
         Wstęp: dwa, trzy zdania o osobie.
 
         ## Droga naukowa {#droga}
@@ -374,6 +369,32 @@ content:
       description: Puste = podpis polski.
       type: string
       default: ""
+    - name: liczby
+      label: Liczby w banerze (3 pozycje)
+      description: "Trzy krótkie pozycje pod podpisem na banerze, np. „1945 · pierwszy dziekan”, „20 · doktorów”. Liczba: same cyfry (rok, liczba, 1800+). Podpis: najwyżej ok. 20 znaków, małą literą, bez linków. Pokazują się pierwsze trzy. Puste = baner bez liczb."
+      type: object
+      list:
+        collapsible:
+          collapsed: true
+          summary: "{n} {etykieta}"
+      fields:
+      - name: n
+        label: Liczba (np. 1945 albo 20)
+        type: string
+        required: true
+      - name: n_en
+        label: Liczba EN (puste = jak po polsku)
+        type: string
+      - name: etykieta
+        label: Podpis (np. pierwszy dziekan)
+        type: string
+        required: true
+      - name: etykieta_en
+        label: Podpis EN (puste = podpis polski)
+        type: string
+      - name: pozycja
+        type: boolean
+        hidden: true
     - name: rocznica_urodzin
       label: Rocznica urodzin
       description: MM-DD, np. 01-14. Przez 7 dni przed i po tej dacie sylwetka ma pierwszeństwo na stronie głównej. Puste = bez rocznicy.

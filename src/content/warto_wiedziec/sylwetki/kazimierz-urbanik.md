@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1930–2005"
 podpis: "Probabilista, rektor Uniwersytetu, mistrz wrocławskiej probabilistyki"
 podpis_en: ""
+liczby:
+  - n: "1975"
+    n_en: ""
+    etykieta: "rektor UWr"
+    etykieta_en: "UWr rector"
+  - n: "1980"
+    n_en: ""
+    etykieta: "założył czasopismo"
+    etykieta_en: "founded a journal"
+  - n: "1965"
+    n_en: ""
+    etykieta: "członek PAN"
+    etykieta_en: "Academy member"
 rocznica_urodzin: "02-05"
 karta:
   zajawka: "Uczeń Steinhausa i Marczewskiego, autor ponad 180 prac, głównie z teorii prawdopodobieństwa. Przez ponad ćwierć wieku kierował Instytutem, był rektorem Uniwersytetu i założył „Probability and Mathematical Statistics”."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1965** — członek PAN w wieku 35 lat
-- **1975–1981** — rektor Uniwersytetu Wrocławskiego (dwie kadencje)
-- **1980** — założył „Probability and Mathematical Statistics”
-- **17** — wypromowanych doktorów (wg listy uczniów; [MGP](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=61558) podaje 18)
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

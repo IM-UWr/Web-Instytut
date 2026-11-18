@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1902–1961"
 podpis: "Analityk i mechanik, autor twierdzenia o ruchu cieczy idealnej"
 podpis_en: ""
+liczby:
+  - n: "1933"
+    n_en: ""
+    etykieta: "równania Eulera"
+    etykieta_en: "Euler equations"
+  - n: "1947"
+    n_en: ""
+    etykieta: "katedra mechaniki"
+    etykieta_en: "Chair of Mechanics"
+  - n: "1955"
+    n_en: ""
+    etykieta: "Nagroda Banacha"
+    etykieta_en: "Banach Prize"
 rocznica_urodzin: ""
 karta:
   zajawka: "W 1933 roku udowodnił, że gładki płaski ruch cieczy idealnej trwa nieograniczenie długo – to klasyczny wynik teorii równań Eulera. Od 1947 roku budował we Wrocławiu mechanikę teoretyczną."
@@ -18,15 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1933** — twierdzenie o globalnym istnieniu płaskiego ruchu cieczy idealnej
-- **1947** — kierownik nowej Katedry Mechaniki Teoretycznej we Wrocławiu
-- **1955** — Nagroda im. Stefana Banacha PTM
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

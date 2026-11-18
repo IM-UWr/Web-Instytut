@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1907–1976"
 podpis: "Współtwórca wrocławskiej matematyki, pierwszy dyrektor Instytutu"
 podpis_en: ""
+liczby:
+  - n: "1953"
+    n_en: ""
+    etykieta: "rektor UWr"
+    etykieta_en: "UWr rector"
+  - n: "1930"
+    n_en: ""
+    etykieta: "tw. Szpilrajna"
+    etykieta_en: "Szpilrajn theorem"
+  - n: "1957"
+    n_en: ""
+    etykieta: "prezes PTM"
+    etykieta_en: "PTM president"
 rocznica_urodzin: "11-15"
 karta:
   zajawka: "Przed wojną publikował jako Edward Szpilrajn. Przetrwał okupację pod przybranym nazwiskiem i obóz pracy we Wrocławiu, a potem zbudował tu Instytut Matematyczny i był rektorem Uniwersytetu."
@@ -18,15 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1930** — twierdzenie Szpilrajna o rozszerzaniu porządków
-- **1953–1957** — rektor Uniwersytetu Wrocławskiego
-- **13** — wypromowanych doktorów (według [nekrologu](https://mathshistory.st-andrews.ac.uk/Extras/Marczewski_obituary/); [Mathematics Genealogy Project](https://www.mathgenealogy.org/id.php?id=25112) notuje 12)
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

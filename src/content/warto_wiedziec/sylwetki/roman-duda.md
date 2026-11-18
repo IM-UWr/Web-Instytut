@@ -4,6 +4,19 @@ opublikowany: false
 lata: "ur. 1935"
 podpis: "Topolog i historyk matematyki, rektor UWr w latach 1995–1999"
 podpis_en: ""
+liczby:
+  - n: "1995"
+    n_en: ""
+    etykieta: "rektor UWr"
+    etykieta_en: "UWr rector"
+  - n: "1970"
+    n_en: ""
+    etykieta: "Nagroda Banacha"
+    etykieta_en: "Banach Prize"
+  - n: "4"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
 rocznica_urodzin: "02-27"
 karta:
   zajawka: "Uczeń Bronisława Knastera, laureat Nagrody Banacha, autor książek o lwowskiej szkole matematycznej i o dziejach matematyki w Polsce. W latach 1995–1999 rektor Uniwersytetu Wrocławskiego."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1970** — Nagroda Główna PTM im. Stefana Banacha
-- **1995–1999** — rektor Uniwersytetu Wrocławskiego
-- **2007** — [„Lwowska szkoła matematyczna”](https://oeaw.ac.at/resources/Record/990001684960504498/Versions) (wydanie angielskie 2014)
-- **4** — wypromowanych doktorów (wg [Mathematics Genealogy Project](https://www.mathgenealogy.org/id.php?id=58377))
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

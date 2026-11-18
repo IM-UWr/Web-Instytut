@@ -2,9 +2,6 @@
 tytul: Krzysztof Tabisz
 opublikowany: true
 tresc_en: >-
-  # Dr Krzysztof Tabisz
-
-
   **Dr Krzysztof Tabisz (born in 1950)** is a mathematician, long-serving
   academic at the University of Wrocław, social activist, and former member of
   the democratic opposition in Poland. For more than four decades, he was
@@ -13,7 +10,7 @@ tresc_en: >-
   community and to helping those in need.
 
 
-  ### Academic and Scientific Career
+  ## Academic and Scientific Career {#dzialalnosc-naukowa}
 
 
   Dr Krzysztof Tabisz began working at the Institute of Mathematics of the
@@ -56,7 +53,7 @@ tresc_en: >-
   Wrocław and the Academy of Fine Arts.
 
 
-  ### Social Activism and Democratic Opposition
+  ## Social Activism and Democratic Opposition {#dzialalnosc-spoleczna}
 
 
   An especially important part of Dr Krzysztof Tabisz's biography is his social
@@ -102,7 +99,7 @@ tresc_en: >-
   facing persecution and hardship.
 
 
-  ### Honours and Distinctions
+  ## Honours and Distinctions {#odznaczenia}
 
 
   In recognition of his academic, social, and civic contributions, Dr Krzysztof
@@ -131,7 +128,20 @@ tresc_en: >-
 format_tresci: jawne
 lata: "1950"
 podpis: Matematyk i zasłużony działacz opozycji demokratycznej
-podpis_en: Mathematician and distinguished democratic opposition activist.
+podpis_en: Mathematician and distinguished democratic opposition activist
+liczby:
+  - n: "1973"
+    n_en: ""
+    etykieta: "w Instytucie"
+    etykieta_en: "joined the Institute"
+  - n: "1991"
+    n_en: ""
+    etykieta: "zastępca dyrektora"
+    etykieta_en: "deputy director"
+  - n: "2026"
+    n_en: ""
+    etykieta: "Wrocławska Wolność"
+    etykieta_en: "Wrocław Freedom"
 karta:
   zajawka: Dr Krzysztof Tabisz – matematyk, wieloletni pracownik Uniwersytetu
     Wrocławskiego, zasłużony działacz opozycji demokratycznej i organizator
@@ -147,11 +157,13 @@ na_glownej: true
 ulubione: false
 zawsze: false
 ---
-# Dr Krzysztof Tabisz
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+<!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
 **Dr Krzysztof Tabisz (ur. 1950)** – matematyk, wieloletni nauczyciel akademicki Uniwersytetu Wrocławskiego, działacz społeczny i opozycyjny, zasłużony organizator życia akademickiego. Przez ponad cztery dekady był związany z Instytutem Matematycznym Uniwersytetu Wrocławskiego, łącząc działalność naukową i dydaktyczną z zaangażowaniem na rzecz społeczności akademickiej oraz osób potrzebujących pomocy.
 
-### Działalność naukowa i akademicka{#DzialalnoscNaukowa}
+## Działalność naukowa i akademicka {#dzialalnosc-naukowa}
 
 Pracę w Instytucie Matematycznym Uniwersytetu Wrocławskiego rozpoczął w 1973 roku. Stopień doktora nauk matematycznych uzyskał w 1982 roku na podstawie rozprawy *O pewnym zagadnieniu ze swobodnym brzegiem dla jednowymiarowego równania ciepła*, przygotowanej pod kierunkiem prof. Andrzeja Krzywickiego. Jego zainteresowania naukowe obejmowały równania różniczkowe cząstkowe, zagadnienia ze swobodnym brzegiem oraz teorię prawdopodobieństwa. Jest autorem i współautorem publikacji naukowych, między innymi w czasopismach *Journal of Mathematical Analysis and Applications*, *Applicationes Mathematicae* oraz *Journal of Theoretical Probability*.
 
@@ -161,7 +173,7 @@ W latach **1991–1996 pełnił przez dwie kadencje funkcję zastępcy dyrektora
 
 Należał również do inicjatorów **Międzywydziałowego Laboratorium Nowych Mediów**, powołanego w 2005 roku we współpracy Wydziału Matematyki i Informatyki z Instytutem Dziennikarstwa i Komunikacji Społecznej. Był pomysłodawcą **Galerii „Łącznik”**, utworzonej w 2007 roku w przestrzeni łączącej budynki Instytutu Matematycznego i Instytutu Informatyki. Galeria stała się miejscem prezentacji sztuki współczesnej oraz współpracy Uniwersytetu Wrocławskiego z Akademią Sztuk Pięknych.
 
-### Działalność społeczna i opozycyjna {#DzialalnoscSpoleczna}
+## Działalność społeczna i opozycyjna {#dzialalnosc-spoleczna}
 
 Szczególnie ważną część biografii dr. Krzysztofa Tabisza stanowi jego działalność społeczna w okresie stanu wojennego i przemian demokratycznych w Polsce.
 
@@ -173,7 +185,7 @@ W 1989 roku był jednym z założycieli **Wrocławskiego Towarzystwa Opieki nad 
 
 Jego działalność wyróżniała się konsekwentnym łączeniem zaangażowania obywatelskiego z bezpośrednią pomocą ludziom znajdującym się w trudnej sytuacji życiowej.
 
-### Odznaczenia i wyróżnienia {#Odznaczenia}
+## Odznaczenia i wyróżnienia {#odznaczenia}
 
 Za działalność zawodową, społeczną i obywatelską dr Krzysztof Tabisz otrzymał liczne wyrazy uznania, w tym **wyróżnienie Polcul Foundation (1988)** za wspieranie niezależnej kultury polskiej oraz **Medal Złoty za Długoletnią Służbę (2008)**.
 
@@ -182,7 +194,3 @@ W **2026 roku został laureatem odznaki honorowej „Wrocławska Wolność”**,
 Podczas uroczystości wręczenia odznaczeń, która odbyła się **25 czerwca 2026 roku** w Uniwersytecie Wrocławskim, dr Krzysztof Tabisz zabrał głos w imieniu uhonorowanych. Przypomniał solidarność środowiska akademickiego w okresie stanu wojennego, podkreślając wspólnotowy charakter działań podejmowanych na rzecz osób represjonowanych.
 
 Jego wieloletnia działalność stanowi ważną część historii Instytutu Matematycznego oraz świadectwo zaangażowania środowiska Uniwersytetu Wrocławskiego w przemiany demokratyczne i życie społeczne Wrocławia.
-
-<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- TBA: Pusta Treść = sylwetka „TBA” (imię, lata i znaczek TBA). Tekst pisz według innych sylwetek: :::w-skrocie, sekcje ## z {#id}, „## Źródła {#zrodla}”. -->

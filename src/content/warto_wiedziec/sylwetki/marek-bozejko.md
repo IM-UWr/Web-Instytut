@@ -4,6 +4,19 @@ opublikowany: false
 lata: "ur. 1946"
 podpis: "Twórca wrocławskiej szkoły nieprzemiennej analizy harmonicznej"
 podpis_en: ""
+liczby:
+  - n: "1800+"
+    n_en: ""
+    etykieta: "cytowań"
+    etykieta_en: "citations"
+  - n: "9"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
+  - n: "72"
+    n_en: ""
+    etykieta: "publikacje"
+    etykieta_en: "publications"
 rocznica_urodzin: "09-09"
 karta:
   zajawka: "Twórca wrocławskiej szkoły nieprzemiennej analizy harmonicznej i probabilistyki nieprzemiennej, współautor teorii q-zdeformowanej przestrzeni Focka."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1973** — doktorat w IM PAN
-- **72** — publikacje naukowe
-- **1800+** — cytowań
-- **9** — wypromowanych doktorów
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

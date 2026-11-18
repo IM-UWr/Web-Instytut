@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1914–1992"
 podpis: "Pionier analizy harmonicznej we Wrocławiu, nauczyciel i opozycjonista"
 podpis_en: ""
+liczby:
+  - n: "1964"
+    n_en: ""
+    etykieta: "zbiory interpolacyjne"
+    etykieta_en: "interpolation sets"
+  - n: "1953"
+    n_en: ""
+    etykieta: "Nagroda Banacha"
+    etykieta_en: "Banach Prize"
+  - n: "1968"
+    n_en: ""
+    etykieta: "poparł studentów"
+    etykieta_en: "backed the students"
 rocznica_urodzin: "08-02"
 karta:
   zajawka: "Wraz z Czesławem Ryll-Nardzewskim wprowadził zbiory interpolacyjne; jego nazwisko noszą też pojęcia teorii rozkładu jednostajnego. W 1968 r. usunięty z Uniwersytetu za poparcie studentów."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1947** — doktorat u Edwarda Marczewskiego
-- **1953** — Nagroda Główna PTM im. Stefana Banacha
-- **1964** — praca o zbiorach interpolacyjnych (z C. Ryll-Nardzewskim)
-- **5** — doktorów według [Mathematics Genealogy Project](https://mathgenealogy.org/id.php?id=34146)
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

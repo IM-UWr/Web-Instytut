@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1932–2025"
 podpis: "Grafy, gry nieskończone i aksjomat determinacji"
 podpis_en: ""
+liczby:
+  - n: "1962"
+    n_en: ""
+    etykieta: "aksjomat determinacji"
+    etykieta_en: "axiom of determinacy"
+  - n: "1955"
+    n_en: ""
+    etykieta: "grafy Mycielskiego"
+    etykieta_en: "Mycielski graphs"
+  - n: "1965"
+    n_en: ""
+    etykieta: "Nagroda Banacha"
+    etykieta_en: "Banach Prize"
 rocznica_urodzin: ""
 karta:
   zajawka: "Absolwent i doktor Uniwersytetu Wrocławskiego, uczeń Stanisława Hartmana. Z Hugonem Steinhausem zaproponował aksjomat determinacji, a jego konstrukcja grafów bez trójkątów nosi dziś jego nazwisko."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1955** — konstrukcja grafów Mycielskiego
-- **1962** — aksjomat determinacji (z Hugonem Steinhausem)
-- **1965** — Nagroda im. Stefana Banacha PTM
-- **6** — wypromowanych doktorów (wg [Mathematics Genealogy Project](https://www.mathgenealogy.org/id.php?id=25278))
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

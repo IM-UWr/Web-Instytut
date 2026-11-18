@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1926–2015"
 podpis: "Matematyk wszechstronny: logika, analiza, miara, prawdopodobieństwo"
 podpis_en: ""
+liczby:
+  - n: "1964"
+    n_en: ""
+    etykieta: "dziekan wydziału"
+    etykieta_en: "faculty dean"
+  - n: "100+"
+    n_en: ""
+    etykieta: "publikacji"
+    etykieta_en: "publications"
+  - n: "1952"
+    n_en: ""
+    etykieta: "nagroda PTM"
+    etykieta_en: "Mazurkiewicz Prize"
 rocznica_urodzin: "10-07"
 karta:
   zajawka: "Autor twierdzeń o punkcie stałym, o selektorach mierzalnych i o teoriach ω-kategorycznych. Związany z Uniwersytetem Wrocławskim, a od 1976 roku z Politechniką Wrocławską."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1952** — Nagroda PTM im. Stefana Mazurkiewicza
-- **1964–1966** — dziekan Wydziału Matematyki, Fizyki i Chemii UWr
-- **18** — wypromowanych doktorów (wg [Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=65032))
-- **100+** — opublikowanych prac naukowych
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

@@ -4,6 +4,19 @@ opublikowany: true
 lata: "1893–1980"
 podpis: "Topolog, jeden z czterech pionierów wrocławskiej matematyki"
 podpis_en: ""
+liczby:
+  - n: "1945"
+    n_en: ""
+    etykieta: "katedra topologii"
+    etykieta_en: "Chair of Topology"
+  - n: "1922"
+    n_en: ""
+    etykieta: "pseudołuk"
+    etykieta_en: "pseudo-arc"
+  - n: "8"
+    n_en: ""
+    etykieta: "doktorów"
+    etykieta_en: "doctoral students"
 rocznica_urodzin: "05-22"
 karta:
   zajawka: "Topolog ze szkoły warszawskiej, współautor twierdzenia Knastera–Tarskiego i lematu KKM. Od 1945 roku budował matematykę we Wrocławiu i przez dziesięciolecia prowadził seminarium, które wychowało wrocławskich topologów."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1922** — pierwsze kontinuum dziedzicznie nierozkładalne (rozprawa doktorska)
-- **1945** — Katedra Topologii od pierwszych wykładów we Wrocławiu
-- **1947** — początek seminarium wyższego z topologii
-- **8** — wypromowanych doktorów (według [Mathematics Genealogy Project](https://mathgenealogy.org/id.php?id=25831))
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 

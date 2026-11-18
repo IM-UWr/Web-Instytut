@@ -4,6 +4,19 @@ opublikowany: false
 lata: "ur. 1958"
 podpis: "Badacz nieliniowych równań ewolucji i modeli chemotaksji"
 podpis_en: ""
+liczby:
+  - n: "2016"
+    n_en: ""
+    etykieta: "członek PAN"
+    etykieta_en: "PAS member"
+  - n: "2008"
+    n_en: ""
+    etykieta: "dziekan WMI"
+    etykieta_en: "Faculty dean"
+  - n: "1988"
+    n_en: ""
+    etykieta: "Nagroda Kuratowskiego"
+    etykieta_en: "Kuratowski Prize"
 rocznica_urodzin: ""
 karta:
   zajawka: "Bada, kiedy rozwiązania równań opisujących skupianie się mikroorganizmów lub cząstek grawitujących istnieją dla wszystkich czasów, a kiedy wybuchają. Członek rzeczywisty PAN, dziekan WMI w latach 2008–2016."
@@ -18,16 +31,6 @@ format_tresci: "jawne"
 tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
-
-<!-- W SKRÓCIE: Każdy punkt: **liczba lub rok** — krótki podpis (może mieć link). 3–5 punktów. Lat życia tu nie wpisuj: są w polu „Lata”. -->
-:::w-skrocie
-
-- **1984** — doktorat na Uniwersytecie Wrocławskim
-- **2008–2016** — dziekan Wydziału Matematyki i Informatyki
-- **2016** — członek korespondent PAN, od 2022 członek rzeczywisty
-- **2024–2026** — prezes Oddziału PAN we Wrocławiu
-
-:::
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
