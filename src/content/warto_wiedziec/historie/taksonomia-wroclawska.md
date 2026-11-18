@@ -19,6 +19,6 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-Na seminarium zastosowań Hugona Steinhausa powstała **taksonomia wrocławska** — metoda klasyfikacji oparta na najkrótszym dendrycie łączącym punkty zbioru. Opublikowali ją w 1951 roku **Florek, Łukaszewicz, Perkal, Steinhaus i Zubrzycki**.
+Na seminarium zastosowań Hugona Steinhausa powstała **taksonomia wrocławska** — metoda klasyfikacji oparta na najkrótszym dendrycie łączącym punkty zbioru. Opublikowali ją w 1951 roku **Florek, Łukaszewicz, [Perkal](/instytut/warto-wiedziec/julian-perkal), [Steinhaus](/instytut/warto-wiedziec/hugo-steinhaus) i Zubrzycki**.
 
 To jedno z wczesnych, niezależnych rozwiązań problemu, który dziś nazywa się problemem minimalnego drzewa rozpinającego.

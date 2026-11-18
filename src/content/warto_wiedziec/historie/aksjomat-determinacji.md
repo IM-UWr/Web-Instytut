@@ -19,4 +19,4 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-W 1962 roku **Jan Mycielski** i **Hugo Steinhaus** zaproponowali **aksjomat determinacji** — aksjomat teorii mnogości mówiący o grach nieskończonych.
+W 1962 roku [**Jan Mycielski**](/instytut/warto-wiedziec/jan-mycielski) i [**Hugo Steinhaus**](/instytut/warto-wiedziec/hugo-steinhaus) zaproponowali **aksjomat determinacji** — aksjomat teorii mnogości mówiący o grach nieskończonych.
