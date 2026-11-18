@@ -4,7 +4,9 @@ opis: "Sieć eduroam w Instytucie Matematycznym: kto może się podłączyć i j
 tytul_en: "Wireless network access"
 opis_en: "The eduroam network at the Mathematical Institute: who can connect and how; the \"matematyka\" network for guests."
 tresc_en: |
-  ## eduroam
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  ## eduroam {#eduroam}
 
   A computer connected to the eduroam network gets a public IP address, so you do not need to set up a proxy in your browser.
 
@@ -24,16 +26,18 @@ tresc_en: |
 
   Download the eduroam installer from [cat.eduroam.org](https://cat.eduroam.org/), then run the downloaded file (e.g. by typing `python file_name` in a terminal).
 
-  ## Other wireless networks at the Institute
+  ## Other wireless networks at the Institute {#other-wireless-networks-at-the-institute}
 
   The Institute network has an access point called **matematyka** providing wireless internet access. The **matematyka** network is intended only for guests of the Institute; students and staff do not have access to it.
 
   [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
-## Sieć eduroam
+## Sieć eduroam {#sieć-eduroam}
 
 Komputer podłączony do sieci eduroam dostaje publiczny adres IP. Oznacza to, że użytkownik nie musi ustawiać proxy w używanej przeglądarce.
 
@@ -53,7 +57,7 @@ Polecamy również stronę [eduroam.pwr.wroc.pl](http://eduroam.pwr.wroc.pl/).
 
 Ze strony [cat.eduroam.org](https://cat.eduroam.org/) należy pobrać instalator eduroam, a następnie uruchomić pobrany plik (np. wpisując w terminalu polecenie `python nazwa_pliku`).
 
-## Inne sieci bezprzewodowe w Instytucie
+## Inne sieci bezprzewodowe w Instytucie {#inne-sieci-bezprzewodowe-w-instytucie}
 
 W sieci Instytutu uruchomiono punkt dostępowy **matematyka** umożliwiający dostęp do internetu drogą radiową. Sieć **matematyka** jest przeznaczona wyłącznie dla gości Instytutu. Studenci i pracownicy nie mają do niej dostępu.
 

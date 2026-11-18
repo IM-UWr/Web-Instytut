@@ -4,9 +4,11 @@ opis: "Systemy operacyjne i oprogramowanie zainstalowane w laboratoriach kompute
 tytul_en: "Software in the computer labs"
 opis_en: "Operating systems and software installed in the Institute computer laboratories."
 tresc_en: |
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
   > The list comes from the previous Institute website (no update date given; the most recent program version listed there is Maple 2022) and may be out of date. For current information contact the administrators: [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl), room 402.
 
-  ## Software in individual labs
+  ## Software in individual labs {#software-in-individual-labs}
 
   | Lab | Operating system | Installed software |
   | --- | --- | --- |
@@ -20,7 +22,7 @@ tresc_en: |
   | 417 | Windows 10 | Office 2013, R, Notepad++ |
   | 417 | Debian Linux | Maple 2022 (10), Matlab R2012b (R14), Mathematica 12 |
 
-  ## Software on all Linux computers
+  ## Software on all Linux computers {#software-on-all-linux-computers}
 
   In addition, all computers running Linux provide:
 
@@ -35,11 +37,13 @@ tresc_en: |
   [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
 > Wykaz przeniesiony z poprzedniej strony Instytutu (bez daty aktualizacji; najnowsza wymieniona tam wersja programu to Maple 2022) — może być nieaktualny. Aktualne informacje: administratorzy sieci, [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl), pok. 402.
 
-## Oprogramowanie w poszczególnych pracowniach
+## Oprogramowanie w poszczególnych pracowniach {#oprogramowanie-w-poszczególnych-pracowniach}
 
 | Pracownia | System operacyjny | Zainstalowane programy |
 | --- | --- | --- |
@@ -53,7 +57,7 @@ pasek_boczny: brak
 | 417 | Windows 10 | Office 2013, R, Notepad++ |
 | 417 | Debian Linux | Maple 2022 (10), Matlab R2012b (R14), Mathematica 12 |
 
-## Programy na wszystkich komputerach z systemem Linux
+## Programy na wszystkich komputerach z systemem Linux {#programy-na-wszystkich-komputerach-z-systemem-linux}
 
 Na wszystkich komputerach pod systemem Linux dostępne są ponadto:
 

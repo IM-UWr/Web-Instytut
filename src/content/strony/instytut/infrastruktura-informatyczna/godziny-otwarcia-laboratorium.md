@@ -4,14 +4,16 @@ opis: "Gdzie są pracownie komputerowe dla studentów, kiedy są czynne i jak z 
 tytul_en: "Computer laboratory opening hours"
 opis_en: "Where the student computer labs are, when they are open and how to use them."
 tresc_en: |
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
   The Mathematical Institute has five laboratories for students. The computers in the labs are intended mainly for classes, but when no classes are held there, the labs are available to all users. You may also use a lab during classes you are not taking part in, but only with the teacher's permission.
 
-  ## Where the labs are
+  ## Where the labs are {#where-the-labs-are}
 
   - **Student labs 410–417** are in the Mathematical Institute building. If a lab is locked, ask in room 402 to have it opened. The last person leaving the lab should notify the person on duty in room 402 or the porter so that the room can be locked.
   - **Laboratory 6** is in the Institute of Computer Science building. To use it outside class hours, mathematics students collect the key from the porter's desk of the Institute of Computer Science.
 
-  ## Opening hours
+  ## Opening hours {#opening-hours}
 
   | Period | Days | Hours |
   | --- | --- | --- |
@@ -25,7 +27,7 @@ tresc_en: |
 
   During the holidays individual labs may be temporarily unavailable because of equipment replacement, system installation or upgrades, or other maintenance work.
 
-  ## Timetables and remote login
+  ## Timetables and remote login {#timetables-and-remote-login}
 
   Detailed lab timetables are available on the Institute website — [winter semester](/en/studia/plan-zajec#zimowy) and [summer semester](/en/studia/plan-zajec#letni) (Polish) — and on the lab doors.
 
@@ -34,16 +36,18 @@ tresc_en: |
   [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
 Instytut Matematyczny posiada pięć laboratoriów dla studentów. Komputery w pracowniach są przeznaczone głównie do zajęć dydaktycznych, ale gdy zajęcia się w nich nie odbywają, laboratoria są dostępne dla wszystkich użytkowników. Można też korzystać z tych pracowni podczas zajęć, w których się nie uczestniczy, ale wyłącznie za zgodą prowadzącego.
 
-## Gdzie są pracownie
+## Gdzie są pracownie {#gdzie-są-pracownie}
 
 - **Laboratoria studenckie 410–417** znajdują się w Instytucie Matematycznym. Jeżeli laboratorium jest zamknięte, należy zwrócić się do pokoju 402 z prośbą o jego otwarcie. Ostatnia osoba wychodząca z laboratorium powinna zawiadomić dyżurnego w pokoju 402 lub portiera w celu zamknięcia sali.
 - **Laboratorium 6** znajduje się w Instytucie Informatyki. Aby skorzystać z niego poza godzinami zajęć dydaktycznych, studenci matematyki pobierają klucz z portierni Instytutu Informatyki.
 
-## Godziny otwarcia
+## Godziny otwarcia {#godziny-otwarcia}
 
 | Okres | Dni | Godziny |
 | --- | --- | --- |
@@ -57,7 +61,7 @@ Instytut Matematyczny posiada pięć laboratoriów dla studentów. Komputery w p
 
 W okresie wakacji poszczególne laboratoria mogą być czasowo niedostępne z powodu wymiany sprzętu, instalacji lub aktualizacji systemu albo innych prac serwisowych.
 
-## Plany zajęć i zdalne logowanie
+## Plany zajęć i zdalne logowanie {#plany-zajęć-i-zdalne-logowanie}
 
 Szczegółowe plany zajęć można znaleźć na stronie Instytutu — [semestr zimowy](/studia/plan-zajec#zimowy) i [semestr letni](/studia/plan-zajec#letni) — oraz na drzwiach laboratoriów.
 

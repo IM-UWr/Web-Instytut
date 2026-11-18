@@ -3,6 +3,8 @@ tytul: Instytut
 opublikowany: true
 tytul_en: Institute
 tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
   The Mathematical Institute of the University of Wrocław grows out of the traditions of the pre-war Lwów and Warsaw schools of mathematics. Lectures at the new Polish University of Wrocław began on 15 November 1945, and mathematics in Wrocław was built from scratch by four pioneers: Hugo Steinhaus, Edward Marczewski, Bronisław Knaster and Władysław Ślebodziński. In 1946 Steinhaus entered the first problem in the New Scottish Book, a successor to the famous Lwów collection of problems. The same four founded the journal Colloquium Mathematicum, whose editorial office is still based at the Institute, and in 1948 the Lwów journal Studia Mathematica resumed publication in Wrocław.
 
   This marked the birth of the Wrocław school of mathematics, and Wrocław soon became one of the leading centres of mathematics in Poland. Steinhaus's seminar on applications produced the Wrocław taxonomy, a classification method based on the shortest dendrite connecting the points of a set, published in 1951 by Florek, Łukaszewicz, Perkal, Steinhaus and Zubrzycki – one of the early, independent solutions to the minimum spanning tree problem. In 1962 Jan Mycielski and Hugo Steinhaus proposed the axiom of determinacy. Kazimierz Urbanik headed the first chair of probability theory in Polish mathematics, and in 1980 Wrocław probabilists founded the journal Probability and Mathematical Statistics.
@@ -15,7 +17,9 @@ tresc_en: |-
 
   The Mathematics Education and Outreach Unit looks after teacher training and links with schools, and the whole Institute is open to visitors: we organise seminars, conferences and public lectures. In September 2017, during the conference "Analysis and Applications" held here in honour of Elias M. Stein, a public lecture by Terence Tao drew an audience of more than five hundred. We welcome you to work with us, to attend our seminars and to study mathematics in Wrocław.
 
-  ## Recent achievements
+  <!-- SUKCESY: Tekst pod tym nagłówkiem strona pokazuje nad listą ostatnich sukcesów. Zachowaj {#sukcesy}; bez niego tekst stanie na końcu „O Instytucie”. -->
+
+  ## Recent achievements {#sukcesy}
 
   Prizes, distinctions, grants and scholarships awarded to staff, PhD students, students and graduates of the Institute.
 wstep: 'Instytut Matematyczny Uniwersytetu Wrocławskiego: badania, seminaria i studia na wszystkich poziomach, w tradycji wrocławskiej szkoły matematycznej.'
@@ -38,7 +42,9 @@ o_instytucie_fakty:
   wartosc_en: 3 rectors
   opis: matematycy Marczewski, Urbanik i Duda kierowali Uniwersytetem Wrocławskim jako rektorzy
   opis_en: the mathematicians Marczewski, Urbanik and Duda led the University of Wrocław
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
 Instytut Matematyczny Uniwersytetu Wrocławskiego wyrasta z tradycji przedwojennych szkół matematycznych: lwowskiej i warszawskiej. Wykłady na polskim Uniwersytecie we Wrocławiu ruszyły 15 listopada 1945 roku, a wrocławską matematykę budowało od podstaw czterech pionierów: Hugo Steinhaus, Edward Marczewski, Bronisław Knaster i Władysław Ślebodziński. W 1946 roku Steinhaus wpisał pierwsze zagadnienie do Nowej Księgi Szkockiej — kontynuacji słynnego lwowskiego zbioru problemów. Ta sama czwórka założyła czasopismo „Colloquium Mathematicum”, którego redakcja do dziś mieści się w Instytucie, a w 1948 roku we Wrocławiu wznowiono wydawanie lwowskich „Studia Mathematica”.
 
@@ -52,6 +58,8 @@ Od końca lat sześćdziesiątych Instytut mieści się przy placu Grunwaldzkim 
 
 Pracownia Dydaktyki i Popularyzacji Matematyki dba o kształcenie przyszłych nauczycieli i kontakt ze szkołami, a cały Instytut chętnie otwiera się na gości: organizujemy seminaria, konferencje i wykłady otwarte. We wrześniu 2017 roku, podczas zorganizowanej u nas konferencji „Analiza i zastosowania” na cześć Eliasa M. Steina, otwarty wykład Terence’a Tao przyciągnął ponad pół tysiąca słuchaczy. Zapraszamy do współpracy, na nasze seminaria i do studiowania matematyki we Wrocławiu.
 
-## Ostatnie sukcesy
+<!-- SUKCESY: Tekst pod tym nagłówkiem strona pokazuje nad listą ostatnich sukcesów. Zachowaj {#sukcesy}; bez niego tekst stanie na końcu „O Instytucie”. -->
+
+## Ostatnie sukcesy {#sukcesy}
 
 Nagrody, wyróżnienia, granty i stypendia pracowników, doktorantów, studentów i absolwentów Instytutu.

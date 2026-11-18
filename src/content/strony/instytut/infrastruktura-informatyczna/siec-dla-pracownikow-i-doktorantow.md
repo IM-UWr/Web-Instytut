@@ -4,16 +4,18 @@ opis: "Administratorzy sieci, strony domowe WWW i dostęp przez VPN dla pracowni
 tytul_en: "Computer network for staff and PhD students"
 opis_en: "Network administrators, personal web pages and VPN access for Institute staff and PhD students."
 tresc_en: |
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
   > Based on the document "Sieć komputerowa dla pracowników i doktorantów" from the previous Institute website (file dated September 2023).
 
-  ## Network administrators
+  ## Network administrators {#network-administrators}
 
   - **Wojciech Leśniewski** and **Denis Kaniewski** — Institute of Computer Science, room 125, phone 71 375 7806
   - **Yevhen Borysovets** — Mathematical Institute, room 402, phone 71 375 7411
 
   All matters concerning, among other things, computer configuration, connecting printers, personal web pages and classes in the labs should be reported by e-mail to [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl) or in person in room 402.
 
-  ## Personal web pages
+  ## Personal web pages {#personal-web-pages}
 
   ### Basic functionality
 
@@ -32,7 +34,7 @@ tresc_en: |
 
   If you would like to use the above options, please contact [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl).
 
-  ## VPN
+  ## VPN {#vpn}
 
   To use the Mathematical Institute staff network from outside the Institute, you can use a VPN supporting the PPTP and L2TP protocols. The VPN server address is provided by the network administrators.
 
@@ -47,18 +49,20 @@ tresc_en: |
   [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
 > Na podstawie dokumentu „Sieć komputerowa dla pracowników i doktorantów” z poprzedniej strony Instytutu (plik z września 2023 r.).
 
-## Administratorzy sieci
+## Administratorzy sieci {#administratorzy-sieci}
 
 - **Wojciech Leśniewski** i **Denis Kaniewski** — Instytut Informatyki, pok. 125, tel. 71 375 7806
 - **Yevhen Borysovets** — Instytut Matematyczny, pok. 402, tel. 71 375 7411
 
 Wszystkie sprawy dotyczące m.in. konfiguracji komputerów, podłączenia drukarek, prywatnych stron WWW i zajęć w laboratoriach należy zgłaszać, pisząc na adres [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl), lub bezpośrednio w pokoju 402.
 
-## Strony domowe WWW
+## Strony domowe WWW {#strony-domowe-www}
 
 ### Podstawowa funkcjonalność
 
@@ -77,7 +81,7 @@ Pisząc na adres [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl), można
 
 W przypadku chęci skorzystania z powyższych możliwości prosimy o kontakt: [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl).
 
-## VPN
+## VPN {#vpn}
 
 Aby korzystać z sieci pracowniczej Instytutu Matematycznego poza Instytutem, można skorzystać z VPN obsługującego protokoły PPTP oraz L2TP. Adres serwera VPN udostępniają administratorzy sieci.
 

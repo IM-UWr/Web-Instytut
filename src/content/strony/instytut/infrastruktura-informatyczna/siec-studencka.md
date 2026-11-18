@@ -4,9 +4,11 @@ opis: "Konta studentów w sieci Instytutu, laboratoria komputerowe i dostęp prz
 tytul_en: "Student network and computer labs"
 opis_en: "Student accounts in the Institute network, computer labs and VPN access."
 tresc_en: |
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
   > Based on the document "Sieć studencka i laboratoria komputerowe" from the previous Institute website (file dated October 2023).
 
-  ## Computer labs
+  ## Computer labs {#computer-labs}
 
   The Mathematical Institute has four laboratories for students (410, 411, 416 and 417). The computers in the labs are intended mainly for classes, but when no classes are held there, the labs are available to all users. You may also use a lab during classes you are not taking part in, but only with the teacher's permission.
 
@@ -14,13 +16,13 @@ tresc_en: |
 
   Opening hours: [Computer laboratory opening hours](/en/instytut/infrastruktura-informatyczna/godziny-otwarcia-laboratorium). Software: [Software in the computer labs](/en/instytut/infrastruktura-informatyczna/programy-w-pracowniach).
 
-  ## Student accounts
+  ## Student accounts {#student-accounts}
 
   All active students of Mathematics at the University of Wrocław have accounts in the student network of the Mathematical Institute. The login and password are sent to students by e-mail and are the same for Windows and Linux.
 
   Lab teachers get access to the student network by writing to [admin@uwr.edu.pl](mailto:admin@uwr.edu.pl) or in person in room 402.
 
-  ## VPN for students
+  ## VPN for students {#vpn-for-students}
 
   To use the Mathematical Institute network from outside the Institute, students should use the VPN. The student VPN supports the PPTP protocol. The VPN server address is provided by the network administrators. The login and password are the same as in the computer labs.
 
@@ -33,11 +35,13 @@ tresc_en: |
   [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
 > Na podstawie dokumentu „Sieć studencka i laboratoria komputerowe” z poprzedniej strony Instytutu (plik z października 2023 r.).
 
-## Laboratoria komputerowe
+## Laboratoria komputerowe {#laboratoria-komputerowe}
 
 Instytut Matematyczny posiada cztery laboratoria dla studentów (410, 411, 416 i 417). Komputery w pracowniach są przeznaczone głównie do zajęć dydaktycznych, ale gdy zajęcia się w nich nie odbywają, laboratoria są dostępne dla wszystkich użytkowników. Można też korzystać z tych pracowni podczas zajęć, w których się nie uczestniczy, ale wyłącznie za zgodą prowadzącego.
 
@@ -45,13 +49,13 @@ Laboratoria studenckie wyposażone są w 15 zestawów komputerowych klasy PC. Na
 
 Godziny otwarcia: [Godziny otwarcia laboratorium komputerowego](/instytut/infrastruktura-informatyczna/godziny-otwarcia-laboratorium). Oprogramowanie: [Programy dostępne w pracowniach komputerowych](/instytut/infrastruktura-informatyczna/programy-w-pracowniach).
 
-## Konta studenckie
+## Konta studenckie {#konta-studenckie}
 
 Wszyscy aktywni studenci kierunku Matematyka UWr mają założone konta w sieci studenckiej Instytutu Matematycznego. Login i hasło są przesyłane studentom mailem i są wspólne dla systemów Windows i Linux.
 
 Prowadzący laboratoria otrzymają dostęp do sieci studenckiej, pisząc w tej sprawie na adres [admin@uwr.edu.pl](mailto:admin@uwr.edu.pl) lub osobiście w pok. 402.
 
-## VPN dla studentów
+## VPN dla studentów {#vpn-dla-studentów}
 
 Aby korzystać z sieci Instytutu Matematycznego poza Instytutem, student powinien skorzystać z VPN. VPN dla studentów obsługuje protokół PPTP. Adres serwera VPN udostępniają administratorzy sieci. Login i hasło są takie same jak w pracowniach komputerowych.
 

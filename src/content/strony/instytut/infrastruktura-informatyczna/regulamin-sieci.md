@@ -4,17 +4,19 @@ opis: "Zasady korzystania z sieci komputerowej i Laboratorium Komputerowego Inst
 tytul_en: "Regulations of the Mathematical Institute local computer network"
 opis_en: "Rules for using the computer network and the Computer Laboratory of the Mathematical Institute, University of Wrocław."
 tresc_en: |
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
   Every user of the Computer Network and the Computer Laboratory of the Mathematical Institute, University of Wrocław, is bound by:
 
   1. the Polish Criminal Code, Chapter XXXIII "Offences against the protection of information" ([Journal of Laws 1997 No. 88 item 553](http://isap.sejm.gov.pl/DetailsServlet?id=WDU19970880553));
   2. the regulations of the University of Wrocław, in particular [Rector's Order No. 142/2017](http://bip.uni.wroc.pl/download/attachment/12922/nr-142_2017_regulamin-bezpieczenstwa-informacji.pdf) on the security of information processed in IT systems and the rules for using the IT infrastructure of the University of Wrocław (Polish);
   3. the Regulations of the Computer Network and the Computer Laboratory of the Mathematical Institute, set out below.
 
-  ## Introduction
+  ## Introduction {#introduction}
 
   These regulations apply to all users of the computer systems maintained by the Computer Laboratory of the Mathematical Institute.
 
-  ## General provisions
+  ## General provisions {#general-provisions}
 
   1. A user may use the resources of the Institute network only after an account has been created, i.e. after being assigned a user name (login name) and a password. Being assigned a user name also obliges the user to read and comply with these regulations.
   2. The right to use the resources of the Institute network is granted by the Dean of the Faculty.
@@ -25,7 +27,7 @@ tresc_en: |
   7. During classes only students taking part in those classes according to the timetable may be present in the lab; other users only if the teacher agrees before the class begins.
   8. Outside class hours users may use the computer laboratory during the working hours of the network administrators.
 
-  ## Rights and obligations of the user
+  ## Rights and obligations of the user {#rights-and-obligations-of-the-user}
 
   1. The user has the right to privacy of the data stored in the resources of the Institute network.
   2. The Computer Laboratory will make every effort to ensure the security of user data.
@@ -43,7 +45,7 @@ tresc_en: |
   - using processor time economically,
   - using shared disk space (e.g. `/tmp`) economically.
 
-  ## Prohibitions
+  ## Prohibitions {#prohibitions}
 
   1. An account in the Institute network may be used only by the person to whom it was assigned. Sharing an account or its password with another person will result in the account being blocked immediately.
   2. Using the equipment or software made available to users for commercial purposes is prohibited.
@@ -55,7 +57,7 @@ tresc_en: |
   8. It is forbidden to change the configuration of a computer.
   9. Eating and drinking in the computer laboratories is prohibited.
 
-  ## Sanctions
+  ## Sanctions {#sanctions}
 
   Users who violate these regulations are subject to the sanctions provided for in Polish law and the disciplinary sanctions set out in the Regulations of the University of Wrocław. For actions contrary to these regulations, the Dean of the Faculty may:
 
@@ -66,7 +68,9 @@ tresc_en: |
   [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
+format_tresci: jawne
 ---
+<!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
 Każdego użytkownika Sieci Komputerowej i Laboratorium Komputerowego Instytutu Matematycznego Uniwersytetu Wrocławskiego obowiązują:
 
@@ -74,11 +78,11 @@ Każdego użytkownika Sieci Komputerowej i Laboratorium Komputerowego Instytutu 
 2. regulaminy Uniwersytetu Wrocławskiego, w szczególności [Zarządzenie Rektora UWr nr 142/2017](http://bip.uni.wroc.pl/download/attachment/12922/nr-142_2017_regulamin-bezpieczenstwa-informacji.pdf) w sprawie bezpieczeństwa informacji przetwarzanych w systemach informatycznych oraz zasad korzystania z infrastruktury informatycznej Uniwersytetu Wrocławskiego;
 3. Regulamin Sieci Komputerowej i Laboratorium Komputerowego Instytutu Matematycznego Uniwersytetu Wrocławskiego (poniżej).
 
-## Wstęp
+## Wstęp {#wstęp}
 
 Regulamin Sieci Komputerowej i Laboratorium Komputerowego Instytutu Matematycznego Uniwersytetu Wrocławskiego dotyczy wszystkich użytkowników systemów komputerowych znajdujących się pod opieką Laboratorium Komputerowego.
 
-## Postanowienia ogólne
+## Postanowienia ogólne {#postanowienia-ogólne}
 
 1. Użytkownik może korzystać z zasobów sieci instytutowej jedynie po założeniu konta, czyli przydzieleniu mu nazwy użytkownika (login name) oraz hasła (password). Przydzielenie nazwy jednocześnie zobowiązuje do zapoznania się z niniejszym regulaminem i przestrzegania go.
 2. O przyznaniu prawa do korzystania z zasobów sieci instytutowej decyduje Dziekan Wydziału.
@@ -89,7 +93,7 @@ Regulamin Sieci Komputerowej i Laboratorium Komputerowego Instytutu Matematyczne
 7. W czasie zajęć dydaktycznych w pracowni mogą przebywać tylko studenci, którzy zgodnie z planem uczestniczą w zajęciach; pozostali użytkownicy — jedynie wtedy, gdy przed rozpoczęciem zajęć zgodzi się na to prowadzący.
 8. W czasie wolnym od zajęć dydaktycznych użytkownicy mogą korzystać z laboratorium komputerowego w godzinach pracy administratorów sieci.
 
-## Prawa i obowiązki użytkownika
+## Prawa i obowiązki użytkownika {#prawa-i-obowiązki-użytkownika}
 
 1. Użytkownik ma prawo do prywatności danych przechowywanych w zasobach sieci instytutowej.
 2. Laboratorium Komputerowe dołoży starań w celu zapewnienia bezpieczeństwa danych użytkownika.
@@ -107,7 +111,7 @@ W swoich działaniach użytkownik powinien unikać działań utrudniających pra
 - oszczędne wykorzystywanie czasu procesora,
 - oszczędne wykorzystywanie współdzielonego miejsca na dysku (np. `/tmp`).
 
-## Zakazy
+## Zakazy {#zakazy}
 
 1. Z konta w sieci instytutowej może korzystać wyłącznie osoba, której zostało ono przydzielone. Stwierdzenie udostępnienia konta bądź hasła do niego innej osobie spowoduje natychmiastowe zablokowanie konta.
 2. Zabrania się wykorzystywania do celów komercyjnych sprzętu lub oprogramowania udostępnionego użytkownikom.
@@ -119,7 +123,7 @@ W swoich działaniach użytkownik powinien unikać działań utrudniających pra
 8. Zabrania się dokonywania zmian w konfiguracji komputera.
 9. Zabrania się spożywania posiłków lub napojów w laboratoriach komputerowych.
 
-## Sankcje
+## Sankcje {#sankcje}
 
 Wobec użytkowników łamiących postanowienia niniejszego regulaminu stosowane będą sankcje przewidziane w polskim prawie i sankcje dyscyplinarne określone w Regulaminie Uniwersytetu Wrocławskiego. Dziekan Wydziału za działania sprzeczne z niniejszym regulaminem może:
 
