@@ -1,5 +1,5 @@
 ---
-tytul: Test zlecenia 41 — zapis 1 z 3
+tytul: Test zlecenia 41 — zapis 2 z 3
 opis: Strona tymczasowa do sprawdzenia, że po serii zapisów Podgląd pokazuje ostatni. Zostanie usunięta.
 ---
-Zapis testowy numer 1 z 3 (00:43:32 UTC).
+Zapis testowy numer 2 z 3 (00:43:56 UTC).
