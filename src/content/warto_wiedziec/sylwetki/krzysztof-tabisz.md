@@ -1,21 +1,13 @@
 ---
-tytul: "Krzysztof Tabisz"
+tytul: Krzysztof Tabisz
 opublikowany: true
-lata: ""
-podpis: ""
-podpis_en: ""
-rocznica_urodzin: ""
+format_tresci: jawne
 karta:
-  zajawka: ""
-  zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/tabisz.jpg
+dodano: 2026-11-18
 na_glownej: true
 ulubione: false
 zawsze: false
-dodano: ""
-format_tresci: "jawne"
-tresc_en: ""
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
