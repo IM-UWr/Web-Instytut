@@ -13,7 +13,7 @@ karta:
 na_glownej: true
 ulubione: false
 zawsze: false
-dodano: ""
+dodano: "2026-11-18"
 format_tresci: "jawne"
 tresc_en: ""
 ---
