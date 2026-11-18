@@ -151,7 +151,7 @@ zawsze: false
 
 **Dr Krzysztof Tabisz (ur. 1950)** – matematyk, wieloletni nauczyciel akademicki Uniwersytetu Wrocławskiego, działacz społeczny i opozycyjny, zasłużony organizator życia akademickiego. Przez ponad cztery dekady był związany z Instytutem Matematycznym Uniwersytetu Wrocławskiego, łącząc działalność naukową i dydaktyczną z zaangażowaniem na rzecz społeczności akademickiej oraz osób potrzebujących pomocy.
 
-### Działalność naukowa i akademicka
+### Działalność naukowa i akademicka{#DzialalnoscNaukowa}
 
 Pracę w Instytucie Matematycznym Uniwersytetu Wrocławskiego rozpoczął w 1973 roku. Stopień doktora nauk matematycznych uzyskał w 1982 roku na podstawie rozprawy *O pewnym zagadnieniu ze swobodnym brzegiem dla jednowymiarowego równania ciepła*, przygotowanej pod kierunkiem prof. Andrzeja Krzywickiego. Jego zainteresowania naukowe obejmowały równania różniczkowe cząstkowe, zagadnienia ze swobodnym brzegiem oraz teorię prawdopodobieństwa. Jest autorem i współautorem publikacji naukowych, między innymi w czasopismach *Journal of Mathematical Analysis and Applications*, *Applicationes Mathematicae* oraz *Journal of Theoretical Probability*.
 
@@ -161,7 +161,7 @@ W latach **1991–1996 pełnił przez dwie kadencje funkcję zastępcy dyrektora
 
 Należał również do inicjatorów **Międzywydziałowego Laboratorium Nowych Mediów**, powołanego w 2005 roku we współpracy Wydziału Matematyki i Informatyki z Instytutem Dziennikarstwa i Komunikacji Społecznej. Był pomysłodawcą **Galerii „Łącznik”**, utworzonej w 2007 roku w przestrzeni łączącej budynki Instytutu Matematycznego i Instytutu Informatyki. Galeria stała się miejscem prezentacji sztuki współczesnej oraz współpracy Uniwersytetu Wrocławskiego z Akademią Sztuk Pięknych.
 
-### Działalność społeczna i opozycyjna
+### Działalność społeczna i opozycyjna {#DzialalnoscSpoleczna}
 
 Szczególnie ważną część biografii dr. Krzysztofa Tabisza stanowi jego działalność społeczna w okresie stanu wojennego i przemian demokratycznych w Polsce.
 
@@ -173,7 +173,7 @@ W 1989 roku był jednym z założycieli **Wrocławskiego Towarzystwa Opieki nad 
 
 Jego działalność wyróżniała się konsekwentnym łączeniem zaangażowania obywatelskiego z bezpośrednią pomocą ludziom znajdującym się w trudnej sytuacji życiowej.
 
-### Odznaczenia i wyróżnienia
+### Odznaczenia i wyróżnienia {#Odznaczenia}
 
 Za działalność zawodową, społeczną i obywatelską dr Krzysztof Tabisz otrzymał liczne wyrazy uznania, w tym **wyróżnienie Polcul Foundation (1988)** za wspieranie niezależnej kultury polskiej oraz **Medal Złoty za Długoletnią Służbę (2008)**.
 
