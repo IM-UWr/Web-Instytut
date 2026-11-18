@@ -1,5 +1,6 @@
 ---
 tytul: Struktura i zakłady
+opublikowany: true
 tytul_en: Structure and departments
 tresc_en: |-
   The Mathematical Institute is a unit of the University of Wrocław that operates within the Faculty of Mathematics and Computer Science, alongside the Institute of Computer Science. It is headed by a Director, appointed by the Rector for the Rector's term of office and supported by Deputy Directors for teaching, research, general affairs and promotion. There is also an Institute Council, chaired by the Director, whose members include professors, habilitated researchers and representatives of the other staff. This framework is set by the University Statutes and the Institute's rules, while day-to-day matters are handled by the Institute office, the teaching office and administrative staff, from grants and finance to the computer labs.

@@ -1,5 +1,6 @@
 ---
 tytul: Instytut
+opublikowany: true
 tytul_en: Institute
 tresc_en: |-
   The Mathematical Institute of the University of Wrocław grows out of the traditions of the pre-war Lwów and Warsaw schools of mathematics. Lectures at the new Polish University of Wrocław began on 15 November 1945, and mathematics in Wrocław was built from scratch by four pioneers: Hugo Steinhaus, Edward Marczewski, Bronisław Knaster and Władysław Ślebodziński. In 1946 Steinhaus entered the first problem in the New Scottish Book, a successor to the famous Lwów collection of problems. The same four founded the journal Colloquium Mathematicum, whose editorial office is still based at the Institute, and in 1948 the Lwów journal Studia Mathematica resumed publication in Wrocław.

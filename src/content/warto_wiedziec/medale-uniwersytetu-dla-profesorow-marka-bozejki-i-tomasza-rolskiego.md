@@ -1,5 +1,6 @@
 ---
 tytul: Medale Uniwersytetu dla profesorów Marka Bożejki i Tomasza Rolskiego
+opublikowany: true
 tresc_en: >-
   During the University of Wrocław Day celebrations held on November 13, 2026,
   two distinguished mathematicians, Professors **Marek Bożejko** and **Tomasz
