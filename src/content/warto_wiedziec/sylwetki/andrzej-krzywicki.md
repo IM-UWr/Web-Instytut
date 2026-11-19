@@ -1,6 +1,6 @@
 ---
 tytul: "Andrzej Krzywicki"
-opublikowany: false
+opublikowany: true
 lata: "ur. 1928"
 podpis: "Pionier wrocławskich badań nad równaniami różniczkowymi"
 podpis_en: ""

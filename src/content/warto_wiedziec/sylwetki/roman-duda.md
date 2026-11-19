@@ -1,6 +1,6 @@
 ---
 tytul: "Roman Duda"
-opublikowany: false
+opublikowany: true
 lata: "ur. 1935"
 podpis: "Topolog i historyk matematyki, rektor UWr w latach 1995–1999"
 podpis_en: ""

@@ -1,6 +1,6 @@
 ---
 tytul: "Piotr Biler"
-opublikowany: false
+opublikowany: true
 lata: "ur. 1958"
 podpis: "Badacz nieliniowych równań ewolucji i modeli chemotaksji"
 podpis_en: ""

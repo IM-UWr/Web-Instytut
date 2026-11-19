@@ -1,6 +1,6 @@
 ---
 tytul: "Władysław Narkiewicz"
-opublikowany: false
+opublikowany: true
 lata: "ur. 1936"
 podpis: "Specjalista od teorii liczb i historyk matematyki"
 podpis_en: ""

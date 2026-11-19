@@ -1,6 +1,6 @@
 ---
 tytul: "Marek Bożejko"
-opublikowany: false
+opublikowany: true
 lata: "ur. 1946"
 podpis: "Twórca wrocławskiej szkoły nieprzemiennej analizy harmonicznej"
 podpis_en: ""
@@ -77,16 +77,6 @@ W Instytucie Matematycznym Uniwersytetu Wrocławskiego Profesor stworzył rozpoz
 Jego wykłady łączą wysoki poziom naukowy z umiejętnością ukazywania istoty problemu i pasją do odkrywania matematyki. Charakterystyczna dla nich jest szeroka perspektywa: Profesor przedstawia nie tylko twierdzenia i dowody, lecz także ich źródła, motywacje i związki z innymi dziedzinami. Jego seminaria stały się miejscem nauki samodzielnego stawiania problemów i rzeczowej dyskusji. Profesor inspiruje studentów do samodzielnych badań oraz wspiera współpracę między pokoleniami. Znany jest również jako popularyzator: występował na Festiwalach Nauki, spotkaniach z nauczycielami, wykładach szkolnych oraz w audycjach radiowych i internetowych, przybliżając publiczności zarówno najnowsze idee, jak i historię matematyki.
 
 Osiemdziesiąte urodziny prof. Marka Bożejki są okazją do uhonorowania uczonego, którego odkrycia należą do trwałego dorobku matematyki światowej, a działalność dydaktyczna i organizacyjna w istotny sposób ukształtowała współczesną matematykę wrocławską. Jego osiągnięcia łączą oryginalność badań, budowanie międzynarodowej wspólnoty naukowej i przekazywanie wiedzy kolejnym pokoleniom.
-
-## Do pobrania {#do-pobrania}
-
-<!-- PLIKI: Jeden dokument na punkt. Plik wgraj w „Media” i wklej link; po — można dopisać opis. -->
-
-:::pliki
-
-- [Nota biograficzna prof. Marka Bożejki](/pliki/aktualnosci/marekbozejkonotabiograficzna.pdf) — przygotowana na wręczenie Medalu Uniwersytetu Wrocławskiego (2026)
-
-:::
 
 ## Źródła {#zrodla}
 

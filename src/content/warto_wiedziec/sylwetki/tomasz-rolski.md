@@ -1,6 +1,6 @@
 ---
 tytul: "Tomasz Rolski"
-opublikowany: false
+opublikowany: true
 lata: "xxxx"
 podpis: "Probabilista: teoria kolejek, ryzyka i matematyka ubezpieczeniowa"
 podpis_en: ""
@@ -81,16 +81,6 @@ Reforma wymagała zaprojektowania nowych programów zajęć i stworzenia zaplecz
 Profesor Rolski pełnił wiele odpowiedzialnych funkcji na Uniwersytecie Wrocławskim. W latach 1988–1991 był zastępcą dyrektora Instytutu Matematycznego, w latach 1996–2002 jego dyrektorem, a w latach 2005–2008 dziekanem Wydziału Matematyki i Informatyki. Był również członkiem Senatu Uniwersytetu Wrocławskiego (2002–2005), a jako członek komisji statutowej uczestniczył we współtworzeniu statutu uczelni. Konsekwentnie wspierał rozwój kadry, współpracę międzynarodową i modernizację kształcenia.
 
 W listopadzie 2026 r., podczas Święta Uniwersytetu Wrocławskiego, profesor Tomasz Rolski odebrał Medal Uniwersytetu Wrocławskiego, przyznany przez Senat za szczególne zasługi dla Uczelni. Wyróżnienie to stanowi uznanie dla dorobku uczonego, który przez ponad pół wieku łączył badania na najwyższym poziomie z działalnością dydaktyczną, budowaniem środowiska naukowego oraz służbą społeczności akademickiej.
-
-## Do pobrania {#do-pobrania}
-
-<!-- PLIKI: Jeden dokument na punkt. Plik wgraj w „Media” i wklej link; po — można dopisać opis. -->
-
-:::pliki
-
-- [Nota biograficzna prof. Tomasza Rolskiego](/pliki/aktualnosci/tomaszrolskinotabiograficzna.pdf) — przygotowana na wręczenie Medalu Uniwersytetu Wrocławskiego (2026)
-
-:::
 
 ## Źródła {#zrodla}
 
