@@ -18,7 +18,7 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-Stypendium jest częścią **Studenckiego Programu Stypendialnego**, który prowadzi Wrocławskie Centrum Akademickie; w zakresie nauk matematycznych nosi imię [**Hugona Steinhausa**](/instytut/warto-wiedziec/hugo-steinhaus), jednego z czterech pionierów wrocławskiej matematyki.
+Stypendium jest częścią Studenckiego Programu Stypendialnego, który prowadzi Wrocławskie Centrum Akademickie; w zakresie nauk matematycznych nosi imię [Hugona Steinhausa](/instytut/warto-wiedziec/hugo-steinhaus), jednego z czterech pionierów wrocławskiej matematyki.
 
 ## Laureaci z Instytutu {#laureaci}
 

@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Władysław Ślebodziński był geometrą różniczkowym i jednym z czterech matematyków, którzy po 1945 roku od podstaw budowali matematykę w polskim Wrocławiu, obok [Hugo Steinhausa](/instytut/warto-wiedziec/hugo-steinhaus), [Edwarda Marczewskiego](/instytut/warto-wiedziec/edward-marczewski) i [Bronisława Knastera](/instytut/warto-wiedziec/bronislaw-knaster). Jego najtrwalszym wynikiem jest operator różniczkowy z 1931 roku, który wkrótce nazwano pochodną Liego; dziś należy on do podstawowych narzędzi geometrii i fizyki matematycznej. Do nauki doszedł nietypową drogą: przez lata uczył w szkołach średnich, doktorat obronił jako czterdziestoczterolatek, a drugą wojnę światową przeżył w niemieckich obozach koncentracyjnych. We Wrocławiu stworzył ośrodek geometrii różniczkowej i wypromował jedenastu doktorów.
+Prof. Władysław Ślebodziński był geometrą różniczkowym i jednym z czterech matematyków, którzy po 1945 roku od podstaw budowali matematykę w polskim Wrocławiu, obok [Hugo Steinhausa](/instytut/warto-wiedziec/hugo-steinhaus), [Edwarda Marczewskiego](/instytut/warto-wiedziec/edward-marczewski) i [Bronisława Knastera](/instytut/warto-wiedziec/bronislaw-knaster). Jego najtrwalszym wynikiem jest operator różniczkowy z 1931 roku, który wkrótce nazwano pochodną Liego; dziś należy on do podstawowych narzędzi geometrii i fizyki matematycznej. Do nauki doszedł nietypową drogą: przez lata uczył w szkołach średnich, doktorat obronił jako czterdziestoczterolatek, a drugą wojnę światową przeżył w niemieckich obozach koncentracyjnych. We Wrocławiu stworzył ośrodek geometrii różniczkowej i wypromował jedenastu doktorów.
 
 ## Droga naukowa {#droga}
 

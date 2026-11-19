@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Andrzej Hulanicki należał do najbardziej cenionych polskich matematyków drugiej połowy XX wieku. Zajmował się analizą harmoniczną na grupach, przede wszystkim na grupach Liego, i opublikował ponad osiemdziesiąt prac; kilka jego wyników nosi dziś jego nazwisko. Był członkiem rzeczywistym Polskiej Akademii Nauk. We Wrocławiu zbudował szkołę analizy harmonicznej, którą kontynuuje Zakład Analizy Funkcjonalnej, i przez całe życie zawodowe dbał o to, by wrocławska matematyka zajmowała się problemami ważnymi dla całego świata i była w tym świecie obecna.
+Prof. Andrzej Hulanicki należał do najbardziej cenionych polskich matematyków drugiej połowy XX wieku. Zajmował się analizą harmoniczną na grupach, przede wszystkim na grupach Liego, i opublikował ponad osiemdziesiąt prac; kilka jego wyników nosi dziś jego nazwisko. Był członkiem rzeczywistym Polskiej Akademii Nauk. We Wrocławiu zbudował szkołę analizy harmonicznej, którą kontynuuje Zakład Analizy Funkcjonalnej, i przez całe życie zawodowe dbał o to, by wrocławska matematyka zajmowała się problemami ważnymi dla całego świata i była w tym świecie obecna.
 
 ## Droga naukowa {#droga}
 

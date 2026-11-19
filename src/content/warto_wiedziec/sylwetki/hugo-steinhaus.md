@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Hugo Steinhaus należy do najważniejszych postaci w dziejach polskiej matematyki i do tych, którym Wrocław zawdzięcza swoją powojenną matematykę. We Lwowie odkrył talent Stefana Banacha i razem z nim stworzył lwowską szkołę analizy funkcjonalnej. Po wojnie, jako jeden z czterech pionierów — obok [Edwarda Marczewskiego](/instytut/warto-wiedziec/edward-marczewski), [Bronisława Knastera](/instytut/warto-wiedziec/bronislaw-knaster) i [Władysława Ślebodzińskiego](/instytut/warto-wiedziec/wladyslaw-slebodzinski) — budował od podstaw środowisko, z którego wyrósł nasz Instytut. Łączył czystą teorię z zastosowaniami w medycynie, biologii i przemyśle, a pamiętamy go także jako znakomitego popularyzatora i autora celnych aforyzmów.
+Prof. Hugo Steinhaus należy do najważniejszych postaci w dziejach polskiej matematyki i do tych, którym Wrocław zawdzięcza swoją powojenną matematykę. We Lwowie odkrył talent Stefana Banacha i razem z nim stworzył lwowską szkołę analizy funkcjonalnej. Po wojnie, jako jeden z czterech pionierów — obok [Edwarda Marczewskiego](/instytut/warto-wiedziec/edward-marczewski), [Bronisława Knastera](/instytut/warto-wiedziec/bronislaw-knaster) i [Władysława Ślebodzińskiego](/instytut/warto-wiedziec/wladyslaw-slebodzinski) — budował od podstaw środowisko, z którego wyrósł nasz Instytut. Łączył czystą teorię z zastosowaniami w medycynie, biologii i przemyśle, a pamiętamy go także jako znakomitego popularyzatora i autora celnych aforyzmów.
 
 ## Droga naukowa {#droga}
 

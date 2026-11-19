@@ -19,6 +19,6 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-Lwowska Księga Szkocka słynęła z nagród za rozwiązania problemów. **Stanisław Mazur** obiecał za jeden z nich **żywą gęś**. Problem rozwiązał szwedzki matematyk **Per Enflo**, który odebrał nagrodę w 1972 roku.
+Lwowska Księga Szkocka słynęła z nagród za rozwiązania problemów. Stanisław Mazur obiecał za jeden z nich żywą gęś. Problem rozwiązał szwedzki matematyk Per Enflo, który odebrał nagrodę w 1972 roku.
 
 Tę tradycję kontynuuje Nowa Księga Szkocka, prowadzona we Wrocławiu od 1946 roku.

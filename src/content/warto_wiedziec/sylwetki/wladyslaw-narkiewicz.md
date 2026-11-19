@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Prof. dr hab. Władysław Narkiewicz jest matematykiem zajmującym się teorią liczb, algebrą i historią matematyki. W jego dorobku spotykają się trzy nurty: badania nad liczbami algebraicznymi i wielomianami, cenione monografie i podręczniki oraz obszerne opracowania dziejów teorii liczb. Od doktoratu po emeryturę był związany z Uniwersytetem Wrocławskim, gdzie wypromował kolejnych doktorów, kierował wydziałem i był prorektorem.
+Prof. Władysław Narkiewicz jest matematykiem zajmującym się teorią liczb, algebrą i historią matematyki. W jego dorobku spotykają się trzy nurty: badania nad liczbami algebraicznymi i wielomianami, cenione monografie i podręczniki oraz obszerne opracowania dziejów teorii liczb. Od doktoratu po emeryturę był związany z Uniwersytetem Wrocławskim, gdzie wypromował kolejnych doktorów, kierował wydziałem i był prorektorem.
 
 ## Droga naukowa {#droga}
 

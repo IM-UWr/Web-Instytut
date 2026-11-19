@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Edward Marczewski należał do czwórki matematyków, którzy w 1945 roku zaczęli od zera budować matematykę w polskim Wrocławiu. Przed wojną, jeszcze jako Edward Szpilrajn, był członkiem warszawskiej szkoły matematycznej i miał na koncie blisko trzydzieści prac. We Wrocławiu od początku kierował Instytutem Matematycznym, wymyślił i przez trzy dekady redagował „Colloquium Mathematicum”, był rektorem Uniwersytetu i wykształcił pierwsze pokolenie miejscowych matematyków. Jerzy Łoś wspominał, że choć był najmłodszy z czterech profesorów, to właśnie wokół niego od razu skupiło się wrocławskie środowisko.
+Prof. Edward Marczewski należał do czwórki matematyków, którzy w 1945 roku zaczęli od zera budować matematykę w polskim Wrocławiu. Przed wojną, jeszcze jako Edward Szpilrajn, był członkiem warszawskiej szkoły matematycznej i miał na koncie blisko trzydzieści prac. We Wrocławiu od początku kierował Instytutem Matematycznym, wymyślił i przez trzy dekady redagował „Colloquium Mathematicum”, był rektorem Uniwersytetu i wykształcił pierwsze pokolenie miejscowych matematyków. Jerzy Łoś wspominał, że choć był najmłodszy z czterech profesorów, to właśnie wokół niego od razu skupiło się wrocławskie środowisko.
 
 ## Droga naukowa {#droga}
 

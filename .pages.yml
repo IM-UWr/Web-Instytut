@@ -323,7 +323,7 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka: wstęp (obok portretu), sekcje ## z {#id}, „## Do pobrania {#do-pobrania}” z :::pliki, na końcu „## Źródła {#zrodla}” (na stronie zwinięte). Liczby do banera wpisuje się w polu „Liczby”. Link do innej sylwetki, nagrody albo historii (/instytut/warto-wiedziec/…) łączy wpisy. Pusta Treść (albo same komentarze) = sylwetka „TBA”."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka: wstęp (obok portretu), sekcje ## z {#id}, „## Do pobrania {#do-pobrania}” z :::pliki, na końcu „## Źródła {#zrodla}” (na stronie zwinięte). Liczby do banera wpisuje się w polu „Liczby”. Link do innej sylwetki, nagrody albo historii (/instytut/warto-wiedziec/…) łączy wpisy. Pusta Treść (albo same komentarze) = sylwetka „TBA”. Styl: tytuł (Prof., Dr) tylko przy pierwszej wzmiance bohatera, dalej samo nazwisko; pierwsze zdanie bez myślnika i bez lat; bez pogrubień poza hasłem na początku akapitu wyliczenia (**Hasło.**)."
       type: code
       options:
         format: markdown
@@ -345,7 +345,7 @@ content:
         -->
     - name: tresc_en
       label: Treść EN
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: tytuł (Prof., Dr) tylko przy pierwszej wzmiance bohatera, dalej samo nazwisko; pierwsze zdanie bez myślnika i bez lat; bez pogrubień poza hasłem na początku akapitu wyliczenia (**Hasło.**)."
       type: code
       options:
         format: markdown
@@ -484,7 +484,7 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis nagrody; laureaci z Instytutu w sekcji „## Laureaci z Instytutu {#laureaci}” w bloku :::laureaci (licznik na liście liczy się sam), dokumenty w :::pliki. Pusta Treść (albo same komentarze) = wpis bez własnej strony; karta prowadzi do linku."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis nagrody; laureaci z Instytutu w sekcji „## Laureaci z Instytutu {#laureaci}” w bloku :::laureaci (licznik na liście liczy się sam), dokumenty w :::pliki. Pusta Treść (albo same komentarze) = wpis bez własnej strony; karta prowadzi do linku. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -504,7 +504,7 @@ content:
         -->
     - name: tresc_en
       label: Treść EN
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -624,7 +624,7 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Historia: zwykły tekst, sekcje ## z {#id}. Pusta Treść (albo same komentarze) = wpis bez własnej strony; panel osi prowadzi do linku."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Historia: zwykły tekst, sekcje ## z {#id}. Pusta Treść (albo same komentarze) = wpis bez własnej strony; panel osi prowadzi do linku. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -634,7 +634,7 @@ content:
         <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
     - name: tresc_en
       label: Treść EN
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Tekst po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Tekst po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown

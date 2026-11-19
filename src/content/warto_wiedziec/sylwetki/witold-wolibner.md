@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Witold Wolibner należał do pierwszego pokolenia profesorów, którzy po wojnie budowali matematykę we Wrocławiu. Z wykształcenia był analitykiem: doktorat napisał z teorii funkcji analitycznych. Lata pracy w warszawskim Instytucie Aerodynamiki uczyniły go także znawcą mechaniki płynów. Jego artykuł z 1933 roku o płaskim ruchu cieczy idealnej należy do klasyki teorii równań Eulera i wciąż powołują się na niego autorzy nowych prac. We Wrocławiu kierował nowo utworzoną Katedrą Mechaniki Teoretycznej i zapoczątkował badania nad funkcjami analitycznymi. W 1955 roku otrzymał Nagrodę im. Stefana Banacha Polskiego Towarzystwa Matematycznego.
+Prof. Witold Wolibner należał do pierwszego pokolenia profesorów, którzy po wojnie budowali matematykę we Wrocławiu. Z wykształcenia był analitykiem: doktorat napisał z teorii funkcji analitycznych. Lata pracy w warszawskim Instytucie Aerodynamiki uczyniły go także znawcą mechaniki płynów. Jego artykuł z 1933 roku o płaskim ruchu cieczy idealnej należy do klasyki teorii równań Eulera i wciąż powołują się na niego autorzy nowych prac. We Wrocławiu kierował nowo utworzoną Katedrą Mechaniki Teoretycznej i zapoczątkował badania nad funkcjami analitycznymi. W 1955 roku otrzymał Nagrodę im. Stefana Banacha Polskiego Towarzystwa Matematycznego.
 
 ## Droga naukowa {#droga}
 

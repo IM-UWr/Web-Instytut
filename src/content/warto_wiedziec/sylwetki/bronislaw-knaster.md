@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Bronisław Knaster był jednym z czterech profesorów, którzy jesienią 1945 roku zaczęli budować od podstaw matematykę na polskim uniwersytecie we Wrocławiu. Wywodził się z warszawskiej szkoły topologii i wniósł do niej trwały dorobek: klasyczne przykłady teorii kontinuów, twierdzenie o punkcie stałym, z którego korzysta dziś informatyka teoretyczna, oraz pytania, nad którymi matematycy pracowali przez dziesięciolecia. We Wrocławiu przez wiele lat prowadził seminarium topologiczne, organizował wydawanie prac naukowych i uczył kolejne pokolenia starannego rozumowania i pisania.
+Prof. Bronisław Knaster był jednym z czterech profesorów, którzy jesienią 1945 roku zaczęli budować od podstaw matematykę na polskim uniwersytecie we Wrocławiu. Wywodził się z warszawskiej szkoły topologii i wniósł do niej trwały dorobek: klasyczne przykłady teorii kontinuów, twierdzenie o punkcie stałym, z którego korzysta dziś informatyka teoretyczna, oraz pytania, nad którymi matematycy pracowali przez dziesięciolecia. We Wrocławiu przez wiele lat prowadził seminarium topologiczne, organizował wydawanie prac naukowych i uczył kolejne pokolenia starannego rozumowania i pisania.
 
 ## Droga naukowa {#droga}
 

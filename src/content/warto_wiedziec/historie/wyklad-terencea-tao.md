@@ -19,7 +19,7 @@ zawsze: false
 dodano: ""
 format_tresci: "jawne"
 tresc_en: |
-  Fields Medallist Prof. **Terence Tao** (UCLA) gave an open popular-science lecture, *The Erdős discrepancy problem*, on 6 September 2017. The lecture was part of the conference [Analysis and Applications](/nauka/konferencje#rok-2017) in honour of Professor Elias M. Stein, organised at our Institute on 4–8 September 2017. Its participants included four Fields Medallists: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss and Terence Tao.
+  Fields Medallist Prof. Terence Tao (UCLA) gave an open popular-science lecture, *The Erdős discrepancy problem*, on 6 September 2017. The lecture was part of the conference [Analysis and Applications](/nauka/konferencje#rok-2017) in honour of Professor Elias M. Stein, organised at our Institute on 4–8 September 2017. Its participants included four Fields Medallists: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss and Terence Tao.
 
   The lecture took place in lecture hall IICDEF at the Faculty of Chemistry of the University of Wrocław, and the hall was packed: we estimate that more than five hundred people came — school and university students, professional mathematicians and enthusiastic amateurs. It was preceded by an introductory lecture by Prof. Paweł Strzelecki of the University of Warsaw, *Fourier series: how to build arbitrary functions from simple building blocks* (in Polish).
 
@@ -35,7 +35,7 @@ zrodla:
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-Laureat Medalu Fieldsa prof. **Terence Tao** (UCLA) wygłosił 6 września 2017 r. otwarty wykład popularnonaukowy *The Erdős discrepancy problem*. Wykład był częścią konferencji [Analysis and Applications](/nauka/konferencje#rok-2017) na cześć Profesora Eliasa M. Steina, zorganizowanej w naszym Instytucie w dniach 4–8 września 2017 r. Wśród jej uczestników było czterech medalistów Fieldsa: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss i Terence Tao.
+Laureat Medalu Fieldsa prof. Terence Tao (UCLA) wygłosił 6 września 2017 r. otwarty wykład popularnonaukowy *The Erdős discrepancy problem*. Wykład był częścią konferencji [Analysis and Applications](/nauka/konferencje#rok-2017) na cześć Profesora Eliasa M. Steina, zorganizowanej w naszym Instytucie w dniach 4–8 września 2017 r. Wśród jej uczestników było czterech medalistów Fieldsa: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss i Terence Tao.
 
 Wykład odbył się w sali IICDEF na Wydziale Chemii UWr, a sala pękała w szwach: szacujemy, że przyszło ponad pół tysiąca osób — uczniów i studentów, zawodowych matematyków i amatorów-pasjonatów. Poprzedził go wykład wprowadzający prof. Pawła Strzeleckiego z Uniwersytetu Warszawskiego *Szeregi Fouriera: jak z prostych cegiełek budować dowolne funkcje?*.
 

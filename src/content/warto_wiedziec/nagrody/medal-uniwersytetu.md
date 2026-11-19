@@ -15,7 +15,7 @@ zawsze: false
 dodano: ""
 format_tresci: "jawne"
 tresc_en: |
-  During the University of Wrocław Day celebrations held on November 13, 2026, two distinguished mathematicians, Professors **Marek Bożejko** and **Tomasz Rolski**, were awarded the **Medals of the University of Wrocław**, conferred by the University Senate in recognition of their exceptional contributions to the University.
+  During the University of Wrocław Day celebrations held on November 13, 2026, two distinguished mathematicians, Professors Marek Bożejko and Tomasz Rolski, were awarded the Medals of the University of Wrocław, conferred by the University Senate in recognition of their exceptional contributions to the University.
 
   ## Biographical notes {#noty}
 
@@ -40,9 +40,9 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-**Medal Uniwersytetu Wrocławskiego** przyznaje Senat Uczelni w uznaniu szczególnych zasług dla Uniwersytetu.
+Medal Uniwersytetu Wrocławskiego przyznaje Senat Uczelni w uznaniu szczególnych zasług dla Uniwersytetu.
 
-Podczas uroczystych obchodów Święta Uniwersytetu Wrocławskiego 13 listopada 2026 r. medale otrzymali dwaj wybitni matematycy, profesorowie **Marek Bożejko** i **Tomasz Rolski** — w uznaniu ich osiągnięć naukowych, wieloletniej działalności akademickiej i wkładu w rozwój i międzynarodową renomę wrocławskiego ośrodka matematycznego.
+Podczas uroczystych obchodów Święta Uniwersytetu Wrocławskiego 13 listopada 2026 r. medale otrzymali dwaj wybitni matematycy, profesorowie Marek Bożejko i Tomasz Rolski — w uznaniu ich osiągnięć naukowych, wieloletniej działalności akademickiej i wkładu w rozwój i międzynarodową renomę wrocławskiego ośrodka matematycznego.
 
 ## Noty biograficzne laureatów {#noty}
 

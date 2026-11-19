@@ -21,9 +21,9 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-**Nagrodę Główną Polskiego Towarzystwa Matematycznego im. Hugona Steinhausa** PTM przyznaje za całokształt dorobku w dziedzinie zastosowań matematyki.
+Nagrodę Główną Polskiego Towarzystwa Matematycznego im. Hugona Steinhausa PTM przyznaje za całokształt dorobku w dziedzinie zastosowań matematyki.
 
-Za rok 2020 otrzymała ją prof. **Małgorzata Bogdan** z naszego Instytutu.
+Za rok 2020 otrzymała ją prof. Małgorzata Bogdan z naszego Instytutu.
 
 ## Laureaci z Instytutu {#laureaci}
 

@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Jan Mycielski jest jednym z tych wychowanków Uniwersytetu Wrocławskiego, których wyniki na stałe weszły do światowej matematyki. We Wrocławiu studiował, obronił doktorat u [Stanisława Hartmana](/instytut/warto-wiedziec/stanislaw-hartman) i przez kilkanaście lat uczył w Instytucie Matematycznym, a od 1969 roku był profesorem University of Colorado w Boulder. Jego nazwisko nosi prosta konstrukcja grafów bez trójkątów, opisana jeszcze w czasie studiów, a razem z [Hugonem Steinhausem](/instytut/warto-wiedziec/hugo-steinhaus) zaproponował aksjomat determinacji – ideę, która zdobyła szerokie uznanie i do dziś zajmuje ważne miejsce w teorii mnogości. Badania naukowe prowadził do końca życia.
+Prof. Jan Mycielski jest jednym z tych wychowanków Uniwersytetu Wrocławskiego, których wyniki na stałe weszły do światowej matematyki. We Wrocławiu studiował, obronił doktorat u [Stanisława Hartmana](/instytut/warto-wiedziec/stanislaw-hartman) i przez kilkanaście lat uczył w Instytucie Matematycznym, a od 1969 roku był profesorem University of Colorado w Boulder. Jego nazwisko nosi prosta konstrukcja grafów bez trójkątów, opisana jeszcze w czasie studiów, a razem z [Hugonem Steinhausem](/instytut/warto-wiedziec/hugo-steinhaus) zaproponował aksjomat determinacji – ideę, która zdobyła szerokie uznanie i do dziś zajmuje ważne miejsce w teorii mnogości. Badania naukowe prowadził do końca życia.
 
 ## Droga naukowa {#droga}
 

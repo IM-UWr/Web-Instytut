@@ -21,7 +21,7 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-**Medal im. Wacława Sierpińskiego** jest przyznawany od 1974 roku przez Uniwersytet Warszawski oraz Polskie Towarzystwo Matematyczne i należy do najważniejszych i najbardziej prestiżowych wyróżnień matematycznych w kraju. W 2026 roku otrzymał go prof. **Tadeusz Januszkiewicz**.
+Medal im. Wacława Sierpińskiego jest przyznawany od 1974 roku przez Uniwersytet Warszawski oraz Polskie Towarzystwo Matematyczne i należy do najważniejszych i najbardziej prestiżowych wyróżnień matematycznych w kraju. W 2026 roku otrzymał go prof. Tadeusz Januszkiewicz.
 
 ## Laureaci z Instytutu {#laureaci}
 

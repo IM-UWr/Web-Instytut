@@ -19,6 +19,6 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-W 1946 roku [**Hugo Steinhaus**](/instytut/warto-wiedziec/hugo-steinhaus) wpisał pierwsze zagadnienie do **Nowej Księgi Szkockiej** — kontynuacji słynnego lwowskiego zbioru problemów, nazwanego od Kawiarni Szkockiej, w której spotykali się matematycy lwowscy.
+W 1946 roku [Hugo Steinhaus](/instytut/warto-wiedziec/hugo-steinhaus) wpisał pierwsze zagadnienie do Nowej Księgi Szkockiej — kontynuacji słynnego lwowskiego zbioru problemów, nazwanego od Kawiarni Szkockiej, w której spotykali się matematycy lwowscy.
 
 Nowa Księga Szkocka jest przechowywana w bibliotece Wydziału Matematyki i Informatyki, którego częścią jest Instytut.

@@ -19,6 +19,6 @@ zrodla: []
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-Instytut Matematyczny wyrasta z tradycji przedwojennych szkół matematycznych: lwowskiej i warszawskiej. Wykłady na polskim Uniwersytecie we Wrocławiu ruszyły **15 listopada 1945 roku**, a wrocławską matematykę budowało od podstaw czterech pionierów: [**Hugo Steinhaus**](/instytut/warto-wiedziec/hugo-steinhaus), [**Edward Marczewski**](/instytut/warto-wiedziec/edward-marczewski), [**Bronisław Knaster**](/instytut/warto-wiedziec/bronislaw-knaster) i [**Władysław Ślebodziński**](/instytut/warto-wiedziec/wladyslaw-slebodzinski).
+Instytut Matematyczny wyrasta z tradycji przedwojennych szkół matematycznych: lwowskiej i warszawskiej. Wykłady na polskim Uniwersytecie we Wrocławiu ruszyły 15 listopada 1945 roku, a wrocławską matematykę budowało od podstaw czterech pionierów: [Hugo Steinhaus](/instytut/warto-wiedziec/hugo-steinhaus), [Edward Marczewski](/instytut/warto-wiedziec/edward-marczewski), [Bronisław Knaster](/instytut/warto-wiedziec/bronislaw-knaster) i [Władysław Ślebodziński](/instytut/warto-wiedziec/wladyslaw-slebodzinski).
 
 Tak narodziła się wrocławska szkoła matematyczna, a Wrocław szybko stał się jednym z najważniejszych ośrodków matematycznych w Polsce.

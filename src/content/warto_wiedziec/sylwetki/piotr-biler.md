@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Piotr Biler jest matematykiem Instytutu Matematycznego Uniwersytetu Wrocławskiego i specjalistą od nieliniowych równań różniczkowych cząstkowych. Zajmuje się głównie równaniami ewolucji z dyfuzją, także nielokalną. Takie równania opisują w biologii chemotaksję, czyli ruch mikroorganizmów wywołany bodźcami chemicznymi, a w fizyce układy cząstek, które przyciągają się grawitacyjnie albo oddziałują elektromagnetycznie. Jest członkiem rzeczywistym Polskiej Akademii Nauk. W latach 2008–2016 był dziekanem Wydziału Matematyki i Informatyki, a w kadencji 2024–2026 jest prezesem wrocławskiego Oddziału PAN.
+Prof. Piotr Biler jest matematykiem Instytutu Matematycznego Uniwersytetu Wrocławskiego i specjalistą od nieliniowych równań różniczkowych cząstkowych. Zajmuje się głównie równaniami ewolucji z dyfuzją, także nielokalną. Takie równania opisują w biologii chemotaksję, czyli ruch mikroorganizmów wywołany bodźcami chemicznymi, a w fizyce układy cząstek, które przyciągają się grawitacyjnie albo oddziałują elektromagnetycznie. Jest członkiem rzeczywistym Polskiej Akademii Nauk. W latach 2008–2016 był dziekanem Wydziału Matematyki i Informatyki, a w kadencji 2024–2026 jest prezesem wrocławskiego Oddziału PAN.
 
 ## Droga naukowa {#droga}
 

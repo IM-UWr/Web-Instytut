@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Julian Perkal należał do pokolenia matematyków, którzy zaraz po wojnie budowali wrocławskie środowisko matematyczne, i był jednym z najbliższych współpracowników Hugona Steinhausa w dziedzinie zastosowań. Absolwent Uniwersytetu Warszawskiego, który pracę magisterską o zbiorach wypukłych pisał u Karola Borsuka, we Wrocławiu zajął się pytaniem, jak matematycznie opisywać obiekty spotykane w przyrodzie: pnie drzew, kępy traw na łące, cechy antropologiczne czy wzrost dzieci. Był współautorem taksonomii wrocławskiej i twórcą pojęcia ε-długości krzywych empirycznych, a jako pierwszy przewodniczący Polskiego Towarzystwa Biometrycznego stworzył wspólne forum dla matematyków i biologów.
+Prof. Julian Perkal należał do pokolenia matematyków, którzy zaraz po wojnie budowali wrocławskie środowisko matematyczne, i był jednym z najbliższych współpracowników Hugona Steinhausa w dziedzinie zastosowań. Absolwent Uniwersytetu Warszawskiego, który pracę magisterską o zbiorach wypukłych pisał u Karola Borsuka, we Wrocławiu zajął się pytaniem, jak matematycznie opisywać obiekty spotykane w przyrodzie: pnie drzew, kępy traw na łące, cechy antropologiczne czy wzrost dzieci. Był współautorem taksonomii wrocławskiej i twórcą pojęcia ε-długości krzywych empirycznych, a jako pierwszy przewodniczący Polskiego Towarzystwa Biometrycznego stworzył wspólne forum dla matematyków i biologów.
 
 ## Droga naukowa {#droga}
 

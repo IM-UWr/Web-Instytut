@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Prof. dr hab. Andrzej Krzywicki należy do matematyków, którzy w pierwszych powojennych dekadach wyznaczali kierunki badań w Instytucie Matematycznym Uniwersytetu Wrocławskiego. W centrum jego zainteresowań były równania różniczkowe cząstkowe i ich związki z fizyką: ruch lepkiego płynu, przybliżone metody dla równań Naviera–Stokesa, pytania o jednoznaczność rozwiązań, a później modele elektrolitów i układów oddziałujących cząstek. Monografia [„Wrocławskie Środowisko Akademickie. Twórcy i ich uczniowie 1945–2005”](https://dbc.wroc.pl/Content/1789/PDF/Dzielo%2023%20Wroc%C5%82awska%20Szko%C5%82a%20Matematyczna.pdf) (2007) stwierdza wprost, że to od niego zaczęła się we Wrocławiu teoria równań różniczkowych. Jest emerytowanym profesorem Instytutu.
+Prof. Andrzej Krzywicki należy do matematyków, którzy w pierwszych powojennych dekadach wyznaczali kierunki badań w Instytucie Matematycznym Uniwersytetu Wrocławskiego. W centrum jego zainteresowań były równania różniczkowe cząstkowe i ich związki z fizyką: ruch lepkiego płynu, przybliżone metody dla równań Naviera–Stokesa, pytania o jednoznaczność rozwiązań, a później modele elektrolitów i układów oddziałujących cząstek. Monografia [„Wrocławskie Środowisko Akademickie. Twórcy i ich uczniowie 1945–2005”](https://dbc.wroc.pl/Content/1789/PDF/Dzielo%2023%20Wroc%C5%82awska%20Szko%C5%82a%20Matematyczna.pdf) (2007) stwierdza wprost, że to od niego zaczęła się we Wrocławiu teoria równań różniczkowych. Jest emerytowanym profesorem Instytutu.
 
 ## Droga naukowa {#droga}
 

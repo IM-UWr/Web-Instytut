@@ -34,7 +34,7 @@ tresc_en: ""
 
 <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-Profesor Roman Duda łączy w swojej biografii trzy obszary: topologię, historię matematyki i służbę publiczną. Wyrósł z seminarium Bronisława Knastera, w 1970 roku otrzymał Nagrodę Główną Polskiego Towarzystwa Matematycznego im. Stefana Banacha, a w kolejnych dekadach stał się autorem kilku książek o dziejach polskiej matematyki, w tym monografii szkoły lwowskiej wydanej także po angielsku. Był senatorem pierwszej kadencji i wiceministrem edukacji narodowej, a w latach 1995–1999 rektorem Uniwersytetu Wrocławskiego. W spisie pracowników Instytutu figuruje jako emeryt, a jego nowe prace wciąż się ukazują.
+Prof. Roman Duda łączy w swojej biografii trzy obszary: topologię, historię matematyki i służbę publiczną. Wyrósł z seminarium Bronisława Knastera, w 1970 roku otrzymał Nagrodę Główną Polskiego Towarzystwa Matematycznego im. Stefana Banacha, a w kolejnych dekadach stał się autorem kilku książek o dziejach polskiej matematyki, w tym monografii szkoły lwowskiej wydanej także po angielsku. Był senatorem pierwszej kadencji i wiceministrem edukacji narodowej, a w latach 1995–1999 rektorem Uniwersytetu Wrocławskiego. W spisie pracowników Instytutu figuruje jako emeryt, a jego nowe prace wciąż się ukazują.
 
 ## Droga naukowa {#droga}
 
