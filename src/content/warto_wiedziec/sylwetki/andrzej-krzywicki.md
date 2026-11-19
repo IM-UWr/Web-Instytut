@@ -21,8 +21,8 @@ rocznica_urodzin: ""
 karta:
   zajawka: "Uczeń Witolda Wolibnera, od którego – według monografii wrocławskich szkół naukowych – zaczęła się we Wrocławiu teoria równań różniczkowych. Współautor twierdzenia Aronszajna–Krzywickiego–Szarskiego."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/andrzej-krzywicki.jpg
+  obraz_zrodlo: "IM UWr"
 na_glownej: true
 ulubione: false
 zawsze: false

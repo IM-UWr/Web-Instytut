@@ -21,8 +21,8 @@ rocznica_urodzin: "10-07"
 karta:
   zajawka: "Autor twierdzeń o punkcie stałym, o selektorach mierzalnych i o teoriach ω-kategorycznych. Związany z Uniwersytetem Wrocławskim, a od 1976 roku z Politechniką Wrocławską."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/czeslaw-ryll-nardzewski.jpg
+  obraz_zrodlo: "Centrum Rylla-Nardzewskiego PWr"
 na_glownej: true
 ulubione: false
 zawsze: false

@@ -21,8 +21,8 @@ rocznica_urodzin: "12-25"
 karta:
   zajawka: "Twórca wrocławskiej szkoły analizy harmonicznej i autor klasycznego twierdzenia o grupach średniowalnych. Wypromował 17 doktorów, a konferencjami i wymianą naukową otworzył Instytut na świat."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/andrzej-hulanicki.jpg
+  obraz_zrodlo: "Konrad Jacobs / MFO, CC BY-SA 2.0 DE"
 na_glownej: true
 ulubione: false
 zawsze: false

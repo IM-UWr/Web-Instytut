@@ -21,8 +21,8 @@ rocznica_urodzin: ""
 karta:
   zajawka: "Bada, kiedy rozwiązania równań opisujących skupianie się mikroorganizmów lub cząstek grawitujących istnieją dla wszystkich czasów, a kiedy wybuchają. Członek rzeczywisty PAN, dziekan WMI w latach 2008–2016."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/piotr-biler.jpg
+  obraz_zrodlo: "PAN"
 na_glownej: true
 ulubione: false
 zawsze: false

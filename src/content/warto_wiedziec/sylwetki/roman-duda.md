@@ -21,8 +21,8 @@ rocznica_urodzin: "02-27"
 karta:
   zajawka: "Uczeń Bronisława Knastera, laureat Nagrody Banacha, autor książek o lwowskiej szkole matematycznej i o dziejach matematyki w Polsce. W latach 1995–1999 rektor Uniwersytetu Wrocławskiego."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/roman-duda.jpg
+  obraz_zrodlo: "Politechnika Łódzka"
 na_glownej: true
 ulubione: false
 zawsze: false

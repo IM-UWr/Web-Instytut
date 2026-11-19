@@ -420,13 +420,13 @@ content:
         default: ""
       - name: obraz
         label: Zdjęcie
-        description: Portret, tylko z prawem do publikacji. Puste = sylwetka zastępcza.
+        description: "Portret pionowy 4:5, najlepiej 600×750 px (co najmniej 400×500), oczy na ok. 2/5 wysokości od góry. Tylko z prawem do publikacji. Puste = sylwetka zastępcza."
         type: image
         options:
           path: public/pliki/warto-wiedziec
       - name: obraz_zrodlo
         label: Źródło zdjęcia
-        description: Autor, licencja, link, np. „Fot. Jan Kowalski, CC BY-SA 4.0”. Pokazuje się drobno pod portretem. Puste = bez podpisu.
+        description: "Krótko, bez „Fot.” (strona dopisuje je sama): autor albo instytucja i licencja, np. „Konrad Jacobs / MFO, CC BY-SA 2.0 DE” albo „Archiwum UWr”. Pokazuje się drobno pod portretem na stronie osoby. Pełny opis z linkiem i licencją dopisz na stronie „O stronie” (Web-Ustawienia). Puste = bez podpisu."
         type: string
         default: ""
     - name: dodano

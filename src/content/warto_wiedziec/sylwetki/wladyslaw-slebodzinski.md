@@ -21,8 +21,8 @@ rocznica_urodzin: "02-06"
 karta:
   zajawka: "Przez lata uczył w szkołach średnich, doktorat obronił w wieku 44 lat, a trzy lata później wprowadził pochodną Liego. Przeżył Auschwitz i zbudował we Wrocławiu ośrodek geometrii różniczkowej."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/wladyslaw-slebodzinski.jpg
+  obraz_zrodlo: "Wikimedia Commons"
 na_glownej: true
 ulubione: true
 zawsze: false

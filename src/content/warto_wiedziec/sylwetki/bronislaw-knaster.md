@@ -21,8 +21,8 @@ rocznica_urodzin: "05-22"
 karta:
   zajawka: "Topolog ze szkoły warszawskiej, współautor twierdzenia Knastera–Tarskiego i lematu KKM. Od 1945 roku budował matematykę we Wrocławiu i przez dziesięciolecia prowadził seminarium, które wychowało wrocławskich topologów."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/bronislaw-knaster.jpg
+  obraz_zrodlo: "Archiwum UWr"
 na_glownej: true
 ulubione: true
 zawsze: false

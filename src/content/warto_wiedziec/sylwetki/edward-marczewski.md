@@ -21,8 +21,8 @@ rocznica_urodzin: "11-15"
 karta:
   zajawka: "Przed wojną publikował jako Edward Szpilrajn. Przetrwał okupację pod przybranym nazwiskiem i obóz pracy we Wrocławiu, a potem zbudował tu Instytut Matematyczny i był rektorem Uniwersytetu."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/edward-marczewski.jpg
+  obraz_zrodlo: "Archiwum UWr"
 na_glownej: true
 ulubione: true
 zawsze: false

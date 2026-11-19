@@ -21,8 +21,8 @@ rocznica_urodzin: "01-14"
 karta:
   zajawka: "Odkrył talent Banacha i współtworzył szkołę lwowską. Po wojnie, jako jeden z czterech pionierów, budował matematykę we Wrocławiu: był pierwszym dziekanem i zapoczątkował Nową Księgę Szkocką."
   zajawka_en: ""
-  obraz: ""
-  obraz_zrodlo: ""
+  obraz: /pliki/warto-wiedziec/portrety/hugo-steinhaus.jpg
+  obraz_zrodlo: "Wikimedia Commons"
 na_glownej: true
 ulubione: true
 zawsze: false
