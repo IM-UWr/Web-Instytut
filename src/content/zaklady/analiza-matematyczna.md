@@ -4,7 +4,7 @@ nazwa: "Zakład Analizy Matematycznej"
 karta:
   nazwa_krotka: "Analiza matematyczna"
   nazwa_krotka_en: "Mathematical analysis"
-  kierownik: "Ryszard Szwarc"
+  kierownik_ze_spisu: "_cms/pracownicy/ryszard-szwarc.yml"
   obszary:
     - "wielomiany ortogonalne"
     - "nieprzemienna probabilistyka"

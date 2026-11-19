@@ -4,6 +4,7 @@
 # Zlecenie 40: Strony i strona działu w jawnym Markdownie (ukryte format_tresci), ściągawki przy Treści, pola EN pod polskimi, szablony Treści zakładu i „Warto wiedzieć”, ukryte notatki i hasło władz.
 # Zlecenie 47: „Warto wiedzieć” jako grupa trzech kolekcji (Sylwetki, Nagrody i wyróżnienia, Historie) w podkatalogach src/content/warto_wiedziec/; formularze według wzoru Studiów, „Dodano” z default "".
 # Zlecenie 52: Sylwetki — pole „Liczby w banerze (3 pozycje)” (liczby) pod Podpisem EN; opis i szablon Treści bez bloku :::w-skrocie.
+# Zlecenie 42: osoby wybierane ze spisu pracowników (pola „… ze spisu”: lista z katalogu _cms/pracownicy, który aktualizuje się sam po zmianie spisu), osoby spoza spisu wpisywane ręcznie.
 media:
   input: public/pliki
   output: /pliki
@@ -107,7 +108,7 @@ content:
   view:
     fields:
     - nazwa
-    - karta.kierownik
+    - karta.kierownik_ze_spisu
     primary: nazwa
     sort: kolejnosc
   fields:
@@ -147,9 +148,15 @@ content:
     - name: nazwa_krotka_en
       label: 'EN: krótka nazwa'
       type: string
-    - name: kierownik
-      label: Kierownik (imię i nazwisko jak w spisie pracowników)
-      type: string
+    - name: kierownik_ze_spisu
+      label: Kierownik
+      description: Wybierz z listy (wpisz nazwisko). Tytuł, e-mail, pokój i link strona weźmie ze spisu pracowników.
+      type: reference
+      options:
+        collection: katalog-pracownikow
+        value: "{path}"
+        label: "{etykieta}"
+        search: etykieta,name
     - name: telefon
       label: Telefon zakładu (tylko numer ogólny, np. sekretariat — nie podajemy numerów pracowników naukowych)
       type: string
@@ -735,7 +742,7 @@ content:
       list: true
 - name: wladze
   label: Władze Instytutu (strona /instytut/wladze)
-  description: Pierwsza osoba na liście = dyrektor (duża karta). Tytuł, e-mail, pokój, stronę domową i zakład strona bierze z „Pracowników” — imię i nazwisko wpisz dokładnie jak tam. Telefonów pracowników naukowych nie podajemy.
+  description: "Pierwsza osoba na liście = dyrektor (duża karta). Osobę wybierz ze spisu pracowników: tytuł, e-mail, pokój, stronę domową i zakład strona weźmie stamtąd. Telefonów pracowników naukowych nie podajemy."
   type: file
   path: src/data/wladze.json
   format: json
@@ -766,17 +773,22 @@ content:
     list:
       collapsible:
         collapsed: true
-        summary: "{imie_nazwisko}"
+        summary: "{rola}"
     fields:
     - name: rola
       label: Funkcja (np. Zastępca dyrektora ds. dydaktycznych)
       type: string
       required: true
-    - name: imie_nazwisko
-      label: Imię i nazwisko (dokładnie jak w Pracownikach)
-      description: Np. „Jan Kowalski” — dokładnie jak w Pracownikach; stamtąd strona weźmie tytuł, e-mail, pokój i zakład.
-      type: string
+    - name: osoba
+      label: Osoba ze spisu
+      description: Wybierz z listy (wpisz nazwisko). Tytuł, link i zakład strona weźmie ze spisu pracowników.
+      type: reference
       required: true
+      options:
+        collection: katalog-pracownikow
+        value: "{path}"
+        label: "{etykieta}"
+        search: etykieta,name
     - name: zakres
       label: Zakres obowiązków (1–2 zdania, opcjonalnie)
       type: text
@@ -798,18 +810,23 @@ content:
     - name: dyzur_en
       label: 'EN: dyżur'
       type: string
-    - name: stopien
-      label: Tytuł/stopień — tylko gdy osoby nie ma w Pracownikach
-      type: string
-    - name: email
-      label: E-mail — tylko gdy osoby nie ma w Pracownikach
-      type: string
-    - name: pokoj
-      label: Pokój — tylko gdy osoby nie ma w Pracownikach
-      type: string
-    - name: strona
-      label: Strona domowa — tylko gdy osoby nie ma w Pracownikach
-      type: string
+    - name: inne
+      label: Inne dane niż w spisie (zwykle puste)
+      type: object
+      description: Wypełnij tylko, jeśli na tej stronie ma być coś innego niż w spisie pracowników (np. e-mail dziekanatu).
+      fields:
+      - name: stopien
+        label: Tytuł/stopień
+        type: string
+      - name: email
+        label: E-mail
+        type: string
+      - name: pokoj
+        label: Pokój
+        type: string
+      - name: strona
+        label: Strona domowa
+        type: string
     - name: pozycja
       type: boolean
       hidden: true
@@ -835,18 +852,24 @@ content:
       list:
         collapsible:
           collapsed: true
-          summary: "{imie_nazwisko}"
+          summary: "{rola}"
       fields:
       - name: rola
         label: Funkcja (np. Dziekan Wydziału Matematyki i Informatyki)
         type: string
         required: true
+      - name: osoba
+        label: Osoba ze spisu
+        description: Wybierz z listy (wpisz nazwisko). Tytuł, link i zakład strona weźmie ze spisu pracowników. Dziekana spoza Instytutu wpisz w polu niżej.
+        type: reference
+        options:
+          collection: katalog-pracownikow
+          value: "{path}"
+          label: "{etykieta}"
+          search: etykieta,name
       - name: imie_nazwisko
-        label: Imię i nazwisko (dokładnie jak w Pracownikach)
-        type: string
-        required: true
-      - name: email
-        label: E-mail (jeśli inny niż w Pracownikach, np. wydziałowy)
+        label: Osoba spoza spisu (z tytułem)
+        description: "Tylko gdy osoby nie ma w spisie pracowników, np. dziekan z Instytutu Informatyki. Wpisz z tytułem: prof. dr hab. Jan Kowalski."
         type: string
       - name: dyzur
         label: Dyżur / godziny przyjęć (opcjonalnie)
@@ -859,9 +882,6 @@ content:
       - name: zakres
         label: Zakres obowiązków (opcjonalnie)
         type: text
-      - name: pokoj
-        label: Pokój / biuro (opcjonalnie)
-        type: string
       - name: rola_en
         label: 'EN: funkcja'
         type: string
@@ -871,6 +891,23 @@ content:
       - name: zakres_en
         label: 'EN: zakres obowiązków'
         type: text
+      - name: inne
+        label: Inne dane niż w spisie (zwykle puste)
+        type: object
+        description: "Wypełnij tylko, jeśli na tej stronie ma być coś innego niż w spisie pracowników (np. e-mail dziekanatu). Pokój spisu Wydział nie bierze: wpisz go tutaj."
+        fields:
+        - name: stopien
+          label: Tytuł/stopień
+          type: string
+        - name: email
+          label: E-mail
+          type: string
+        - name: pokoj
+          label: Pokój
+          type: string
+        - name: strona
+          label: Strona domowa
+          type: string
       - name: pozycja
         type: boolean
         hidden: true
@@ -913,10 +950,16 @@ content:
     - name: godziny
       label: Godziny pracy
       type: string
-    - name: osoby
-      label: Osoby (imię i nazwisko jak w Pracownikach — e-mail i telefon dobiorą się same)
-      type: string
-      list: true
+    - name: osoby_ze_spisu
+      label: Osoby (ze spisu pracowników)
+      description: Wybierz z listy (wpisz nazwisko). E-mail i telefon strona weźmie ze spisu pracowników.
+      type: reference
+      options:
+        collection: katalog-pracownikow
+        value: "{path}"
+        label: "{etykieta}"
+        search: etykieta,name
+        multiple: true
     - name: nazwa_en
       label: 'EN: nazwa sekcji'
       type: string
@@ -986,3 +1029,37 @@ content:
     type: string
     list: true
     hidden: true
+- name: katalog-pracownikow
+  label: Katalog pracowników (tylko odczyt)
+  type: collection
+  path: _cms/pracownicy
+  format: yaml
+  filename: "{primary}.yml"
+  view:
+    primary: etykieta
+    fields:
+    - imie_nazwisko
+    - pracuje
+  description: "Lista wyboru osób ze spisu pracowników (Web-Pracownicy). Nie edytuj: aktualizuje się sama po zmianie spisu (automat; do czasu jego włączenia skrypt skrypty/synchronizuj-katalog-pracownikow.mjs w Web-Core). Dane kontaktowe nie są kopiowane."
+  fields:
+  - name: imie_nazwisko
+    label: Imię i nazwisko
+    type: string
+    readonly: true
+  - name: id
+    label: Stały identyfikator
+    type: string
+    readonly: true
+  - name: etykieta
+    label: Nazwa na liście wyboru
+    type: string
+    readonly: true
+  - name: pracuje
+    label: Pracuje w Instytucie
+    type: boolean
+    default: true
+    readonly: true
+  operations:
+    create: false
+    rename: false
+    delete: false

@@ -4,7 +4,7 @@ nazwa: "Zakład Geometrii"
 karta:
   nazwa_krotka: "Geometria"
   nazwa_krotka_en: "Geometry"
-  kierownik: "Jacek Świątkowski"
+  kierownik_ze_spisu: "_cms/pracownicy/jacek-swiatkowski.yml"
   obszary:
     - "geometryczna teoria grup"
     - "topologia"

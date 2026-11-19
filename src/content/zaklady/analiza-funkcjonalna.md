@@ -4,7 +4,7 @@ nazwa: "Zakład Analizy Funkcjonalnej"
 karta:
   nazwa_krotka: "Analiza funkcjonalna"
   nazwa_krotka_en: "Functional analysis"
-  kierownik: "Ewa Damek"
+  kierownik_ze_spisu: "_cms/pracownicy/ewa-damek.yml"
   obszary:
     - "analiza harmoniczna"
     - "grupy Liego"

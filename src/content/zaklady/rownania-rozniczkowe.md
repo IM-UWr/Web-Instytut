@@ -4,7 +4,7 @@ nazwa: "Zakład Równań Różniczkowych"
 karta:
   nazwa_krotka: "Równania różniczkowe"
   nazwa_krotka_en: "Differential equations"
-  kierownik: "Piotr Biler"
+  kierownik_ze_spisu: "_cms/pracownicy/piotr-biler.yml"
   obszary:
     - "równania cząstkowe"
     - "równania nielokalne"

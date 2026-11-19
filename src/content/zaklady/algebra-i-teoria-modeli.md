@@ -4,7 +4,7 @@ nazwa: "Zakład Algebry i Teorii Modeli"
 karta:
   nazwa_krotka: "Algebra i teoria modeli"
   nazwa_krotka_en: "Algebra and model theory"
-  kierownik: "Ludomir Newelski"
+  kierownik_ze_spisu: "_cms/pracownicy/ludomir-newelski.yml"
   obszary:
     - "teoria modeli"
     - "algebra"

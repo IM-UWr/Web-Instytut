@@ -4,7 +4,7 @@ nazwa: "Zakład Teorii Mnogości i Topologii"
 karta:
   nazwa_krotka: "Teoria mnogości i topologia"
   nazwa_krotka_en: "Set theory and topology"
-  kierownik: "Grzegorz Plebanek"
+  kierownik_ze_spisu: "_cms/pracownicy/grzegorz-plebanek.yml"
   obszary:
     - "teoria mnogości"
     - "topologia"

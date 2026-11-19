@@ -9,7 +9,7 @@
     {
       "rola": "Dyrektor Instytutu",
       "rola_en": "Director of the Institute",
-      "imie_nazwisko": "Grzegorz Karch",
+      "osoba": "_cms/pracownicy/grzegorz-karch.yml",
       "zakres": "Kieruje Instytutem i przewodniczy Radzie Instytutu.",
       "zakres_en": "Heads the Institute and chairs the Institute Council.",
       "dyzur": "",
@@ -19,7 +19,7 @@
     {
       "rola": "Zastępca dyrektora ds. dydaktycznych",
       "rola_en": "Deputy Director for Teaching",
-      "imie_nazwisko": "Tomasz Elsner",
+      "osoba": "_cms/pracownicy/tomasz-elsner.yml",
       "zakres": "",
       "zakres_en": "",
       "dyzur": "",
@@ -29,7 +29,7 @@
     {
       "rola": "Zastępca dyrektora ds. ogólnych",
       "rola_en": "Deputy Director for General Affairs",
-      "imie_nazwisko": "Grzegorz Wyłupek",
+      "osoba": "_cms/pracownicy/grzegorz-wylupek.yml",
       "zakres": "",
       "zakres_en": "",
       "dyzur": "",
@@ -39,7 +39,7 @@
     {
       "rola": "Zastępca dyrektora ds. naukowych",
       "rola_en": "Deputy Director for Research",
-      "imie_nazwisko": "Krzysztof Dębicki",
+      "osoba": "_cms/pracownicy/krzysztof-debicki.yml",
       "zakres": "",
       "zakres_en": "",
       "dyzur": "",
@@ -49,7 +49,7 @@
     {
       "rola": "Zastępca dyrektora ds. promocji",
       "rola_en": "Deputy Director for Promotion",
-      "imie_nazwisko": "Piotr Borodulin-Nadzieja",
+      "osoba": "_cms/pracownicy/piotr-borodulin-nadzieja.yml",
       "zakres": "",
       "zakres_en": "",
       "dyzur": "",
@@ -72,9 +72,9 @@
     "pokoj": "",
     "godziny": "",
     "godziny_en": "",
-    "osoby": [
-      "Ilona Ciechanowska",
-      "Alicja Dąbrowa-Ferfecka"
+    "osoby_ze_spisu": [
+      "_cms/pracownicy/ilona-ciechanowska.yml",
+      "_cms/pracownicy/alicja-dabrowa-ferfecka.yml"
     ]
   },
   "kadencja": "Dyrektora Instytutu powołuje Rektor na okres kadencji Rektora. Zadania dyrektora określa Statut Uniwersytetu Wrocławskiego.\n\nProf. dr hab. Grzegorz Karch kieruje Instytutem od 1 września 2016 r. Wcześniej, przez wiele lat, dyrektorem Instytutu był prof. dr hab. Ludomir Newelski.",
@@ -134,18 +134,22 @@
       {
         "rola": "Dziekan Wydziału Matematyki i Informatyki",
         "rola_en": "Dean of the Faculty of Mathematics and Computer Science",
-        "imie_nazwisko": "Dariusz Buraczewski",
-        "email": "Dariusz.Buraczewski@uwr.edu.pl",
+        "osoba": "_cms/pracownicy/dariusz-buraczewski.yml",
         "dyzur": "po wcześniejszym umówieniu się",
         "dyzur_en": "by appointment",
-        "zdjecie": "/pliki/wladze/dariusz-buraczewski.jpg"
+        "zdjecie": "/pliki/wladze/dariusz-buraczewski.jpg",
+        "inne": {
+          "email": "Dariusz.Buraczewski@uwr.edu.pl"
+        }
       },
       {
         "rola": "Prodziekan ds. dydaktyki matematyki i spraw studenckich",
         "rola_en": "Vice-Dean for Mathematics Teaching and Student Affairs",
-        "imie_nazwisko": "Andrzej Raczyński",
-        "email": "Andrzej.Raczynski@uwr.edu.pl",
-        "zdjecie": "/pliki/wladze/andrzej-raczynski.jpg"
+        "osoba": "_cms/pracownicy/andrzej-raczynski.yml",
+        "zdjecie": "/pliki/wladze/andrzej-raczynski.jpg",
+        "inne": {
+          "email": "Andrzej.Raczynski@uwr.edu.pl"
+        }
       }
     ],
     "link": {

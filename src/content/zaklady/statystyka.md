@@ -4,7 +4,7 @@ nazwa: "Zakład Statystyki"
 karta:
   nazwa_krotka: "Statystyka"
   nazwa_krotka_en: "Statistics"
-  kierownik: "Małgorzata Bogdan"
+  kierownik_ze_spisu: "_cms/pracownicy/malgorzata-bogdan.yml"
   obszary:
     - "statystyka wysokowymiarowa"
     - "selekcja zmiennych"

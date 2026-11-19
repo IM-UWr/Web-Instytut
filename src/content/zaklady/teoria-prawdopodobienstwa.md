@@ -4,7 +4,7 @@ nazwa: "Zakład Teorii Prawdopodobieństwa"
 karta:
   nazwa_krotka: "Teoria prawdopodobieństwa"
   nazwa_krotka_en: "Probability theory"
-  kierownik: "Krzysztof Dębicki"
+  kierownik_ze_spisu: "_cms/pracownicy/krzysztof-debicki.yml"
   obszary:
     - "procesy stochastyczne"
     - "procesy gaussowskie"

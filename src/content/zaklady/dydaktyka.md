@@ -4,7 +4,7 @@ nazwa: "Pracownia Dydaktyki i Popularyzacji Matematyki"
 karta:
   nazwa_krotka: "Dydaktyka i popularyzacja"
   nazwa_krotka_en: "Education and outreach"
-  kierownik: "Małgorzata Mikołajczyk"
+  kierownik_ze_spisu: "_cms/pracownicy/malgorzata-mikolajczyk.yml"
   obszary:
     - "dydaktyka matematyki"
     - "popularyzacja"
