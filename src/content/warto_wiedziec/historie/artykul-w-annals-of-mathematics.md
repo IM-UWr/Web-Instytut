@@ -26,7 +26,7 @@ tresc_en: |
 
   For this paper the authors received the [ICCM Best Paper Award in Mathematics 2023](/aktualnosci/2023-11-25-mariusz-mirek-z-nagroda-best-paper-award-in-mathematics-2023).
 
-  ## Bibliographic details
+  ## Bibliographic details {#dane-bibliograficzne}
 
   B. Krause, M. Mirek, T. Tao, *Pointwise ergodic theorems for non-conventional bilinear polynomial averages*, Annals of Mathematics 195 (2022), no. 3, pp. 997–1109, DOI: [10.4007/annals.2022.195.3.4](https://doi.org/10.4007/annals.2022.195.3.4).
 zrodla:
