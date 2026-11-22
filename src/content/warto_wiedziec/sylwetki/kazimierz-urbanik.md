@@ -77,7 +77,7 @@ tresc_en: |-
 
   As a young PhD he received the Stefan Mazurkiewicz Prize of the Polish Mathematical Society. He twice received a State Prize — second class in 1964 and first class in 1973 — and in 1972 a prize of the Polish Academy of Sciences. In 1989 he received the award of the Alfred Jurzykowski Foundation in New York, and in 1993 the Wacław Sierpiński Medal, awarded by the Polish Mathematical Society and the University of Warsaw. In 1995 he received honorary doctorates from the University of Łódź and the Wrocław University of Science and Technology. The year 1998 brought him the Stefan Banach Medal of the Polish Academy of Sciences, the Władysław Orlicz Medal of Adam Mickiewicz University in Poznań, where he gave the Orlicz Lecture, and the Prime Minister’s Award.
 
-  The Faculty Library of the Faculty of Mathematics and Computer Science of the University of Wrocław bears the name of Kazimierz Urbanik. In May 2015, ten years after his death, a scientific session [“Kazimierz Urbanik (1930–2005)”](https://bib.wmi.uni.wroc.pl/sites/default/files/upload_attach/KU.pdf) was held in Wrocław.
+  The Faculty Library of the Faculty of Mathematics and Computer Science of the University of Wrocław bears the name of Kazimierz Urbanik. In May 2015, ten years after his death, a scientific session [“Kazimierz Urbanik (1930–2005)”](http://www.math.uni.wroc.pl/sesja_Urbanik) was held in Wrocław.
 
   ## Sources {#zrodla}
 
@@ -147,7 +147,7 @@ W 1980 roku założył „Probability and Mathematical Statistics” i był reda
 
 Jako młody doktor otrzymał Nagrodę im. Stefana Mazurkiewicza Polskiego Towarzystwa Matematycznego. Dwukrotnie został laureatem nagrody państwowej — drugiego stopnia w 1964 roku i pierwszego stopnia w 1973 roku — a w 1972 roku nagrody Polskiej Akademii Nauk. W 1989 roku otrzymał nagrodę nowojorskiej Fundacji Alfreda Jurzykowskiego, a w 1993 roku Medal im. Wacława Sierpińskiego, przyznawany przez PTM i Uniwersytet Warszawski. W 1995 roku doktoraty honoris causa nadały mu Uniwersytet Łódzki i Politechnika Wrocławska. Rok 1998 przyniósł mu Medal im. Stefana Banacha PAN, Medal im. Władysława Orlicza Uniwersytetu im. Adama Mickiewicza w Poznaniu, gdzie wygłosił Wykład im. Orlicza, oraz nagrodę Prezesa Rady Ministrów.
 
-Imię Kazimierza Urbanika nosi Biblioteka Wydziałowa Wydziału Matematyki i Informatyki Uniwersytetu Wrocławskiego. W maju 2015 roku, dziesięć lat po jego śmierci, odbyła się we Wrocławiu sesja naukowa [„Kazimierz Urbanik (1930–2005)”](https://bib.wmi.uni.wroc.pl/sites/default/files/upload_attach/KU.pdf).
+Imię Kazimierza Urbanika nosi Biblioteka Wydziałowa Wydziału Matematyki i Informatyki Uniwersytetu Wrocławskiego. W maju 2015 roku, dziesięć lat po jego śmierci, odbyła się we Wrocławiu sesja naukowa [„Kazimierz Urbanik (1930–2005)”](http://www.math.uni.wroc.pl/sesja_Urbanik).
 
 ## Źródła {#zrodla}
 

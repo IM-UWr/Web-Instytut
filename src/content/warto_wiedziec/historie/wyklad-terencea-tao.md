@@ -39,8 +39,8 @@ zrodla:
 
 <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
 
-Laureat Medalu Fieldsa prof. Terence Tao (UCLA) wygłosił 6 września 2017 r. otwarty wykład popularnonaukowy *The Erdős discrepancy problem*. Wykład był częścią konferencji [Analysis and Applications](/nauka/konferencje#rok-2017) na cześć Profesora Eliasa M. Steina, zorganizowanej w naszym Instytucie w dniach 4–8 września 2017 r. Wśród jej uczestników było czterech medalistów Fieldsa: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss i Terence Tao.
+Laureat Medalu Fieldsa prof. Terence Tao (UCLA) wygłosił 6 września 2017 r. otwarty wykład popularnonaukowy *The Erdős discrepancy problem*. Wykład był częścią konferencji [Analysis and Applications](/nauka/konferencje#rok-2017) na cześć Eliasa M. Steina, zorganizowanej w naszym Instytucie w dniach 4–8 września 2017 r. Wśród jej uczestników było czterech medalistów Fieldsa: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss i Terence Tao.
 
-Wykład odbył się w sali IICDEF na Wydziale Chemii UWr, a sala pękała w szwach: szacujemy, że przyszło ponad pół tysiąca osób — uczniów i studentów, zawodowych matematyków i amatorów-pasjonatów. Poprzedził go wykład wprowadzający prof. Pawła Strzeleckiego z Uniwersytetu Warszawskiego *Szeregi Fouriera: jak z prostych cegiełek budować dowolne funkcje?*.
+Wykład odbył się w sali IICDEF na Wydziale Chemii UWr, a sala pękała w szwach: szacujemy, że przyszło ponad pół tysiąca osób — uczniów i studentów, zawodowych matematyków i amatorów-pasjonatów. Poprzedził go wykład wprowadzający Pawła Strzeleckiego z Uniwersytetu Warszawskiego *Szeregi Fouriera: jak z prostych cegiełek budować dowolne funkcje?*.
 
 Nagranie wykładu jest dostępne na [kanale YouTube Instytutu](https://www.youtube.com/channel/UCO0NMxdgMe2ZISJAbEcKH4w).

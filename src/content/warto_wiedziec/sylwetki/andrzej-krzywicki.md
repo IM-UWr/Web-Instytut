@@ -19,7 +19,7 @@ liczby:
     etykieta_en: "Zaremba Prize"
 rocznica_urodzin: ""
 karta:
-  zajawka: "Uczeń Witolda Wolibnera, od którego – według monografii wrocławskich szkół naukowych – zaczęła się we Wrocławiu teoria równań różniczkowych. Współautor twierdzenia Aronszajna–Krzywickiego–Szarskiego."
+  zajawka: "Według monografii wrocławskich szkół naukowych to od niego zaczęła się we Wrocławiu teoria równań różniczkowych. Uczeń Witolda Wolibnera, współautor twierdzenia Aronszajna–Krzywickiego–Szarskiego."
   zajawka_en: "A student of Witold Wolibner and, according to a monograph on Wrocław’s academic schools, the man with whom the theory of differential equations in Wrocław began. Co-author of the Aronszajn–Krzywicki–Szarski theorem."
   obraz: /pliki/warto-wiedziec/portrety/andrzej-krzywicki.jpg
   obraz_zrodlo: "IM UWr"
@@ -81,7 +81,7 @@ tresc_en: |-
   - [A. Krzywicki, Colloquium Mathematicum 19 (1968), 143–155](https://geodesic.mathdoc.fr/articles/10.4064/cm-19-1-143-155) — a new difference scheme
   - A. Krzywicki, T. Nadzieja (EuDML): [Annales Polonici Mathematici 54 (1991)](https://eudml.org/doc/262418), [Applicationes Mathematicae 21 (1991), no. 2](https://eudml.org/doc/263383), [Applicationes Mathematicae 21 (1991), no. 4](https://eudml.org/doc/263455) — the Poisson–Boltzmann equation
   - [A. Krzywicki’s home page on the Institute’s former website](https://math.uni.wroc.pl/users/krzywick) — selected publications 1995–2000 (Biler, Nadzieja, Durczewski)
-  - [Staff directory on the Preview of the Institute’s new website](/pracownicy) — professor emeritus, “Differential equations” department
+  - [Staff directory on the Institute’s website](/pracownicy) — professor emeritus, “Differential equations” department
   - [University of Wrocław Repository – A. Krzywicki, “Witold Wolibner” (2003)](https://digilab.uwr.edu.pl/en/dlibra/publication/7755/witold-wolibner-krzywicki-andrzej) — sketch of Wolibner in *Zeszyty Naukowe UO. Matematyka* 31
   - [A. Krzywicki, “Jacek Juzwiszyn (1971–2015)”, Mathematica Applicanda 45 (2017)](https://geodesic.mathdoc.fr/articles/10.14708/ma.v45i2.5374) — memoir
   - Overview of historical prizes of Institute staff (the “Research → Achievements → History” page) — Stanisław Zaremba Prize of the Polish Mathematical Society: 1970 A. Krzywicki, 1992 P. Biler, 2005 G. Karch
@@ -137,7 +137,7 @@ Krzywicki pisał również o ludziach wrocławskiej matematyki. W 2003 roku w ma
 - [A. Krzywicki, Colloquium Mathematicum 19 (1968), 143–155](https://geodesic.mathdoc.fr/articles/10.4064/cm-19-1-143-155) — nowy schemat różnicowy
 - A. Krzywicki, T. Nadzieja (EuDML): [Annales Polonici Mathematici 54 (1991)](https://eudml.org/doc/262418), [Applicationes Mathematicae 21 (1991), z. 2](https://eudml.org/doc/263383), [Applicationes Mathematicae 21 (1991), z. 4](https://eudml.org/doc/263455) — równanie Poissona–Boltzmanna
 - [Strona domowa A. Krzywickiego na dawnej stronie Instytutu](https://math.uni.wroc.pl/users/krzywick) — wybrane publikacje 1995–2000 (Biler, Nadzieja, Durczewski)
-- [Spis pracowników na Podglądzie nowej strony Instytutu](/pracownicy) — emerytowany profesor, zakład „Równania różniczkowe”
+- [Spis pracowników na stronie Instytutu](/pracownicy) — emerytowany profesor, zakład „Równania różniczkowe”
 - [Repozytorium UWr – A. Krzywicki, „Witold Wolibner” (2003)](https://digilab.uwr.edu.pl/en/dlibra/publication/7755/witold-wolibner-krzywicki-andrzej) — szkic o Wolibnerze w „Zeszytach Naukowych UO. Matematyka” 31
 - [A. Krzywicki, „Jacek Juzwiszyn (1971–2015)”, Mathematica Applicanda 45 (2017)](https://geodesic.mathdoc.fr/articles/10.14708/ma.v45i2.5374) — wspomnienie
 - Zestawienie historycznych nagród pracowników Instytutu (strona „Nauka → Sukcesy → Historia”) — Nagroda PTM im. S. Zaremby: 1970 A. Krzywicki, 1992 P. Biler, 2005 G. Karch
