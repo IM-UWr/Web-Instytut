@@ -5,9 +5,23 @@
 # Zlecenie 47: „Warto wiedzieć” jako grupa trzech kolekcji (Sylwetki, Nagrody i wyróżnienia, Historie) w podkatalogach src/content/warto_wiedziec/; formularze według wzoru Studiów, „Dodano” z default "".
 # Zlecenie 52: Sylwetki — pole „Liczby w banerze (3 pozycje)” (liczby) pod Podpisem EN; opis i szablon Treści bez bloku :::w-skrocie.
 # Zlecenie 42: osoby wybierane ze spisu pracowników (pola „… ze spisu”: lista z katalogu _cms/pracownicy, który aktualizuje się sam po zmianie spisu), osoby spoza spisu wpisywane ręcznie.
+# Media (22.11.2026): tylko własne foldery repozytorium. Na stronie pliki ze wszystkich repozytoriów są we wspólnym /pliki,
+# a ten sam plik w dwóch repozytoriach zatrzymuje budowę; osobne foldery to wykluczają. Pilnuje skrypty/sprawdz_pola_cms.py (Web-Core).
 media:
-  input: public/pliki
-  output: /pliki
+- name: warto-wiedziec
+  label: 'Media: Warto wiedzieć'
+  input: public/pliki/warto-wiedziec
+  output: /pliki/warto-wiedziec
+  rename: safe
+- name: wladze
+  label: 'Media: władze'
+  input: public/pliki/wladze
+  output: /pliki/wladze
+  rename: safe
+- name: zaklady
+  label: 'Media: zakłady'
+  input: public/pliki/zaklady
+  output: /pliki/zaklady
   rename: safe
 settings:
   commit:
@@ -35,7 +49,7 @@ content:
   - name: body
     label: Treść
     description: |-
-      Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). To tekst sekcji „O Instytucie”; pierwszy akapit strona pokazuje większą czcionką. Zdanie nad ostatnimi sukcesami: na końcu, pod „## Ostatnie sukcesy {#sukcesy}” (bez tego nagłówka sukcesy są bez zdania).
+      Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). To tekst sekcji „O Instytucie”; pierwszy akapit strona pokazuje większą czcionką. Zdanie nad ostatnimi sukcesami: na końcu, pod „## Ostatnie sukcesy {#sukcesy}” (bez tego nagłówka sukcesy są bez zdania).
     type: code
     options:
       format: markdown
@@ -44,7 +58,7 @@ content:
     type: code
     options:
       format: markdown
-    description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Tekst „O Instytucie” po angielsku; zdanie nad sukcesami pod „## Recent achievements {#sukcesy}”. Puste = strona angielska pokaże tekst polski."
+    description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Tekst „O Instytucie” po angielsku; zdanie nad sukcesami pod „## Recent achievements {#sukcesy}”. Puste = strona angielska pokaże tekst polski."
   - name: format_tresci
     label: Format treści
     type: string
@@ -126,7 +140,7 @@ content:
     default: true
   - name: body
     label: Opis zakładu (czym się zajmuje, historia, tematy prac dla studentów)
-    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w „Media” i wklej link. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać."
+    description: "Zwykły Markdown: akapity oddziela pusta linia; **pogrubienie**, *kursywa*, [tekst linku](https://…); lista: „- ” na początku linii; ## = nagłówek sekcji. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Komentarze <!-- … --> to podpowiedzi; na stronie ich nie widać."
     type: code
     options:
       format: markdown
@@ -187,6 +201,7 @@ content:
       label: Zdjęcie zespołu
       type: image
       options:
+        media: zaklady
         path: public/pliki/zaklady
     - name: zdjecie_opis
       label: Podpis zdjęcia
@@ -229,10 +244,10 @@ content:
     options:
       format: markdown
     description: |-
-      Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd).
+      Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd).
   - name: tresc_en
     label: Treść EN
-    description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Puste = strona angielska pokaże treść polską."
+    description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Puste = strona angielska pokaże treść polską."
     type: code
     options:
       format: markdown
@@ -330,7 +345,7 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka: wstęp (obok portretu), sekcje ## z {#id}, „## Do pobrania {#do-pobrania}” z :::pliki, na końcu „## Źródła {#zrodla}” (na stronie zwinięte). Liczby do banera wpisuje się w polu „Liczby”. Link do innej sylwetki, nagrody albo historii (/instytut/warto-wiedziec/…) łączy wpisy. Pusta Treść (albo same komentarze) = sylwetka „TBA”. Styl: tytuł (Prof., Dr) tylko przy pierwszej wzmiance bohatera, dalej samo nazwisko; pierwsze zdanie bez myślnika i bez lat; bez pogrubień poza hasłem na początku akapitu wyliczenia (**Hasło.**)."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka: wstęp (obok portretu), sekcje ## z {#id}, „## Do pobrania {#do-pobrania}” z :::pliki, na końcu „## Źródła {#zrodla}” (na stronie zwinięte). Liczby do banera wpisuje się w polu „Liczby”. Link do innej sylwetki, nagrody albo historii (/instytut/warto-wiedziec/…) łączy wpisy. Pusta Treść (albo same komentarze) = sylwetka „TBA”. Styl: tytuł (Prof., Dr) tylko przy pierwszej wzmiance bohatera, dalej samo nazwisko; pierwsze zdanie bez myślnika i bez lat; bez pogrubień poza hasłem na początku akapitu wyliczenia (**Hasło.**)."
       type: code
       options:
         format: markdown
@@ -352,7 +367,7 @@ content:
         -->
     - name: tresc_en
       label: Treść EN
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: tytuł (Prof., Dr) tylko przy pierwszej wzmiance bohatera, dalej samo nazwisko; pierwsze zdanie bez myślnika i bez lat; bez pogrubień poza hasłem na początku akapitu wyliczenia (**Hasło.**)."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Sylwetka po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: tytuł (Prof., Dr) tylko przy pierwszej wzmiance bohatera, dalej samo nazwisko; pierwsze zdanie bez myślnika i bez lat; bez pogrubień poza hasłem na początku akapitu wyliczenia (**Hasło.**)."
       type: code
       options:
         format: markdown
@@ -430,6 +445,7 @@ content:
         description: "Portret pionowy 4:5, najlepiej 600×750 px (co najmniej 400×500), oczy na ok. 2/5 wysokości od góry. Tylko z prawem do publikacji. Puste = sylwetka zastępcza."
         type: image
         options:
+          media: warto-wiedziec
           path: public/pliki/warto-wiedziec
       - name: obraz_zrodlo
         label: Źródło zdjęcia
@@ -496,7 +512,7 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis nagrody; laureaci z Instytutu w sekcji „## Laureaci z Instytutu {#laureaci}” w bloku :::laureaci (licznik na liście liczy się sam), dokumenty w :::pliki. Pusta Treść (albo same komentarze) = wpis bez własnej strony; karta prowadzi do linku. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis nagrody; laureaci z Instytutu w sekcji „## Laureaci z Instytutu {#laureaci}” w bloku :::laureaci (licznik na liście liczy się sam), dokumenty w :::pliki. Pusta Treść (albo same komentarze) = wpis bez własnej strony; karta prowadzi do linku. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -516,7 +532,7 @@ content:
         -->
     - name: tresc_en
       label: Treść EN
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Opis po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -550,6 +566,7 @@ content:
         description: Tylko z prawem do publikacji. Puste = bez zdjęcia.
         type: image
         options:
+          media: warto-wiedziec
           path: public/pliki/warto-wiedziec
       - name: obraz_opis
         label: Opis zdjęcia
@@ -636,7 +653,7 @@ content:
       default: true
     - name: body
       label: Treść
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Historia: zwykły tekst, sekcje ## z {#id}. Pusta Treść (albo same komentarze) = wpis bez własnej strony; panel osi prowadzi do linku. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Historia: zwykły tekst, sekcje ## z {#id}. Pusta Treść (albo same komentarze) = wpis bez własnej strony; panel osi prowadzi do linku. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -646,7 +663,7 @@ content:
         <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
     - name: tresc_en
       label: Treść EN
-      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w „Media” i wklej link. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Tekst po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
+      description: "Jawny Markdown: ## rozpoczyna sekcję i pozycję spisu; {#id} zachowuje adres sekcji. Zwykły tekst jest prozą domyślnie; nie wymaga otaczających znaczników. Specjalne układy wymagają znaczników, np. :::kafelki, :::etapy, :::zakladki. Komentarze <!-- … --> objaśniają bloki; na stronie ich nie widać. Zachowaj pasujące końcowe dwukropki. Plik PDF: wgraj w jeden z folderów „Media: …” i wklej link w postaci /pliki/warto-wiedziec/nazwa-pliku.pdf. Po wgraniu sprawdź nazwę w Media: gdy plik o tej nazwie już jest, CMS dopisze -1. Wygląd sprawdzaj po przebudowaniu strony (Podgląd). Tekst po angielsku, w tym samym układzie. Puste = strona angielska pokaże ramkę „Translation in preparation” z linkiem do wersji polskiej. Styl: bez pogrubień poza hasłem na początku akapitu wyliczenia i rokiem laureata; tytuł najwyżej przy laureacie albo głównej osobie wpisu, przy pierwszej wzmiance."
       type: code
       options:
         format: markdown
@@ -683,6 +700,7 @@ content:
         description: Tylko z prawem do publikacji. Puste = bez zdjęcia.
         type: image
         options:
+          media: warto-wiedziec
           path: public/pliki/warto-wiedziec
       - name: obraz_opis
         label: Opis zdjęcia
@@ -805,6 +823,7 @@ content:
       description: Puste = karta bez zdjęcia.
       type: image
       options:
+        media: wladze
         path: public/pliki/wladze
     - name: rola_en
       label: 'EN: funkcja'
@@ -883,6 +902,7 @@ content:
         label: Zdjęcie (portret pionowy 4:5)
         type: image
         options:
+          media: wladze
           path: public/pliki/wladze
       - name: zakres
         label: Zakres obowiązków (opcjonalnie)
