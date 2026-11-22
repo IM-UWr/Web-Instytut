@@ -21,7 +21,7 @@ rocznica_urodzin: "02-06"
 karta:
   zajawka: "Przez lata uczył w szkołach średnich, doktorat obronił w wieku 44 lat, a trzy lata później wprowadził pochodną Liego. Przeżył Auschwitz i zbudował we Wrocławiu ośrodek geometrii różniczkowej."
   zajawka_en: "For years he taught in secondary schools, defended his doctorate at 44 and three years later introduced the Lie derivative. He survived Auschwitz and built a centre of differential geometry in Wrocław."
-  obraz: /pliki/warto-wiedziec/portrety/wladyslaw-slebodzinski.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/wladyslaw-slebodzinski.jpg
   obraz_zrodlo: "Wikimedia Commons"
 na_glownej: true
 ulubione: true

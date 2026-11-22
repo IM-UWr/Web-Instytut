@@ -14,7 +14,7 @@
       "zakres_en": "Heads the Institute and chairs the Institute Council.",
       "dyzur": "",
       "dyzur_en": "",
-      "zdjecie": "/pliki/wladze/grzegorz-karch.jpg"
+      "zdjecie": "/pliki/instytut/wladze/grzegorz-karch.jpg"
     },
     {
       "rola": "Zastępca dyrektora ds. dydaktycznych",
@@ -24,7 +24,7 @@
       "zakres_en": "",
       "dyzur": "",
       "dyzur_en": "",
-      "zdjecie": "/pliki/wladze/tomasz-elsner.jpg"
+      "zdjecie": "/pliki/instytut/wladze/tomasz-elsner.jpg"
     },
     {
       "rola": "Zastępca dyrektora ds. ogólnych",
@@ -34,7 +34,7 @@
       "zakres_en": "",
       "dyzur": "",
       "dyzur_en": "",
-      "zdjecie": "/pliki/wladze/grzegorz-wylupek.jpg"
+      "zdjecie": "/pliki/instytut/wladze/grzegorz-wylupek.jpg"
     },
     {
       "rola": "Zastępca dyrektora ds. naukowych",
@@ -44,7 +44,7 @@
       "zakres_en": "",
       "dyzur": "",
       "dyzur_en": "",
-      "zdjecie": "/pliki/wladze/krzysztof-debicki.jpg"
+      "zdjecie": "/pliki/instytut/wladze/krzysztof-debicki.jpg"
     },
     {
       "rola": "Zastępca dyrektora ds. promocji",
@@ -54,7 +54,7 @@
       "zakres_en": "",
       "dyzur": "",
       "dyzur_en": "",
-      "zdjecie": "/pliki/wladze/piotr-borodulin-nadzieja.jpg"
+      "zdjecie": "/pliki/instytut/wladze/piotr-borodulin-nadzieja.jpg"
     }
   ],
   "sekretariat": {
@@ -137,7 +137,7 @@
         "osoba": "_cms/pracownicy/dariusz-buraczewski.yml",
         "dyzur": "po wcześniejszym umówieniu się",
         "dyzur_en": "by appointment",
-        "zdjecie": "/pliki/wladze/dariusz-buraczewski.jpg",
+        "zdjecie": "/pliki/instytut/wladze/dariusz-buraczewski.jpg",
         "inne": {
           "email": "Dariusz.Buraczewski@uwr.edu.pl"
         }
@@ -146,7 +146,7 @@
         "rola": "Prodziekan ds. dydaktyki matematyki i spraw studenckich",
         "rola_en": "Vice-Dean for Mathematics Teaching and Student Affairs",
         "osoba": "_cms/pracownicy/andrzej-raczynski.yml",
-        "zdjecie": "/pliki/wladze/andrzej-raczynski.jpg",
+        "zdjecie": "/pliki/instytut/wladze/andrzej-raczynski.jpg",
         "inne": {
           "email": "Andrzej.Raczynski@uwr.edu.pl"
         }

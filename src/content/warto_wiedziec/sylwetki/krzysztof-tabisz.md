@@ -65,7 +65,7 @@ karta:
     University of Wrocław, prominent democratic opposition activist and
     organiser of assistance to victims of political repression during martial
     law, awarded the “Wrocław Freedom” distinction in 2026.
-  obraz: /pliki/warto-wiedziec/portrety/krzysztof-tabisz.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/krzysztof-tabisz.jpg
   obraz_zrodlo: "IM UWr"
   obraz_zrodlo_en: "Mathematical Institute, University of Wrocław"
 dodano: 2026-11-18

@@ -21,7 +21,7 @@ rocznica_urodzin: "12-25"
 karta:
   zajawka: "Twórca wrocławskiej szkoły analizy harmonicznej i autor klasycznego twierdzenia o grupach średniowalnych. Wypromował 17 doktorów, a konferencjami i wymianą naukową otworzył Instytut na świat."
   zajawka_en: "Founder of the Wrocław school of harmonic analysis and author of a classic theorem on amenable groups. He supervised 17 doctoral students and, through conferences and academic exchange, opened the Institute to the world."
-  obraz: /pliki/warto-wiedziec/portrety/andrzej-hulanicki.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/andrzej-hulanicki.jpg
   obraz_zrodlo: "Konrad Jacobs / MFO, CC BY-SA 2.0 DE"
 na_glownej: true
 ulubione: false

@@ -21,7 +21,7 @@ rocznica_urodzin: ""
 karta:
   zajawka: "Bada, kiedy rozwiązania równań opisujących skupianie się mikroorganizmów lub cząstek grawitujących istnieją dla wszystkich czasów, a kiedy wybuchają. Członek rzeczywisty PAN, dziekan WMI w latach 2008–2016."
   zajawka_en: "Studies when solutions of equations describing the aggregation of microorganisms or gravitating particles exist for all times and when they blow up. Full member of the Polish Academy of Sciences, Faculty dean in 2008–2016."
-  obraz: /pliki/warto-wiedziec/portrety/piotr-biler.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/piotr-biler.jpg
   obraz_zrodlo: "PAN"
   obraz_zrodlo_en: "Polish Academy of Sciences"
 na_glownej: true

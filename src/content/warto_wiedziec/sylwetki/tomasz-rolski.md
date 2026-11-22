@@ -21,7 +21,7 @@ rocznica_urodzin: ""
 karta:
   zajawka: "Jeden z najwybitniejszych polskich specjalistów od procesów stochastycznych; twórca wrocławskiej grupy probabilistyki stosowanej i dyrektor Instytutu w latach 1996–2002."
   zajawka_en: "One of the most eminent Polish specialists in stochastic processes; founder of the Wrocław applied probability group and Director of the Institute in 1996–2002."
-  obraz: /pliki/warto-wiedziec/portrety/tomasz-rolski.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/tomasz-rolski.jpg
   obraz_zrodlo: "ze strony T. Rolskiego"
   obraz_zrodlo_en: "from T. Rolski’s website"
 na_glownej: true

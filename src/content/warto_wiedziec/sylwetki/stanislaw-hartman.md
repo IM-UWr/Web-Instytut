@@ -21,7 +21,7 @@ rocznica_urodzin: "08-02"
 karta:
   zajawka: "Wraz z Czesławem Ryllem-Nardzewskim wprowadził zbiory interpolacyjne; jego nazwisko noszą też pojęcia teorii rozkładu jednostajnego. W 1968 r. usunięty z Uniwersytetu za poparcie studentów."
   zajawka_en: "With Czesław Ryll-Nardzewski he introduced interpolation sets; concepts in the theory of uniform distribution also bear his name. In 1968 he was dismissed from the University for supporting the students."
-  obraz: /pliki/warto-wiedziec/portrety/stanislaw-hartman.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/stanislaw-hartman.jpg
   obraz_zrodlo: "Archiwum UWr"
   obraz_zrodlo_en: "University of Wrocław Archives"
 na_glownej: true

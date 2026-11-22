@@ -21,7 +21,7 @@ rocznica_urodzin: "02-05"
 karta:
   zajawka: "Uczeń Steinhausa i Marczewskiego, autor ponad 180 prac, głównie z teorii prawdopodobieństwa. Przez ponad ćwierć wieku kierował Instytutem, był rektorem Uniwersytetu i założył „Probability and Mathematical Statistics”."
   zajawka_en: "A student of Steinhaus and Marczewski, author of over 180 papers, mainly in probability theory. He led the Institute for over 25 years, was Rector of the University and founded “Probability and Mathematical Statistics”."
-  obraz: /pliki/warto-wiedziec/portrety/kazimierz-urbanik.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/kazimierz-urbanik.jpg
   obraz_zrodlo: "Ryszard Świtacz, CC BY-SA 3.0"
 na_glownej: true
 ulubione: false

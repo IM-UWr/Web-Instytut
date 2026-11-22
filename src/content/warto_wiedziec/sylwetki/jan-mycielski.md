@@ -21,7 +21,7 @@ rocznica_urodzin: ""
 karta:
   zajawka: "Absolwent i doktor Uniwersytetu Wrocławskiego, uczeń Stanisława Hartmana. Z Hugonem Steinhausem zaproponował aksjomat determinacji, a jego konstrukcja grafów bez trójkątów nosi dziś jego nazwisko."
   zajawka_en: "A graduate of the University of Wrocław, where he obtained his doctorate under Stanisław Hartman. With Hugo Steinhaus he proposed the axiom of determinacy; his construction of triangle-free graphs now bears his name."
-  obraz: /pliki/warto-wiedziec/portrety/jan-mycielski.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/jan-mycielski.jpg
   obraz_zrodlo: "archiwum prywatne / UWr"
   obraz_zrodlo_en: "private archive / University of Wrocław"
 na_glownej: true

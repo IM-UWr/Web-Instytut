@@ -21,7 +21,7 @@ rocznica_urodzin: "04-24"
 karta:
   zajawka: "Uczeń Steinhausa, który przenosił matematykę na łąki, do lasu i do gabinetu pediatry. Współtwórca taksonomii wrocławskiej, autor ε-długości i pierwszy przewodniczący Polskiego Towarzystwa Biometrycznego."
   zajawka_en: "A student of Steinhaus who took mathematics into meadows, forests and the paediatrician’s surgery. Co-creator of the Wrocław taxonomy, originator of ε-length and first chairman of the Polish Biometric Society."
-  obraz: /pliki/warto-wiedziec/portrety/julian-perkal.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/julian-perkal.jpg
   obraz_zrodlo: "Polskie Towarzystwo Biometryczne"
   obraz_zrodlo_en: "Polish Biometric Society"
 na_glownej: true

@@ -21,7 +21,7 @@ rocznica_urodzin: "02-19"
 karta:
   zajawka: "Specjalista od teorii liczb, autor cenionych monografii o liczbach algebraicznych i dziejach teorii liczb, laureat Nagrody PTM im. Banacha (1968), pierwszy dziekan Wydziału Matematyki i Informatyki."
   zajawka_en: "Number theorist, author of highly regarded monographs on algebraic numbers and the history of number theory, Banach Prize winner (1968) and first dean of the Faculty of Mathematics and Computer Science."
-  obraz: /pliki/warto-wiedziec/portrety/wladyslaw-narkiewicz.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/wladyslaw-narkiewicz.jpg
   obraz_zrodlo: "galeria J. Shallita, University of Waterloo"
   obraz_zrodlo_en: "J. Shallit’s gallery, University of Waterloo"
 na_glownej: true

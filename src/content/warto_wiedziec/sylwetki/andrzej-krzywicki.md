@@ -21,7 +21,7 @@ rocznica_urodzin: ""
 karta:
   zajawka: "Według monografii wrocławskich szkół naukowych to od niego zaczęła się we Wrocławiu teoria równań różniczkowych. Uczeń Witolda Wolibnera, współautor twierdzenia Aronszajna–Krzywickiego–Szarskiego."
   zajawka_en: "A student of Witold Wolibner and, according to a monograph on Wrocław’s academic schools, the man with whom the theory of differential equations in Wrocław began. Co-author of the Aronszajn–Krzywicki–Szarski theorem."
-  obraz: /pliki/warto-wiedziec/portrety/andrzej-krzywicki.jpg
+  obraz: /pliki/instytut/warto-wiedziec/portrety/andrzej-krzywicki.jpg
   obraz_zrodlo: "IM UWr"
   obraz_zrodlo_en: "Mathematical Institute, University of Wrocław"
 na_glownej: true

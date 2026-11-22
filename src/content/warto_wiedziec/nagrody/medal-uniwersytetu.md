@@ -6,7 +6,7 @@ kolejnosc: 30
 karta:
   zajawka: "Medal przyznawany przez Senat w uznaniu szczególnych zasług dla Uniwersytetu. Otrzymali go profesorowie Marek Bożejko i Tomasz Rolski."
   zajawka_en: "Awarded by the University Senate in recognition of exceptional services to the University. It has been awarded to Prof. Marek Bożejko and Prof. Tomasz Rolski."
-  obraz: "/pliki/warto-wiedziec/ceremonia.png"
+  obraz: "/pliki/instytut/warto-wiedziec/ceremonia.png"
   obraz_opis: "Uroczystość wręczenia Medalu Uniwersytetu, 13 listopada 2026 r."
   obraz_opis_en: "University of Wrocław Medal ceremony, 13 November 2026"
 na_glownej: false

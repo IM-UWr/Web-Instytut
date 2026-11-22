@@ -6,7 +6,7 @@ kolejnosc: 20
 karta:
   zajawka: "Kierunek matematyka ma od kilkunastu lat ocenę wyróżniającą Polskiej Komisji Akredytacyjnej i jej Certyfikat Jakości Kształcenia."
   zajawka_en: "For well over a decade, the Mathematics programme has held a distinction rating from the Polish Accreditation Committee and its Certificate of Quality of Education."
-  obraz: "/pliki/warto-wiedziec/certyfikat_pka_2018_1.jpg"
+  obraz: "/pliki/instytut/warto-wiedziec/certyfikat_pka_2018_1.jpg"
   obraz_opis: "Certyfikat Jakości Kształcenia Polskiej Komisji Akredytacyjnej dla kierunku matematyka, 6 grudnia 2018 r."
   obraz_opis_en: "Certificate of Quality of Education from the Polish Accreditation Committee for the Mathematics programme, 6 December 2018"
 na_glownej: true
@@ -28,8 +28,8 @@ tresc_en: |-
   <!-- PLIKI: Jeden dokument na punkt. Plik wgraj w „Media” i wklej link; po — można dopisać opis. -->
   :::pliki
 
-  - [Letter from the State Accreditation Committee of 9 April 2010 (JPG, in Polish)](/pliki/warto-wiedziec/wyroznienie.jpg)
-  - [Resolution no. 280/2010 of the Presidium of the State Accreditation Committee (PDF, in Polish)](/pliki/warto-wiedziec/akredytacja_opis.pdf)
+  - [Letter from the State Accreditation Committee of 9 April 2010 (JPG, in Polish)](/pliki/instytut/warto-wiedziec/wyroznienie.jpg)
+  - [Resolution no. 280/2010 of the Presidium of the State Accreditation Committee (PDF, in Polish)](/pliki/instytut/warto-wiedziec/akredytacja_opis.pdf)
 
   :::
 zrodla:
@@ -51,7 +51,7 @@ Kierunek matematyka otrzymał ocenę wyróżniającą już wcześniej: uchwałą
 <!-- PLIKI: Jeden dokument na punkt. Plik wgraj w „Media” i wklej link; po — można dopisać opis. -->
 :::pliki
 
-- [Pismo Państwowej Komisji Akredytacyjnej z 9 kwietnia 2010 r. (JPG)](/pliki/warto-wiedziec/wyroznienie.jpg)
-- [Uchwała nr 280/2010 Prezydium Państwowej Komisji Akredytacyjnej (PDF)](/pliki/warto-wiedziec/akredytacja_opis.pdf)
+- [Pismo Państwowej Komisji Akredytacyjnej z 9 kwietnia 2010 r. (JPG)](/pliki/instytut/warto-wiedziec/wyroznienie.jpg)
+- [Uchwała nr 280/2010 Prezydium Państwowej Komisji Akredytacyjnej (PDF)](/pliki/instytut/warto-wiedziec/akredytacja_opis.pdf)
 
 :::
