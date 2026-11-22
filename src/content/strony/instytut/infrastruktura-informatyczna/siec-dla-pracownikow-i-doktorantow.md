@@ -8,14 +8,14 @@ tresc_en: |
 
   > Based on the document "Sieć komputerowa dla pracowników i doktorantów" from the previous Institute website (file dated September 2023).
 
-  ## Network administrators {#network-administrators}
+  ## Network administrators {#administratorzy-sieci}
 
   - **Wojciech Leśniewski** and **Denis Kaniewski** — Institute of Computer Science, room 125, phone 71 375 7806
   - **Yevhen Borysovets** — Mathematical Institute, room 402, phone 71 375 7411
 
   All matters concerning, among other things, computer configuration, connecting printers, personal web pages and classes in the labs should be reported by e-mail to [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl) or in person in room 402.
 
-  ## Personal web pages {#personal-web-pages}
+  ## Personal web pages {#strony-domowe-www}
 
   ### Basic functionality
 
@@ -46,7 +46,7 @@ tresc_en: |
 
   VPN configuration in Windows is described, for example, [here](https://support.microsoft.com/pl-pl/windows/%C5%82%C4%85czenie-si%C4%99-z-sieci%C4%85-vpn-w-systemie-windows-3d29aeb1-f497-f6b7-7633-115722c1009c).
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

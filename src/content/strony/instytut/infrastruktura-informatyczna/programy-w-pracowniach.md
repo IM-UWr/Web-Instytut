@@ -8,7 +8,7 @@ tresc_en: |
 
   > The list comes from the previous Institute website (no update date given; the most recent program version listed there is Maple 2022) and may be out of date. For current information contact the administrators: [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl), room 402.
 
-  ## Software in individual labs {#software-in-individual-labs}
+  ## Software in individual labs {#oprogramowanie-w-poszczególnych-pracowniach}
 
   | Lab | Operating system | Installed software |
   | --- | --- | --- |
@@ -22,7 +22,7 @@ tresc_en: |
   | 417 | Windows 10 | Office 2013, R, Notepad++ |
   | 417 | Debian Linux | Maple 2022 (10), Matlab R2012b (R14), Mathematica 12 |
 
-  ## Software on all Linux computers {#software-on-all-linux-computers}
+  ## Software on all Linux computers {#programy-na-wszystkich-komputerach-z-systemem-linux}
 
   In addition, all computers running Linux provide:
 
@@ -34,7 +34,7 @@ tresc_en: |
 
   as well as other standard Unix operating system commands.
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

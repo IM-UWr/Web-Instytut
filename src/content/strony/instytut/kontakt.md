@@ -8,23 +8,23 @@ haslo_en: "pl. Grunwaldzki 2, Wrocław"
 tresc_en: |
   <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
-  ## Mathematical Institute {#mathematical-institute}
+  ## Mathematical Institute {#instytut-matematyczny}
 
   pl. Grunwaldzki 2, 50-384 Wrocław, Poland  
   Phone: [+48 71 375 74 01](tel:+48713757401), +48 71 328 07 17  
   E-mail: [dyrekcja@math.uni.wroc.pl](mailto:dyrekcja@math.uni.wroc.pl)
 
-  ## Faculty Office (Dziekanat) {#faculty-office-dziekanat}
+  ## Faculty Office (Dziekanat) {#dziekanat-wydziału-matematyki-i-informatyki}
 
   ul. Joliot-Curie 15, 50-383 Wrocław (Institute of Computer Science building)  
   Phone: +48 71 375 7890, +48 71 375 7895  
   E-mail: [dziekanat.wmi@uwr.edu.pl](mailto:dziekanat.wmi@uwr.edu.pl)
 
-  ## See also {#see-also}
+  ## See also {#zobacz-też}
 
-  - [Staff directory](/en/pracownicy)
-  - [Institute management](/en/instytut/wladze)
-  - [Student affairs contacts](/en/studia/sprawy-studenckie)
+  - [Staff directory](/pracownicy)
+  - [Institute management](/instytut/wladze)
+  - [Student affairs contacts](/studia/sprawy-studenckie)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

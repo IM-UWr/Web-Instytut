@@ -8,12 +8,12 @@ tresc_en: |
 
   The Mathematical Institute has five laboratories for students. The computers in the labs are intended mainly for classes, but when no classes are held there, the labs are available to all users. You may also use a lab during classes you are not taking part in, but only with the teacher's permission.
 
-  ## Where the labs are {#where-the-labs-are}
+  ## Where the labs are {#gdzie-są-pracownie}
 
   - **Student labs 410–417** are in the Mathematical Institute building. If a lab is locked, ask in room 402 to have it opened. The last person leaving the lab should notify the person on duty in room 402 or the porter so that the room can be locked.
   - **Laboratory 6** is in the Institute of Computer Science building. To use it outside class hours, mathematics students collect the key from the porter's desk of the Institute of Computer Science.
 
-  ## Opening hours {#opening-hours}
+  ## Opening hours {#godziny-otwarcia}
 
   | Period | Days | Hours |
   | --- | --- | --- |
@@ -27,13 +27,13 @@ tresc_en: |
 
   During the holidays individual labs may be temporarily unavailable because of equipment replacement, system installation or upgrades, or other maintenance work.
 
-  ## Timetables and remote login {#timetables-and-remote-login}
+  ## Timetables and remote login {#plany-zajęć-i-zdalne-logowanie}
 
-  Detailed lab timetables are available on the Institute website — [winter semester](/en/studia/plan-zajec#zimowy) and [summer semester](/en/studia/plan-zajec#letni) (Polish) — and on the lab doors.
+  Detailed lab timetables are available on the Institute website — [winter semester](/studia/plan-zajec#zimowy) and [summer semester](/studia/plan-zajec#letni) (Polish) — and on the lab doors.
 
-  Since the computers in the labs are not switched off after classes, you can log in to them at any time of day. From outside the network, first log in to the [chaos server](https://www.math.uni.wroc.pl/serwer-dla-studentow-chaos) (Polish) and then to a computer in the lab. Useful IP addresses and host names are listed on the [computer lab equipment](https://www.math.uni.wroc.pl/wyposazenie-laboratorium-komputerowego) page (Polish). See also [Student network and computer labs](/en/instytut/infrastruktura-informatyczna/siec-studencka) (VPN).
+  Since the computers in the labs are not switched off after classes, you can log in to them at any time of day. From outside the network, first log in to the [chaos server](https://www.math.uni.wroc.pl/serwer-dla-studentow-chaos) (Polish) and then to a computer in the lab. Useful IP addresses and host names are listed on the [computer lab equipment](https://www.math.uni.wroc.pl/wyposazenie-laboratorium-komputerowego) page (Polish). See also [Student network and computer labs](/instytut/infrastruktura-informatyczna/siec-studencka) (VPN).
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

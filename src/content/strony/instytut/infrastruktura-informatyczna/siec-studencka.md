@@ -8,21 +8,21 @@ tresc_en: |
 
   > Based on the document "Sieć studencka i laboratoria komputerowe" from the previous Institute website (file dated October 2023).
 
-  ## Computer labs {#computer-labs}
+  ## Computer labs {#laboratoria-komputerowe}
 
   The Mathematical Institute has four laboratories for students (410, 411, 416 and 417). The computers in the labs are intended mainly for classes, but when no classes are held there, the labs are available to all users. You may also use a lab during classes you are not taking part in, but only with the teacher's permission.
 
   The student labs are equipped with 15 PC computer sets. Each computer runs a boot manager that lets you start it with one of the available operating systems. The configurations are adapted to the hardware capabilities and the licences held.
 
-  Opening hours: [Computer laboratory opening hours](/en/instytut/infrastruktura-informatyczna/godziny-otwarcia-laboratorium). Software: [Software in the computer labs](/en/instytut/infrastruktura-informatyczna/programy-w-pracowniach).
+  Opening hours: [Computer laboratory opening hours](/instytut/infrastruktura-informatyczna/godziny-otwarcia-laboratorium). Software: [Software in the computer labs](/instytut/infrastruktura-informatyczna/programy-w-pracowniach).
 
-  ## Student accounts {#student-accounts}
+  ## Student accounts {#konta-studenckie}
 
   All active students of Mathematics at the University of Wrocław have accounts in the student network of the Mathematical Institute. The login and password are sent to students by e-mail and are the same for Windows and Linux.
 
   Lab teachers get access to the student network by writing to [admin@uwr.edu.pl](mailto:admin@uwr.edu.pl) or in person in room 402.
 
-  ## VPN for students {#vpn-for-students}
+  ## VPN for students {#vpn-dla-studentów}
 
   To use the Mathematical Institute network from outside the Institute, students should use the VPN. The student VPN supports the PPTP protocol. The VPN server address is provided by the network administrators. The login and password are the same as in the computer labs.
 
@@ -32,7 +32,7 @@ tresc_en: |
 
   Once the VPN connection is active, you connect to the computers in the labs using ssh. For this you need the IP addresses of the computers in labs 410, 411, 416 and 417 — they are provided by the network administrators ([admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl), room 402).
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

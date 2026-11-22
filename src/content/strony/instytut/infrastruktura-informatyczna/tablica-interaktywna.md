@@ -8,7 +8,7 @@ tresc_en: |
 
   > Instructions taken from the previous Institute website. They refer to the SMART Board 2012 software and may be out of date. Prepared by: Michał Śliwiński.
 
-  ## Before you start {#before-you-start}
+  ## Before you start {#przygotowanie}
 
   First of all, you need an account that lets you log in to Windows in the lab (an ordinary account on the hera server is not enough).
 
@@ -19,19 +19,19 @@ tresc_en: |
   - Lab 416 hosts many classes (also at weekends), so check the timetable in advance (on the lab door or in room 402).
   - Check whether the special pens and the "eraser" are on the shelf under the whiteboard. If not, they should be in room 402. You can also manage without them (it is easy to see how the sensors work), but you then need something like an eraser (e.g. a box) and a pen. Neither may have sharp edges (they could damage the whiteboard); in particular, the writing tip should be rounded.
 
-  ## Setting up in the lab {#setting-up-in-the-lab}
+  ## Setting up in the lab {#podłączenie-w-pracowni}
 
   - Connect the whiteboard with the USB cable to the last computer by the wall (the one closest to the whiteboard) — only that computer has the required software.
   - Connect the projector to the same computer. The projector can be placed on the special stand next to the lab entrance; a sensible distance is about 2 m.
   - It is best to plug the whiteboard and the projector (and possibly the extension cord) into the special (newer) sockets a little further from the whiteboard (where the computer should also be plugged into one of the four sockets). Otherwise the signal may be distorted and you will not be able to draw properly on the whiteboard.
 
-  ## Working with the whiteboard {#working-with-the-whiteboard}
+  ## Working with the whiteboard {#praca-z-tablicą}
 
   - The software starts automatically after logging in to Windows. Everything related to the whiteboard is also available from the Start menu → Programs → SMART Technologies → SMART Board 2012 tools. To make what you write on the whiteboard visible on the screen, press the pen icon in the horizontal menu bar of this program.
   - The computer also has the dedicated whiteboard editor SMART Notebook installed. It can be downloaded legally from the internet (also for use without a whiteboard, e.g. to view or prepare a whiteboard presentation), but only for 30 days.
   - Plenty of materials and help in various languages (though often of poor quality) are available at [smarttech.com](http://smarttech.com); access to some materials, e.g. for classes, requires a (free) account there. Connections to this site from the computer in lab 416 may be interrupted, so it is better to download any materials beforehand on another computer.
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

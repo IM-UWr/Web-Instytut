@@ -16,6 +16,10 @@ zawsze: false
 dodano: ""
 format_tresci: "jawne"
 tresc_en: |
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
+
   Prof. Mariusz Mirek of our Institute, together with Ben Krause and Terence Tao, is a co-author of the paper *Pointwise ergodic theorems for non-conventional bilinear polynomial averages*, published in the Annals of Mathematics, the most prestigious mathematical journal in the world.
 
   This is such an important event that a [special article](https://www.math.uni.wroc.pl/~pborod/preprints/mirek.pdf) about it appeared in *Przegląd Uniwersytecki*.

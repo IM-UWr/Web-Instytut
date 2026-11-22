@@ -23,7 +23,7 @@ nazwa_en: "Mathematics Education and Outreach Unit"
 tresc_en: |
   The unit works on mathematics education and the training of future teachers, including teaching placements for students of the mathematics teaching specialisation, and on popularising mathematics among pupils and teachers.
 
-  See also the initiatives of the [Wrocław Mathematicians Foundation](https://fmw.math.uni.wroc.pl/).
+  See also the [teaching placements](/studia/matematyka#praktyki) in the mathematics programme and the initiatives of the [Wrocław Mathematicians Foundation](https://fmw.math.uni.wroc.pl/).
 opublikowany: true
 ---
 

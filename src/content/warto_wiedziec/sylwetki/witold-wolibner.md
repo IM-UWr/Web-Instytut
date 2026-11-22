@@ -3,7 +3,7 @@ tytul: "Witold Wolibner"
 opublikowany: true
 lata: "1902–1961"
 podpis: "Analityk i mechanik, autor twierdzenia o ruchu cieczy idealnej"
-podpis_en: ""
+podpis_en: "Analyst and specialist in mechanics, author of a theorem on the motion of an ideal fluid"
 liczby:
   - n: "1933"
     n_en: ""
@@ -20,7 +20,7 @@ liczby:
 rocznica_urodzin: ""
 karta:
   zajawka: "W 1933 roku udowodnił, że gładki płaski ruch cieczy idealnej trwa nieograniczenie długo – to klasyczny wynik teorii równań Eulera. Od 1947 roku budował we Wrocławiu mechanikę teoretyczną."
-  zajawka_en: ""
+  zajawka_en: "In 1933 he proved that the smooth plane motion of an ideal fluid continues indefinitely — a classical result in the theory of the Euler equations. From 1947 he built up theoretical mechanics in Wrocław."
   obraz: ""
   obraz_zrodlo: ""
 na_glownej: true
@@ -28,7 +28,70 @@ ulubione: false
 zawsze: false
 dodano: ""
 format_tresci: "jawne"
-tresc_en: ""
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
+
+  Prof. Witold Wolibner belonged to the first generation of professors who built mathematics in Wrocław after the war. By training he was an analyst: his doctorate was in the theory of analytic functions. Years of work at the Institute of Aerodynamics in Warsaw also made him an expert in fluid mechanics. His 1933 article on the plane motion of an ideal fluid is a classic of the theory of the Euler equations and is still cited by authors of new papers. In Wrocław he headed the newly established Chair of Theoretical Mechanics and initiated research on analytic functions. In 1955 he received the Stefan Banach Prize of the Polish Mathematical Society.
+
+  ## Academic career {#droga}
+
+  He was born in 1902 in Piotrowo, in the Płock district. He was first taught at home, and his mathematical talent was particularly encouraged by his mother, Zofia née Biedrzycka. In 1921 he graduated from the Władysław Jagiełło Secondary School in Płock and began studying mathematics at the University of Warsaw. As additional subjects he chose physics, astronomy, logic and psychology. In 1930 he obtained his doctorate there with the dissertation *Przyczynek do teorii funkcji analitycznych* (A contribution to the theory of analytic functions), written under the supervision of Stefan Mazurkiewicz.
+
+  As early as 1927 he took up work at the Institute of Aerodynamics of the Warsaw University of Technology. There he turned to hydromechanics and the mechanics of other media. From 1935 he was also a senior assistant in the Chair of Mathematics at the same university. From then on, rigorous analysis and flow problems are intertwined throughout his work.
+
+  The war interrupted this path. During the defence of Warsaw in 1939 Wolibner fought in the 2nd Volunteer Battalion of the Defence of Warsaw. From 1941 he lived in the Kielce region, where he took part in clandestine teaching, and from 1944 to 1947 he taught at a secondary school in Staszów.
+
+  In 1947 he came to Wrocław and took charge of the newly established Chair of Theoretical Mechanics of the University and the University of Technology. At first he headed it as an acting professor, and in 1954 he became an extraordinary professor. From 1953 he also worked at the Institute of Mathematics of the Polish Academy of Sciences, where from 1956 he led the Theoretical Mechanics Group.
+
+  ## Main achievements {#osiagniecia}
+
+  **The motion of an ideal fluid (1933).** The Euler equations describe the flow of an ideal fluid, that is, one that is inviscid and incompressible. The basic question is this: if the flow is smooth at the start, will it remain smooth forever, or can the solution cease to exist after some time? In a paper published in *Mathematische Zeitschrift* Wolibner settled this question for plane motion in a bounded domain with a smooth boundary. He showed that a smooth solution exists for all time and is uniquely determined by the initial state. The title of the article announces motion lasting [“pendant un temps infiniment long”](https://eudml.org/doc/168482), that is, for an infinitely long time. The key is vorticity, a measure of how strongly the fluid rotates locally. In the plane the flow merely transports it, so it cannot grow uncontrollably. In three dimensions this argument fails. As late as 1992 Patrick Gérard, in a talk at the Bourbaki Seminar, called the question of the global existence of smooth solutions in space an open problem. Gérard labelled the theorem on the plane case with two names and dates: Wolibner (1933) and Kato (1967). Immediately after Wolibner’s article, in the same volume of *Mathematische Zeitschrift*, came a paper by E. Hölder on fluid motion in an unbounded domain. In the more recent literature the two articles are sometimes mentioned together as groundbreaking.
+
+  **Monotone interpolation (1951).** In a short note, [*Sur un polynôme d'interpolation*](https://eudml.org/doc/209940), in *Colloquium Mathematicum*, Wolibner proved that if finitely many nodes are chosen on an interval and assigned values, no two adjacent ones being equal, then there exists a polynomial that takes these values at the nodes and is monotone between any two adjacent nodes. The polynomial increases where the prescribed values increase and decreases where they decrease. It thus passes through the given points without unnecessary oscillation. Specialists in approximation theory later returned to this result. Mircea Ivan of Cluj entitled his 1982 paper simply [*Sur un théorème de W. Wolibner*](https://ictp.acad.ro/jnaat/journal/article/view/1982-vol11-nos1-2-art10).
+
+  **Analytic functions and the mechanics of continua.** Complex analysis accompanied him from his doctorate to the end of his life. His surviving papers include a manuscript on necessary and sufficient conditions for an analytic function to be univalent and an unfinished lecture course, *Funkcje analityczne* (Analytic functions), both from around 1957. The same materials show how broadly he understood mechanics. They include works on the motion of granular materials, on the flow of viscous fluids and on how glaciers scour their beds.
+
+  ## In Wrocław {#wroclaw}
+
+  In Wrocław Wolibner lectured in many fields. His surviving notes cover analysis, the calculus of variations, integral and differential equations, and potential theory. On his initiative the theory of analytic functions began to develop here, pursued by his student Jan Zamorski. This line of research died out, however, when both men died in 1961: Wolibner in January and the 34-year-old Zamorski in December.
+
+  The second strand was linked to fluid mechanics. [Andrzej Krzywicki](/instytut/warto-wiedziec/andrzej-krzywicki), in collaboration with Wolibner, took up hydrodynamic problems, including the motion of a viscous incompressible fluid. He later co-authored both obituary memoirs of Wolibner, and in 2003 he published a profile of him.
+
+  Wolibner wrote reports on doctoral dissertations, among others those of Zdzisław Lewandowski and Stefan Paszkowski. In 1956 he worked on a new edition of Stefan Banach’s *Mechanika* (Mechanics). His comments, corrections and correspondence on the matter have survived. He was a member of the Polish Mathematical Society and an ordinary member of the Wrocław Scientific Society.
+
+  In the last years of his life a serious heart condition confined him to bed. He did not stop working, however, and held seminars in his flat.
+
+  ## Awards and remembrance {#pamiec}
+
+  In 1955 the Polish Mathematical Society awarded him the Stefan Banach Prize. In the list of prizes received by Institute staff he is the third recipient of this prize, after [Hugo Steinhaus](/instytut/warto-wiedziec/hugo-steinhaus) (1946) and [Stanisław Hartman](/instytut/warto-wiedziec/stanislaw-hartman) (1953).
+
+  He died on 9 January 1961 in Wrocław and was buried in St Lawrence’s Cemetery. [Edward Marczewski](/instytut/warto-wiedziec/edward-marczewski) bade him farewell with the text *Nad trumną Witolda Wolibnera* (At the coffin of Witold Wolibner), published in *Odra*. Obituary memoirs appeared in *Wiadomości Matematyczne* (1962) and, in French, in [*Colloquium Mathematicum*](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/colloquium-mathematicum/all/10/2/95232/witold-wolibner-9-ix-1902-9-i-1961) (1963). In 2004 H. Fast published a memoir of him in [*Wiadomości Matematyczne*](http://geodesic.mathdoc.fr/articles/10.14708/wm.v40i01.4992/). In 2012 László Székelyhidi described in the same journal the history of research on global solutions of the two-dimensional Euler equations, starting from Wolibner’s work.
+
+  In 1963 the Archives of the Polish Academy of Sciences purchased his manuscripts, lecture notes and correspondence from his widow, Mirosława Wolibner. There they form the collection [“Materiały Witolda Wolibnera”](https://archiwum.pan.pl/images/zasob/Inwentarze/III_-_119_Witold_Wolibner.pdf) (Witold Wolibner’s papers). The Faculty of Mathematics and Computer Science included him among the nine mathematicians on the poster “Mathematicians. University of Wrocław 1945–2017”.
+
+  ## Sources {#zrodla}
+
+  <!-- ŹRÓDŁA: Jeden punkt = jedno źródło: [tytuł](link) — co z niego wzięto. Na stronie sekcja jest zwinięta; zostaw {#zrodla}. -->
+  - [Archives of the Polish Academy of Sciences, inventory “Materiały Witolda Wolibnera (1902–1961)”, ref. III-119, compiled by A. Chodkowska](https://archiwum.pan.pl/images/zasob/Inwentarze/III_-_119_Witold_Wolibner.pdf) — biographical note (place and date of birth, school, studies, Institute of Aerodynamics, the war, Staszów, chair in 1947, professorship in 1954, Institute of Mathematics of the Polish Academy of Sciences, Banach Prize, learned societies, illness and seminars at home, death and burial) and description of the papers (manuscripts, lectures, reports on dissertations, Banach’s “Mechanika”)
+  - [R. Duda, A. Weron, “Wrocławska szkoła matematyczna”, Wiadomości Matematyczne 42 (2006)](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-bc45390f-a74e-48aa-80c4-7d6fec3d7108/c/WiadMat_2006_1_6.pdf) — arrival in 1947, heading the chair as acting professor, professorship in 1954, analytic functions and J. Zamorski, collaboration with A. Krzywicki, bibliography of memoirs
+  - [Mathematics Genealogy Project: Witold Wolibner](https://mathgenealogy.org/id.php?id=152658) — doctorate at the University of Warsaw in 1930, dissertation title, supervisor
+  - [Z. Charzyński, A. Krzywicki, J. Zamorski, “Witold Wolibner (9.IX.1902–9.I.1961)”, Colloquium Mathematicum 10 (1963), 353–360](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/colloquium-mathematicum/all/10/2/95232/witold-wolibner-9-ix-1902-9-i-1961) — dates of birth and death (from the title); the content could not be read
+  - [W. Wolibner, “Un théorème sur l'existence du mouvement plan d'un fluide parfait, homogène, incompressible, pendant un temps infiniment long”, Math. Z. 37 (1933), 698–726 (EuDML)](https://eudml.org/doc/168482) — bibliographic details of the 1933 paper
+  - [P. Gérard, “Résultats récents sur les fluides parfaits incompressibles bidimensionnels”, Séminaire Bourbaki, exp. 757, Astérisque 206 (1992)](https://smf.emath.fr/system/files/2017-08/smf_ast_206_411-444.pdf) — statement of the theorem (Wolibner 1933, Kato 1967), role of vorticity, open problem in dimension 3
+  - [C. Lacave, E. Miot, C. Wang, “Uniqueness for the 2-D Euler equations on domains with corners” (2014)](https://www.cmls.polytechnique.fr/perso/miot.evelyne/uniqueness-LMW.pdf) — global existence and uniqueness of smooth solutions attributed to Wolibner (1933)
+  - [D. Gérard-Varet, C. Lacave, “The Two Dimensional Euler Equations on Singular Exterior Domains” (arXiv:1311.5988)](https://arxiv.org/pdf/1311.5988) — “pioneering” paper on smooth solutions in smooth bounded domains
+  - [Z. Han, A. Zlatoš, “Euler Equations on General Planar Domains” (arXiv:2002.05092)](https://arxiv.org/pdf/2002.05092) — the 1933 papers of Wolibner and Hölder as groundbreaking; details of Hölder’s paper
+  - [L. Galeati, “The 2D Euler equations are well-posed for generic initial data in L²” (arXiv:2604.14100)](https://arxiv.org/pdf/2604.14100) — a recent citation of Wolibner’s result
+  - [W. Wolibner, “Sur un polynôme d'interpolation”, Colloq. Math. 2 (1951), 136–137 (EuDML)](https://eudml.org/doc/209940) — bibliographic details
+  - [E. Passow, L. Raymon, “The Degree of Piecewise Monotone Interpolation”, Proc. AMS 48 (1975)](https://scispace.com/pdf/the-degree-of-piecewise-monotone-interpolation-3ve3ye973h.pdf) — statement of Wolibner’s result on piecewise monotone interpolation
+  - [M. Ivan, “Sur un théorème de W. Wolibner”, Anal. Numér. Théor. Approx. 11 (1982)](https://ictp.acad.ro/jnaat/journal/article/view/1982-vol11-nos1-2-art10) — reference to the 1951 theorem
+  - [L. Székelyhidi, “Global Solutions of the 2D Euler Equations, Starting with the Work of Witold Wolibner”, Wiadomości Matematyczne 48 (2012)](https://geodesic.mathdoc.fr/articles/10.14708/wm.v48i2.336) — commemoration (bibliographic details only)
+  - [H. Fast, “Wspomnienie o Witoldzie Wolibnerze”, Wiadomości Matematyczne 40 (2004), 269–272](http://geodesic.mathdoc.fr/articles/10.14708/wm.v40i01.4992/) — commemoration (bibliographic details only)
+  - [A. Krzywicki, “Witold Wolibner”, in: Algorytmy w dziejach matematyki, Opole 2003, 109–115 (DigiLab UWr)](https://digilab.uwr.edu.pl/en/dlibra/publication/7755/witold-wolibner-krzywicki-andrzej) — commemoration (bibliographic details only)
+  - [Wikipedia, “Polish Mathematical Society” – list of Stefan Banach Prize recipients](https://en.wikipedia.org/wiki/Polish_Mathematical_Society) — the 1955 prize (read from an IPFS copy)
+  - Institute website: [Research achievements – historical overview](/nauka/sukcesy/historia) — Stefan Banach Prize 1955 and earlier recipients from the Institute
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 

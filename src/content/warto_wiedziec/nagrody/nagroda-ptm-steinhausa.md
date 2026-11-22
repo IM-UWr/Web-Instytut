@@ -1,20 +1,36 @@
 ---
 tytul: "Nagroda Główna PTM im. Hugona Steinhausa"
-tytul_en: ""
+tytul_en: "Hugo Steinhaus Main Prize of the Polish Mathematical Society"
 opublikowany: true
 kolejnosc: 50
 karta:
   zajawka: "Nagroda Polskiego Towarzystwa Matematycznego za całokształt dorobku w dziedzinie zastosowań matematyki. Otrzymała ją prof. Małgorzata Bogdan."
-  zajawka_en: ""
+  zajawka_en: "The Polish Mathematical Society’s prize for lifetime achievement in the applications of mathematics. Prof. Małgorzata Bogdan has received it."
   obraz: "/pliki/aktualnosci/mbogdan2.jpg"
   obraz_opis: "Prof. Małgorzata Bogdan"
-  obraz_opis_en: ""
+  obraz_opis_en: "Prof. Małgorzata Bogdan"
 na_glownej: false
 ulubione: false
 zawsze: false
 dodano: ""
 format_tresci: "jawne"
-tresc_en: ""
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
+
+  The Polish Mathematical Society awards its Hugo Steinhaus Main Prize for lifetime achievement in the applications of mathematics.
+
+  Prof. Małgorzata Bogdan of our Institute received it for 2020.
+
+  ## Recipients from the Institute {#laureaci}
+
+  <!-- LAUREACI: Każdy punkt: **rok** imię i nazwisko — [aktualność](/aktualnosci/…). Nazwisko jako link do sylwetki dostaje portret. Nowych dopisuj na górze. -->
+  :::laureaci
+
+  - **2021** Prof. Małgorzata Bogdan (for 2020) — [news](/aktualnosci/2021-03-19-nagroda-ptm-im-steinhausa-dla-prof-malgorzaty-bogdan)
+
+  :::
 zrodla: []
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->

@@ -1,130 +1,44 @@
 ---
 tytul: Krzysztof Tabisz
 opublikowany: true
-tresc_en: >-
-  Dr Krzysztof Tabisz is a mathematician, long-serving
-  academic at the University of Wrocław, social activist, and former member of
-  the democratic opposition in Poland. For more than four decades, he was
-  associated with the Institute of Mathematics at the University of Wrocław,
-  combining research and teaching with a strong commitment to the academic
-  community and to helping those in need.
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
+  <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
 
-  ## Academic and Scientific Career {#dzialalnosc-naukowa}
+  Dr Krzysztof Tabisz is a mathematician, a long-serving academic teacher at the University of Wrocław, a social and opposition activist, and a distinguished organiser of academic life. For more than four decades he was associated with the Mathematical Institute of the University of Wrocław, combining research and teaching with a commitment to the academic community and to people in need of help.
 
+  ## Research and academic work {#dzialalnosc-naukowa}
 
-  Krzysztof Tabisz began working at the Institute of Mathematics of the
-  University of Wrocław in 1973. He received his PhD in mathematics in 1982 for
-  a dissertation entitled *On a Free Boundary Problem for the One-Dimensional
-  Heat Equation*, supervised by Andrzej Krzywicki.
+  He began working at the Mathematical Institute of the University of Wrocław in 1973. He obtained his doctorate in mathematics in 1982 with the dissertation *O pewnym zagadnieniu ze swobodnym brzegiem dla jednowymiarowego równania ciepła* (On a free boundary problem for the one-dimensional heat equation), written under the supervision of [Andrzej Krzywicki](/instytut/warto-wiedziec/andrzej-krzywicki). His research interests included partial differential equations, free boundary problems and probability theory. He is the author and co-author of research papers published in journals including *Journal of Mathematical Analysis and Applications*, *Applicationes Mathematicae* and *Journal of Theoretical Probability*.
 
+  From 1991 to 1996 he served two terms as Deputy Director of the Mathematical Institute responsible for teaching. He contributed to the development of the Institute’s range of programmes, in particular as a co-creator of the *Matematyka z Informatyką* (Mathematics with Computer Science) specialisation. He was involved in preparing curricula in computer science, programming and numerical methods, and in organising classes for gifted young people.
 
-  His research interests included partial differential equations, free boundary
-  problems, and probability theory. He authored and co-authored scientific
-  publications in journals such as *Journal of Mathematical Analysis and
-  Applications*, *Applicationes Mathematicae*, and *Journal of Theoretical
-  Probability*.
+  He was the first coordinator of the implementation of USOS (Uniwersytecki System Obsługi Studiów, the university study management system) at the University of Wrocław, taking part in the computerisation of the University’s teaching administration.
 
+  He was also one of the initiators of the Interfaculty New Media Laboratory, established in 2005 as a joint venture of the Faculty of Mathematics and Computer Science and the Institute of Journalism and Social Communication. He came up with the idea for the “Łącznik” Gallery, created in 2007 in the space connecting the buildings of the Mathematical Institute and the Institute of Computer Science. The gallery became a venue for contemporary art and for cooperation between the University of Wrocław and the Academy of Fine Arts.
 
-  From 1991 to 1996, he served two consecutive terms as Deputy Director of the
-  Institute of Mathematics for Teaching and Academic Affairs. He contributed
-  significantly to the development of the Institute's educational programmes,
-  particularly as one of the founders of the *Mathematics with Computer Science*
-  specialisation. He was involved in developing curricula in computer science,
-  programming, and numerical methods, as well as organising educational
-  activities for talented young students.
+  ## Social and opposition activity {#dzialalnosc-spoleczna}
 
+  A particularly important part of Krzysztof Tabisz’s biography is his social activity during martial law and Poland’s democratic transformation.
 
-  He was the first coordinator of the implementation of the University
-  Study-Oriented System (USOS) at the University of Wrocław, playing an
-  important role in the computerisation and modernisation of the University's
-  academic administration.
+  After martial law was imposed in 1981, he became involved in organising help for people persecuted by the communist authorities. He was one of the founders of the Archbishop’s Charitable Committee in Wrocław, known as “Pod Czwórką”. From March 1982 he was a member of the Committee’s Council, and from November 1984 to June 1989 he served as its chairman.
 
+  He organised material help for internees, political prisoners, people in hiding and their families. Among other things, he was responsible for contacts with foreign aid organisations and for receiving and distributing shipments of donated goods. On his initiative, a pharmacy dispensing medicines donated from abroad was set up in 1986 at St Nicholas’ parish in Wrocław, and in the late 1980s a soup kitchen for the poor was opened at St Elizabeth’s Church.
 
-  He was also among the initiators of the Interfaculty New Media Laboratory,
-  established in 2005 through cooperation between the Faculty of Mathematics and
-  Computer Science and the Institute of Journalism and Social Communication.
+  In 1989 he was one of the founders of the Wrocław Society for the Care of Prisoners, which supports prisoners and their families. In the same year he co-founded the Solidarity Citizens’ Committee in Wrocław, taking part in organising the campaign before the parliamentary elections of June 1989 and in preparations for the first democratic local government elections.
 
+  His activity was marked by a consistent combination of civic engagement and direct help for people in difficult circumstances.
 
-  In 2007, he initiated the establishment of Galeria Łącznik (the Łącznik
-  Gallery), an exhibition space connecting the buildings of the Institute of
-  Mathematics and the Institute of Computer Science. The gallery became a venue
-  for contemporary art exhibitions and collaboration between the University of
-  Wrocław and the Academy of Fine Arts.
+  ## Honours and distinctions {#odznaczenia}
 
+  For his professional, social and civic work Krzysztof Tabisz has received many marks of recognition, including a Polcul Foundation award (1988) for supporting independent Polish culture and the Gold Medal for Long Service (2008).
 
-  ## Social Activism and Democratic Opposition {#dzialalnosc-spoleczna}
+  In 2026 he received the honorary badge “Wrocławska Wolność” (Wrocław Freedom), awarded by the Rector of the University of Wrocław to people who, as members of the academic community under the communist dictatorship, stood up for freedom, truth, justice and human dignity.
 
+  At the award ceremony held at the University of Wrocław on 25 June 2026, Krzysztof Tabisz spoke on behalf of those honoured. He recalled the solidarity of the academic community during martial law, emphasising the communal nature of the efforts made on behalf of those persecuted.
 
-  An especially important part of Krzysztof Tabisz's biography is his social
-  and civic engagement during the period of martial law and Poland's democratic
-  transformation.
-
-
-  Following the introduction of martial law in December 1981, he became actively
-  involved in organising assistance for people persecuted by the communist
-  authorities. He was one of the founders of the Archbishop's Charitable
-  Committee in Wrocław, commonly known as *Pod Czwórką*.
-
-
-  He joined the Committee's Council in March 1982 and served as its Chairman
-  from November 1984 to June 1989.
-
-
-  He organised material assistance for political prisoners, internees, people in
-  hiding, and their families. His responsibilities included maintaining contacts
-  with international aid organisations, receiving humanitarian shipments from
-  abroad, and coordinating the distribution of essential supplies.
-
-
-  In 1986, he initiated the establishment of a pharmacy distributing medicines
-  donated from abroad at the parish of St Nicholas in Wrocław. In the late
-  1980s, he also helped establish a soup kitchen for people in need at St
-  Elizabeth's Church.
-
-
-  In 1989, he was among the founders of the Wrocław Society for the Care of
-  Prisoners, an organisation providing assistance to prisoners and their
-  families.
-
-
-  That same year, he co-founded the Solidarity Citizens' Committee in
-  Wrocław, contributing to the organisation of the campaign preceding the
-  parliamentary elections of June 1989 and to preparations for the first
-  democratic local government elections.
-
-
-  Throughout this period, his activities were characterised by a combination of
-  civic responsibility, personal courage, and practical assistance to people
-  facing persecution and hardship.
-
-
-  ## Honours and Distinctions {#odznaczenia}
-
-
-  In recognition of his academic, social, and civic contributions, Krzysztof
-  Tabisz has received several distinctions, including the Polcul Foundation
-  Award (1988) for his contribution to independent Polish culture and the
-  Gold Medal for Long Service (2008).
-
-
-  In 2026, he was awarded the honorary distinction "Wrocław Freedom"
-  (*Wrocławska Wolność*), conferred by the Rector of the University of Wrocław
-  on members of the academic community who, during communist rule, stood up for
-  freedom, truth, justice, and human dignity.
-
-
-  At the award ceremony held at the University of Wrocław on 25 June 2026,
-  Krzysztof Tabisz spoke on behalf of the recipients. He recalled the
-  solidarity demonstrated by the academic community during martial law,
-  emphasising the collective nature of the efforts undertaken to support those
-  persecuted by the communist authorities.
-
-
-  His decades of academic and public service form an important part of the
-  history of the Institute of Mathematics and testify to the significant role
-  played by members of the University of Wrocław community in Poland's
-  democratic transformation and in the civic life of Wrocław.
+  His many years of activity form an important part of the history of the Mathematical Institute and bear witness to the involvement of the University of Wrocław community in the democratic transformation and in the social life of Wrocław.
 format_tresci: jawne
 lata: "1950"
 podpis: Matematyk i zasłużony działacz opozycji demokratycznej
@@ -153,6 +67,7 @@ karta:
     law, awarded the “Wrocław Freedom” distinction in 2026.
   obraz: /pliki/warto-wiedziec/portrety/krzysztof-tabisz.jpg
   obraz_zrodlo: "IM UWr"
+  obraz_zrodlo_en: "Mathematical Institute, University of Wrocław"
 dodano: 2026-11-18
 na_glownej: true
 ulubione: false

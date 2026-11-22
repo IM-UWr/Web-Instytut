@@ -14,13 +14,18 @@ ulubione: false
 zawsze: false
 dodano: ""
 format_tresci: "jawne"
-tresc_en: |
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
+
   Having carried out a programme assessment of the Mathematics programme run at the Faculty of Mathematics and Computer Science of the University of Wrocław at first- and second-cycle level with a general academic profile, the Presidium of the Polish Accreditation Committee (PKA) gave the programme a distinction rating by resolution no. 744/2018 of 6 December 2018. This is confirmed by the PKA Certificate of Quality of Education.
 
-  The Mathematics programme had already received a distinction rating before: by resolution no. 280/2010 of 25 March 2010, the Presidium of the State Accreditation Committee found that education in Mathematics at the Faculty of Mathematics and Computer Science of the University of Wrocław (first- and second-cycle studies and long-cycle master's studies) deserved a distinction rating.
+  The Mathematics programme had already received a distinction rating before: by resolution no. 280/2010 of 25 March 2010, the Presidium of the State Accreditation Committee found that education in Mathematics at the Faculty of Mathematics and Computer Science of the University of Wrocław (first- and second-cycle studies and long-cycle master’s studies) deserved a distinction rating.
 
   ## Documents {#dokumenty}
 
+  <!-- PLIKI: Jeden dokument na punkt. Plik wgraj w „Media” i wklej link; po — można dopisać opis. -->
   :::pliki
 
   - [Letter from the State Accreditation Committee of 9 April 2010 (JPG, in Polish)](/pliki/warto-wiedziec/wyroznienie.jpg)

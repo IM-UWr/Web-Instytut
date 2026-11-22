@@ -3,7 +3,7 @@ tytul: "Hugo Steinhaus"
 opublikowany: true
 lata: "1887–1972"
 podpis: "Współtwórca szkoły lwowskiej i wrocławskiej, mistrz aforyzmu"
-podpis_en: ""
+podpis_en: "Co-founder of the Lwów and Wrocław schools of mathematics, master of the aphorism"
 liczby:
   - n: "1945"
     n_en: ""
@@ -20,7 +20,7 @@ liczby:
 rocznica_urodzin: "01-14"
 karta:
   zajawka: "Odkrył talent Banacha i współtworzył szkołę lwowską. Po wojnie, jako jeden z czterech pionierów, budował matematykę we Wrocławiu: był pierwszym dziekanem i zapoczątkował Nową Księgę Szkocką."
-  zajawka_en: ""
+  zajawka_en: "He discovered Banach’s talent and co-founded the Lwów School of Mathematics. After the war, as one of the four pioneers, he built mathematics in Wrocław: he was the first dean and started the New Scottish Book."
   obraz: /pliki/warto-wiedziec/portrety/hugo-steinhaus.jpg
   obraz_zrodlo: "Wikimedia Commons"
 na_glownej: true
@@ -28,7 +28,91 @@ ulubione: true
 zawsze: false
 dodano: ""
 format_tresci: "jawne"
-tresc_en: ""
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
+
+  Prof. Hugo Steinhaus is one of the most important figures in the history of Polish mathematics and one of those to whom Wrocław owes its post-war mathematics. In Lwów he discovered the talent of Stefan Banach and together with him created the Lwów school of functional analysis. After the war, as one of the four pioneers — alongside [Edward Marczewski](/instytut/warto-wiedziec/edward-marczewski), [Bronisław Knaster](/instytut/warto-wiedziec/bronislaw-knaster) and [Władysław Ślebodziński](/instytut/warto-wiedziec/wladyslaw-slebodzinski) — he built from scratch the community from which our Institute grew. He combined pure theory with applications in medicine, biology and industry, and we also remember him as an outstanding populariser of mathematics and the author of pointed aphorisms.
+
+  ## Academic career {#droga}
+
+  He was born on 14 January 1887 in Jasło, into a wealthy family of Jewish origin. After a year of study in Lwów he moved to Göttingen in 1906, and there in 1911 he defended with distinction a doctoral thesis written under the supervision of David Hilbert; the thesis concerned new applications of the Dirichlet principle.
+
+  In 1916 in Kraków, while taking an evening walk in the Planty park, he overheard a conversation about Lebesgue’s theory and joined the two men talking: Stefan Banach and Otton Nikodym. He suggested to Banach a problem on Fourier series, which Banach solved within a few days; their joint paper appeared in 1918. Steinhaus later said that Banach was his greatest discovery.
+
+  From 1920 he was a professor at the Jan Kazimierz University in Lwów. In 1927 he and Banach published the theorem that now bears their names, and in 1929 the two of them founded the journal *Studia Mathematica*. The Lwów mathematicians wrote down problems in the Scottish Book, named after the café in which they met; Steinhaus entered the last problem in it on 31 May 1941. He survived the German occupation together with his wife, hiding near Stróże with documents in the name of Grzegorz Krochmalny. In the autumn of 1945 he came from Kraków to Wrocław, to which he remained attached for the rest of his life. He died here on 25 February 1972.
+
+  ## In Wrocław {#wroclaw}
+
+  In the first years after the war, the University and the University of Science and Technology in Wrocław had a joint rector and some joint units. One of them was the Faculty of Mathematics, Physics and Chemistry, and Steinhaus became its first dean. When the [first lectures](/instytut/warto-wiedziec/pierwsze-wyklady) began on 15 November 1945, he took over the Chair of Mathematical Analysis — one of the four chairs with which mathematics in Wrocław began. He was also elected president of the new Wrocław Branch of the Polish Mathematical Society. He lived in Biskupin, in the villa at ul. Orłowskiego 15, which he shared with Knaster.
+
+  He decided to bring to Wrocław the Lwów custom of writing down problems together. In July 1946 he entered the first problem in the [New Scottish Book](/instytut/warto-wiedziec/nowa-ksiega-szkocka); problems were added to it regularly until 1979, and the book itself is still kept in the Faculty library. He was one of the founders of the journal *Colloquium Mathematicum*, and in 1948 he brought about the revival of the Lwów journal *Studia Mathematica* in Wrocław.
+
+  He devoted more and more attention to applications of mathematics. As early as 1946 he presented the idea of a quadratic tariff for electricity at a meeting of the Polish Mathematical Society. In October 1948 he started the Tuesday seminar on applications of mathematics, and at the State Institute of Mathematics, later transformed into the Institute of Mathematics of the Polish Academy of Sciences, he headed the applications section. He worked with physicians and biologists. In 1953 he founded the journal *Zastosowania Matematyki* (today *Applicationes Mathematicae*) and became its first editor-in-chief. After the war he travelled to the United States many times to lecture, including at the University of Notre Dame.
+
+  ## Key achievements {#osiagniecia}
+
+  Steinhaus’s bibliography comprises about 170 articles, ranging from functional analysis and measure theory to probability theory, game theory and applied statistics.
+
+  **The Lwów years.** The Banach–Steinhaus theorem, known as the uniform boundedness principle, states that a family of continuous linear operators on a Banach space that is bounded at each point separately is bounded by a single common constant; it implies, for example, that there exists a continuous function whose Fourier series diverges at some point. Steinhaus’s theorem of 1920 states that the differences of points of a set of positive measure on the line fill a whole interval around zero. In 1923 he described infinite sequences of coin tosses as points of an interval with Lebesgue measure; this paper contained important elements of Kolmogorov’s later axiomatisation of probability. Steinhaus also posed the ham sandwich problem: any three solids can be bisected simultaneously by a single plane.
+
+  **The Wrocław years.** In 1948 he described in *Econometrica* a way of dividing a cake among three people in which each of them receives — by their own assessment — at least one third. With Florek, Łukaszewicz, Perkal and Zubrzycki he developed in 1951 the [Wrocław taxonomy](/instytut/warto-wiedziec/taksonomia-wroclawska): points are joined by the shortest tree (dendrite), and once the longest edges are removed the set splits into natural groups. In the article [*Length, shape and area*](https://eudml.org/doc/210004) (1954) he observed that the measured length of a river bank grows with the accuracy of the measurement — an early description of what is now called the coastline paradox. In 1956 he considered dividing a solid into k parts with the smallest sum of moments of inertia; historians of statistics regard this paper as the first explicit formulation of the k-means method, which is now used to cluster data. With Marczewski he introduced in 1958 a distance between sets that measures what part of their union belongs to only one of them; for finite sets this is the Jaccard distance known today. His conjecture that successive rotations by a fixed angle divide a circle into arcs of at most three different lengths was proved in 1957–1959 (the three-distance theorem). In 1962, together with Jan Mycielski, he proposed the [axiom of determinacy](/instytut/warto-wiedziec/aksjomat-determinacji): in certain infinite games of two players, one of them always has a winning strategy. This axiom contradicts the axiom of choice.
+
+  ## Students and the school of applications {#uczniowie}
+
+  According to the [Mathematics Genealogy Project](https://www.mathgenealogy.org/id.php?id=7383), Steinhaus supervised twenty doctoral students, and his academic family tree numbers more than 3,400 descendants. His doctoral students in Lwów included Stefan Banach, Juliusz Schauder, Władysław Orlicz and Marek Kac. After the war he supervised a further thirteen, including Mieczysław Warmus, Julian Perkal, Marek Fisz, Jan Oderfeld, Stefan Zubrzycki, Józef Łukaszewicz and Stanisław Trybuła.
+
+  From this circle grew the Wrocław school of applied mathematics. The Wrocław taxonomy was used in anthropology, biology and astronomy. The work of Steinhaus and Łukaszewicz on establishing paternity on the basis of blood-group tests attracted wide attention, and with Oderfeld and Wiśniewski Steinhaus developed the first Polish standards for statistical quality control. With Marczewski he ran a seminar on ergodic theory. In 1967 Łukaszewicz initiated the competition of the Wrocław Branch of the Polish Mathematical Society for students’ mathematical papers, which is still held today.
+
+  ## Populariser and aphorist {#popularyzacja}
+
+  He liked to write about mathematics for a wide audience. As early as 1923 he published in Lwów a popular book, *Czem jest, a czem nie jest matematyka* (What mathematics is and what it is not). In 1938 *Kalejdoskop matematyczny* appeared, a book in which drawings and photographs almost take the place of proofs; it was translated into many languages (into English as *Mathematical Snapshots*) and reprinted many times. In Wrocław he published *Sto zadań* (One hundred problems, 1958), a collection of problems in elementary mathematics. On the Institute’s website he is the patron of the “Outreach” section.
+
+  He was famous for his aphorisms; a collection of them, *Słownik racjonalny* (A rational dictionary), appeared after his death, in 1980. The best known of them — “Między duchem a materią pośredniczy matematyka” (Mathematics mediates between mind and matter) — is engraved on his tombstone. He also wrote memoirs, published as *Wspomnienia i zapiski* and in English as [*Mathematician for All Seasons*](https://rd.springer.com/chapter/10.1007/978-3-319-23102-0_2).
+
+  ## Awards and commemoration {#upamietnienie}
+
+  He was a member of the Polish Academy of Arts and Sciences (from 1945) and of the Polish Academy of Sciences (from 1952). The Polish Mathematical Society awarded him the Stefan Banach Prize (1946) and the Stefan Mazurkiewicz Prize (1951). He received honorary doctorates from the University of Warsaw (1958), the Medical Academy in Wrocław (1961), Adam Mickiewicz University in Poznań (1963) and the University of Wrocław (1965).
+
+  His name is borne by the Hugo Steinhaus Main Prize of the Polish Mathematical Society, awarded for lifetime achievement in the applications of mathematics, by the Wrocław Academic Centre’s Hugo Steinhaus Scholarship in mathematical sciences and by the Hugo Steinhaus Center at the Wrocław University of Science and Technology. At the Institute, lecture hall HS bears his name. He is also one of the nine figures on the poster “Mathematicians. University of Wrocław 1945–2017”.
+
+  ## Sources {#zrodla}
+
+  <!-- ŹRÓDŁA: Jeden punkt = jedno źródło: [tytuł](link) — co z niego wzięto. Na stronie sekcja jest zwinięta; zostaw {#zrodla}. -->
+  - [MacTutor: Hugo Dyonizy Steinhaus](https://mathshistory.st-andrews.ac.uk/Biographies/Steinhaus/) — dates of birth and death, studies and doctorate, professorship in Lwów, *Studia Mathematica*, the last entry in the Scottish Book, arrival in Wrocław, the New Scottish Book, the State Institute of Mathematics, *Colloquium*, *Zastosowania Matematyki*, Notre Dame, Polish Mathematical Society prizes, honorary doctorates, about 170 papers, the inscription on his tombstone, memoirs.
+  - [R. Duda, A. Weron, “Wrocławska szkoła matematyczna”, *Wiadomości Matematyczne* 42 (2006)](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-bc45390f-a74e-48aa-80c4-7d6fec3d7108/c/WiadMat_2006_1_6.pdf) — arrival in the autumn of 1945, dean, the Chair of Mathematical Analysis, president of the Polish Mathematical Society Branch, the villa at ul. Orłowskiego 15, the tariff (1946), the New Scottish Book, the seminar on applications, *Zastosowania Matematyki*, work on paternity with Łukaszewicz, probability as measure, the axiom of determinacy, Krochmalny, list of doctoral students.
+  - [“Wrocławska szkoła matematyczna”, series “Wrocławskie środowisko akademickie” (Item 23)](https://dbc.wroc.pl/Content/1789/PDF/Dzielo%2023%20Wroc%C5%82awska%20Szko%C5%82a%20Matematyczna.pdf) — dean of the joint faculty, the Chair of Mathematical Analysis, the seminar on applications, *Studia* and *Colloquium*, membership of the Polish Academy of Arts and Sciences (1945) and the Polish Academy of Sciences (1952).
+  - [Faculty of Mathematics and Computer Science, University of Wrocław: history of the faculty](https://old.wmi.uni.wroc.pl/en/node/403) — the Faculty of Mathematics, Physics and Chemistry of the University and the University of Science and Technology (1945), first dean.
+  - [“Uczelnie wyrosły na gruzach”, wroclaw.pl](https://www.wroclaw.pl/dla-mieszkanca/uczelnie-wyrosly-na-gruzach) — the joint rector and the joint Faculty of Mathematics, Physics and Chemistry.
+  - [Hugo Steinhaus Center, Wrocław University of Science and Technology: Hugo Steinhaus](https://hsc.pwr.edu.pl/steinhaus) — dates, doctorate, dean, the applications section of the State Institute of Mathematics, the seminar on applications, *Zastosowania Matematyki*, the tariff, work with physicians and biologists, *Kalejdoskop matematyczny* (1938), Polish Academy of Arts and Sciences (1945), the existence of the Center.
+  - [Mathematics Genealogy Project: Hugo Steinhaus](https://www.mathgenealogy.org/id.php?id=7383) — doctorate (Göttingen 1911, Hilbert), 20 doctoral students, 3,409 descendants (as of 18 November 2026), names and years of the doctorates.
+  - [P. Biler, P. Krupski, G. Plebanek, W. A. Woyczyński, “Wrocławska Nowa Księga Szkocka”, *Pamięć i Przyszłość* 3/2015](https://wmi.uwr.edu.pl/wp-content/uploads/sites/288/2024/05/11-BKPW-PiP-3-2015.pdf) — the first entry (July 1946), entries until 1979, where the book is kept.
+  - [Wikipedia: Hugo Steinhaus](https://en.wikipedia.org/wiki/Hugo_Steinhaus) — origin, Grzegorz Krochmalny, Notre Dame, years of the honorary doctorates, aphorisms.
+  - [AustriaWiki (copy of the German Wikipedia): Hugo Steinhaus](https://austria-forum.org/af/AustriaWiki/Hugo_Steinhaus) — membership of the Polish Academy of Sciences from 1952.
+  - [Wirtualny Sztetl: Steinhaus Hugo Dyonizy](https://sztetl.org.pl/en/biographies/192717-steinhaus-hugo-dyonizy) — wealthy family, Krochmalny, arrival in the autumn of 1945, date of death, the inscription on his tombstone, the Center at the University of Science and Technology.
+  - [H. K. Strick, “Hugo Steinhaus” (MacTutor)](https://mathshistory.st-andrews.ac.uk/Strick/steinhaus.pdf) — “my discovery of Banach”, hiding with his wife, *Kalejdoskop* (1938) and its translations, 170 papers, range of research.
+  - [D. Ciesielska, K. Ciesielski, “Banach and Nikodym on the Bench in Kraków Again”, *EMS Newsletter* 2017](https://ems.press/content/serial-article-files/9616) — the meeting in the Planty, the chair in Lwów (1920).
+  - [R. Murawski, “Filozofia matematyki i logiki w lwowskiej szkole matematycznej”, *Przegląd Filozoficzny* 2011](https://czasopisma.pan.pl/Content/93495) — the aphorism from the tombstone, *Słownik racjonalny* (1980), *Czem jest, a czem nie jest matematyka* (1923).
+  - [J. Mielniczuk, “Wkład Polaków w rozwój statystyki matematycznej i stosowanej…”, *Przegląd Statystyczny* 2013](https://home.ipipan.waw.pl/j.mielniczuk/J-MielniczukPS2013.pdf) — the Tuesday seminar, the taxonomy and its applications, paternity, quality-control standards, first editor of *Zastosowania Matematyki*.
+  - [H.-H. Bock, “Origins and extensions of the k-means algorithm…”, JEHPS 2008](https://emis.univie.ac.at/journals/JEHPS/Decembre2008/Bock.pdf) — the 1956 paper as the first explicit formulation of the k-means method.
+  - [EuDML: Florek et al., “Sur la liaison et la division des points d’un ensemble fini” (1951)](https://eudml.org/doc/209969) — the Wrocław taxonomy, its authors.
+  - [EuDML: Marczewski, Steinhaus, “On a certain distance of sets…” (1958)](https://eudml.org/doc/210378) — the Marczewski–Steinhaus distance.
+  - [EuDML: Steinhaus, “Length, shape and area” (1954)](https://eudml.org/doc/210004) — bibliographic details.
+  - [Wikipedia: Coastline paradox](https://en.wikipedia.org/wiki/Coastline_paradox) — Steinhaus and the length of the bank of the Vistula.
+  - [Wikipedia: Three-gap theorem](https://en.wikipedia.org/wiki/Three-gap_theorem) — Steinhaus’s conjecture and the proofs of 1957–1959.
+  - [Wikipedia: Lone divider](https://en.wikipedia.org/wiki/Lone_divider) — division among three people, *Econometrica* 1948.
+  - [Wikipedia: Axiom of determinacy](https://en.wikipedia.org/wiki/Axiom_of_determinacy) — Mycielski and Steinhaus (1962), statement of the axiom, contradiction with the axiom of choice.
+  - [A. Weron, speech of 15 November 2018 (Wrocław University of Science and Technology)](https://wmat.pwr.edu.pl/fcp/qGBUKOQtTKlQhbx08SlkTVwJQX2o8DAoHNiwFE1xVS39UFVZpCFghUHcKVigEQUw/46/public/galeria/obchody_swieta_pwr/przemowa_prof_werona.pdf) — the villa at ul. Orłowskiego 15, the seminar on ergodic theory with Marczewski.
+  - [Open Library: “One Hundred Problems in Elementary Mathematics”](https://openlibrary.org/works/OL460252W) — *Sto zadań* (1958).
+  - [Springer: H. Steinhaus, “Mathematician for All Seasons” (2016)](https://rd.springer.com/chapter/10.1007/978-3-319-23102-0_2) — the English edition of the memoirs.
+  - [Competition of the Wrocław Branch of the Polish Mathematical Society: history](https://ptm.math.uni.wroc.pl/konkurs/historia-konkursu) — the competition since 1967 (after the “did you know” item “A competition from a student of Steinhaus”).
+  - [Faculty of Mathematics and Computer Science Library: poster “Mathematicians from Wrocław 1945–2017”](https://bib.wmi.uni.wroc.pl/en/node/511) — the 2017 poster, nine figures.
+  - [Institute — About the Institute](/instytut) — the four pioneers, the New Scottish Book, *Studia* (1948), the taxonomy, the axiom of determinacy.
+  - [Achievements — history](/nauka/sukcesy/historia) — honorary doctorates with years, Polish Mathematical Society prizes (1946, 1951), the Hugo Steinhaus Prize.
+  - [Study — first year](/studia/pierwszy-rok) — lecture hall HS (the Prof. Hugo Steinhaus auditorium).
+  - [News: Hugo Steinhaus Prize of the Polish Mathematical Society for Prof. Małgorzata Bogdan](/aktualnosci/2021-03-19-nagroda-ptm-im-steinhausa-dla-prof-malgorzaty-bogdan) — the full name and scope of the Main Prize.
+  - [News: Hugo Steinhaus Scholarship for Daniel Danielski](/aktualnosci/2022-11-16-stypendium-im-steinhausa-dla-daniela-danielskiego) — the Wrocław Academic Centre scholarship.
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 

@@ -3,7 +3,7 @@ tytul: "Stanisław Hartman"
 opublikowany: true
 lata: "1914–1992"
 podpis: "Pionier analizy harmonicznej we Wrocławiu, nauczyciel i opozycjonista"
-podpis_en: ""
+podpis_en: "Pioneer of harmonic analysis in Wrocław, teacher and opposition activist"
 liczby:
   - n: "1964"
     n_en: ""
@@ -20,15 +20,85 @@ liczby:
 rocznica_urodzin: "08-02"
 karta:
   zajawka: "Wraz z Czesławem Ryll-Nardzewskim wprowadził zbiory interpolacyjne; jego nazwisko noszą też pojęcia teorii rozkładu jednostajnego. W 1968 r. usunięty z Uniwersytetu za poparcie studentów."
-  zajawka_en: ""
+  zajawka_en: "With Czesław Ryll-Nardzewski he introduced interpolation sets; concepts in the theory of uniform distribution also bear his name. In 1968 he was dismissed from the University for supporting the students."
   obraz: /pliki/warto-wiedziec/portrety/stanislaw-hartman.jpg
   obraz_zrodlo: "Archiwum UWr"
+  obraz_zrodlo_en: "University of Wrocław Archives"
 na_glownej: true
 ulubione: false
 zawsze: false
 dodano: ""
 format_tresci: "jawne"
-tresc_en: ""
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
+
+  Prof. Stanisław Hartman was one of the mathematicians who, from the first months after the war, built a new mathematical centre in Wrocław. His main field was harmonic analysis, especially the theory of almost periodic functions, but he was also interested in algebra and number theory. Several concepts he introduced are known in the international literature under his name. He supervised mathematicians who went on to develop harmonic analysis in Wrocław, and he was also a man of firm convictions: for supporting the protesting students in 1968 he lost his post at the University, and was able to return only more than twelve years later.
+
+  ## Academic career {#droga}
+
+  He was born on 2 August 1914 in Warsaw. From 1932 to 1937 he studied mathematics at the University of Warsaw, where his teachers included Kazimierz Kuratowski, Stefan Mazurkiewicz and Wacław Sierpiński; after graduating he worked there as an assistant until the outbreak of the war. From 1939 to 1941 he studied physics in Lwów. For him the occupation was a time of hiding from the Germans, and later of imprisonment.
+
+  After the war he was briefly an assistant in the Chair of Mathematics at the Silesian University of Technology, but his ties with Wrocław began almost at the outset. As early as 20 October 1945, even before the [first lectures](/instytut/warto-wiedziec/pierwsze-wyklady), he took part in the organisational meeting of the Wrocław branch of the Polish Mathematical Society. Only four people attended: the two speakers, [Edward Marczewski](/instytut/warto-wiedziec/edward-marczewski) and [Władysław Ślebodziński](/instytut/warto-wiedziec/wladyslaw-slebodzinski), as well as Roman S. Ingarden and Hartman himself. From 1946 he worked as a senior assistant at the University and the University of Technology, which until 1951 formed a single institution. On 10 December 1947 he defended his doctorate, the second in mathematics in post-war Wrocław, after that of Stanisław Drobot. He wrote the dissertation *O pewnych zagadnieniach związanych z pojęciami niezależności* (On certain problems related to notions of independence) under Marczewski’s supervision.
+
+  He completed his habilitation in 1951, became an extraordinary professor in the mid-1950s and a full professor in 1961. In 1952–1953 he was Vice-Dean of the Faculty of Mathematics, Physics and Chemistry, and from 1953 to 1968 he headed the Chair of Algebra. He devoted a great deal of time to *Colloquium Mathematicum*: he joined its editorial board in 1957, became deputy editor in 1970, editor-in-chief in 1977 and honorary editor in 1987.
+
+  After his dismissal from the University in 1968 he worked for twelve years at the Institute of Mathematics of the Polish Academy of Sciences in Wrocław, where from 1976 he headed the Department of Harmonic Analysis and Measure Theory. In January 1981 he was reinstated at the University; until 1984 he headed the Department of Functional Analysis, and he retired in the mid-1980s. He died on 11 November 1992 in Wrocław.
+
+  ## Main achievements {#osiagniecia}
+
+  This line of research had its origins in questions asked by [Hugo Steinhaus](/instytut/warto-wiedziec/hugo-steinhaus) about the links between measure theory, Diophantine approximation and periodic functions. In Wrocław they gave rise to an interest in abstract harmonic analysis, pursued first on abelian groups and then on arbitrary topological groups. The study [*Wrocławska szkoła matematyczna*](https://dbc.wroc.pl/Content/1789/PDF/Dzielo%2023%20Wroc%C5%82awska%20Szko%C5%82a%20Matematyczna.pdf) (The Wrocław school of mathematics) names Hartman and [Czesław Ryll-Nardzewski](/instytut/warto-wiedziec/czeslaw-ryll-nardzewski) as the authors of the most important results in this area; Hartman also continued the research in ergodic theory initiated by Steinhaus.
+
+  **Interpolation sets.** An almost periodic function is, roughly speaking, a function that almost repeats itself, like the sum of two oscillations with incommensurable periods, e.g. sin x + sin(√2 x). Hartman and Ryll-Nardzewski asked on which sets one can prescribe completely arbitrary bounded values in such a way that they are always taken by some almost periodic function defined on the whole group. They called sets with this property interpolation sets; today they are usually denoted by the symbol I₀. The fundamental paper is *Almost periodic extensions of functions* ([*Colloquium Mathematicum*](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/colloquium-mathematicum/all/12/1/95511/almost-periodic-extensions-of-functions) 12, 1964), and he developed the concept in a series of papers, among others in collaboration with Ryll-Nardzewski and Jean-Pierre Kahane. As early as 1968 J. Méla devoted an extensive article in *Studia Mathematica* to “the interpolation sets of Ryll-Nardzewski and Hartman”, and contemporary authors regard the 1964 paper as the beginning of the theory.
+
+  **Uniform distribution in the sense of Hartman.** A sequence of points on a circle is uniformly distributed if, in the long run, it falls into every arc in proportion to the arc’s length. On non-compact groups, such as the integers, there is no invariant probability measure against which a sequence could be compared. Hartman got round this difficulty by transferring the sequence to the Bohr compactification — a compact group closely related to almost periodic functions — and studying its distribution there. He also described which locally compact abelian groups admit such sequences at all. He published these results in journals including *Studia Mathematica* (1961) and *Compositio Mathematica* (1964). The literature now speaks of sequences uniformly distributed in the sense of Hartman, and also of Hartman sets and Hartman functions.
+
+  **Books.** Together with Jan Mikusiński he wrote *Teoria miary i całki Lebesgue’a* (The theory of Lebesgue measure and integral); its expanded English edition, *The Theory of Lebesgue Measure and Integration*, was published in 1961 in a monograph series of Pergamon Press. He is also the author of the book [*Wstęp do analizy harmonicznej*](https://geodesic.mathdoc.fr/articles/10.14708/wm.v14i1.1976) (Introduction to harmonic analysis), reviewed in 1972 in *Wiadomości Matematyczne*.
+
+  ## Students and school {#uczniowie}
+
+  The obituary in *Colloquium Mathematicum* stresses that the breadth of Hartman’s interests attracted many students: algebraists as well as specialists in classical and functional analysis. This is reflected in the topics of the doctorates. The [Mathematics Genealogy Project](https://mathgenealogy.org/id.php?id=34146) lists five of his doctoral students: Jan Mycielski (1957, applications of free groups in geometric constructions), [Andrzej Hulanicki](/instytut/warto-wiedziec/andrzej-hulanicki) (1960, Institute of Mathematics of the Polish Academy of Sciences, compact abelian groups), Władysław Narkiewicz (1961, transformations of subsets of fields by polynomials), Bolesław Gleichgewicht (1961, a certain class of non-associative algebras) and [Marek Bożejko](/instytut/warto-wiedziec/marek-bozejko) (1973, Institute of Mathematics of the Polish Academy of Sciences, Sidon sets in noncommutative harmonic analysis). The study *Wrocławska szkoła matematyczna* gives the number of his doctoral students as seven. Three of his students later received the same prize as their supervisor, the Stefan Banach Main Prize of the Polish Mathematical Society: Mycielski (1965), Narkiewicz (1968) and Bożejko (1984). Mycielski is also the co-author, with Steinhaus, of the [axiom of determinacy](/instytut/warto-wiedziec/aksjomat-determinacji).
+
+  The sources describe Hartman’s connection with Wrocław harmonic analysis explicitly. Alongside Ryll-Nardzewski he is named as the author of its first important results, and those who developed it later included Hulanicki, Mycielski and Bożejko — three of his doctoral students. Hulanicki went on to work on harmonic analysis on groups, especially on nilpotent Lie groups. Bożejko, whose dissertation was reviewed by Hulanicki and Ryll-Nardzewski, created a school of noncommutative harmonic analysis and noncommutative probability in Wrocław. According to the Mathematics Genealogy Project, Hartman has 88 academic descendants. Outside the university he took part in organising the teaching of mathematics in secondary and primary schools.
+
+  ## 1968 and the years of opposition {#postawa}
+
+  In March 1968 Hartman took part in the University students’ strike and co-drafted the resolution of the Council of the Faculty of Mathematics, Physics and Chemistry supporting the protesting students. It cost him his post: on 1 November 1968 he was dismissed, and he moved to the Institute of Mathematics of the Polish Academy of Sciences not by his own choice. He decided against emigrating. His farewell letter to the second-year mathematics students is dated 1 November. At Marczewski’s request the year representative read it out on 25 November, and one of the listeners, Zbigniew J. Jurek, later a professor, took down the text word for word. “In truth, I never brought you up in any way other than by lecturing to you on mathematics,” Hartman wrote. The original letter was deposited in the University of Wrocław Archives in 2021, and in November 2025 Jurek handed his handwritten record of it to the Rector.
+
+  In the 1970s Hartman belonged to the democratic opposition in Wrocław. He worked with KOR (the Workers’ Defence Committee), in the autumn of 1977 he helped to organise the Flying University in Wrocław, and in 1978 he signed the founding declaration of the Society for Academic Courses. From 1980 he was active in Solidarity. Under martial law he was interned and, until 6 February 1982, held in internment centres in Wrocław and Nysa, where, among other things, he ran a German course for his fellow internees.
+
+  ## Awards and commemoration {#upamietnienie}
+
+  In 1953 he received the Stefan Banach Main Prize of the Polish Mathematical Society. Although he was kept away from the University for years, he remained an important figure in the Wrocław community: on 29 March 1980, at the thousandth meeting of the Wrocław branch of the Polish Mathematical Society, he gave a talk of reminiscences entitled *34 lata* (34 years).
+
+  After his death [*Colloquium Mathematicum*](http://matwbn.icm.edu.pl/ksiazki/cm/cm64/cm6411.pdf) published a memoir of him (1993), and in 1995 [*Wiadomości Matematyczne*](https://geodesic.mathdoc.fr/articles/10.14708/wm.v31i01.4554) devoted a set of texts to him: an article by Marek Bożejko, a list of his scientific papers and a sketch by Bolesław Gleichgewicht of his social activity. His *Wspomnienia (lwowskie i inne)* (Memoirs, of Lwów and other times) were also published. In June 2014 the Faculty of Mathematics and Computer Science, together with the Wrocław branch of the Polish Mathematical Society and the Department of Mathematical Analysis, marked the centenary of his birth with a two-day session. On the first day the speakers included his students Władysław Narkiewicz, Bolesław Gleichgewicht and Marek Bożejko, and his son, the philosopher Jan Hartman, spoke about the ethos of the scholar. The second day was filled with talks on harmonic analysis, including a lecture by Ryszard Szwarc on Hartman’s interpolation sets. Stanisław Hartman’s portrait appeared on the Faculty’s poster “Mathematicians. University of Wrocław 1945–2017”.
+
+  ## Sources {#zrodla}
+
+  <!-- ŹRÓDŁA: Jeden punkt = jedno źródło: [tytuł](link) — co z niego wzięto. Na stronie sekcja jest zwinięta; zostaw {#zrodla}. -->
+  - [Stanisław Hartman (1914–1992), “Colloquium Mathematicum” 64 (1993), pp. 1–2](http://matwbn.icm.edu.pl/ksiazki/cm/cm64/cm6411.pdf) — date and place of birth, studies in Warsaw (teachers) and in Lwów, the war, habilitation, full professorship, work at the Institute of Mathematics of the Polish Academy of Sciences, interests, interpolation sets and collaboration with Kahane and Ryll-Nardzewski, roles at “Colloquium Mathematicum”, students, TKN/KOR/Solidarity, school education, date of death.
+  - [Hartman Stanisław — Encyklopedia Solidarności (compiled by Agnieszka Klarman)](https://encysol.pl/es/encyklopedia/biogramy/16199,Hartman-Stanislaw.html) — assistant posts, vice-deanship, Chair of Algebra, departments at the Institute of Mathematics of the Polish Academy of Sciences and at the Mathematical Institute of the University of Wrocław, March 1968 and the date of dismissal, return in 1981, retirement, opposition (KOR, Flying University, TKN, Solidarity), internment, place of death.
+  - [Historia listami pisana — University of Wrocław, 6 November 2025](https://uwr.edu.pl/historia-listami-pisana/) — studies, Silesian University of Technology, senior assistant at the University and the University of Technology, doctorate under Marczewski, dismissal and refusal to emigrate, letter to the students and the quotation, fate of the original and of Z. J. Jurek’s record.
+  - [“Wrocławska szkoła matematyczna” — Lower Silesian Digital Library](https://dbc.wroc.pl/Content/1789/PDF/Dzielo%2023%20Wroc%C5%82awska%20Szko%C5%82a%20Matematyczna.pdf) — Polish Mathematical Society meeting of 20 October 1945, date of the doctorate, habilitation, harmonic analysis and ergodic theory in Wrocław, number of doctoral students, forced transfer to the Institute of Mathematics of the Polish Academy of Sciences, internment, Hulanicki as a doctoral student.
+  - [Mathematics Genealogy Project: Stanisław Hartman](https://mathgenealogy.org/id.php?id=34146) — dissertation title, supervisor, doctoral students, topics of their dissertations (pages of the individual doctoral students), 88 descendants.
+  - [S. Hartman, C. Ryll-Nardzewski, *Almost periodic extensions of functions*, “Colloquium Mathematicum” 12 (1964)](https://www.impan.pl/pl/wydawnictwa/czasopisma-i-serie-wydawnicze/colloquium-mathematicum/all/12/1/95511/almost-periodic-extensions-of-functions) — bibliographic details of the paper.
+  - [M. V. Ferrer, S. Hernández, L. Tárrega, *A dichotomy property for locally compact groups* (arXiv)](https://arxiv.org/pdf/1704.03438) — definition of I₀ sets and attribution of them to Hartman and Ryll-Nardzewski.
+  - [J. Méla, *Sur les ensembles d’interpolation de C. Ryll-Nardzewski et de S. Hartman*, “Studia Mathematica” 29 (1968) — EuDML](https://eudml.org/doc/217223) — article on interpolation sets.
+  - [R. Winkler, *Hartman sets, functions and sequences — a survey* (2006)](https://dmg.tuwien.ac.at/winkler/pub/japan.pdf) — uniform distribution in the sense of Hartman, papers of 1961 and 1964, characterisation of groups.
+  - [G. Maresch, *Hartman measurable sets and functions* (TU Wien, 2005)](https://repositum.tuwien.at/bitstream/20.500.12708/13910/2/Maresch%20Gabriel%20-%202005%20-%20Hartman%20measurable%20sets%20and%20functions.pdf) — origin of the names Hartman sets and Hartman functions.
+  - [CiNii: *The Theory of Lebesgue Measure and Integration*](https://ci.nii.ac.jp/ncid/BA1088535X?l=en) — co-author, English edition, year, series.
+  - [J. Kisyński, Stanisław Hartman, “Wstęp do analizy harmonicznej”, “Wiadomości Matematyczne” 14 (1972)](https://geodesic.mathdoc.fr/articles/10.14708/wm.v14i1.1976) — review of the book.
+  - [M. Bożejko, Stanisław Hartman (1914–1992), “Wiadomości Matematyczne” 31 (1995)](https://geodesic.mathdoc.fr/articles/10.14708/wm.v31i01.4554) — metadata of the set of texts (Bożejko’s article, [list of papers](https://geodesic.mathdoc.fr/articles/10.14708/wm.v31i01.4555), [sketch by B. Gleichgewicht](https://geodesic.mathdoc.fr/articles/10.14708/wm.v31i01.4557)).
+  - [Sesja poświęcona 100-leciu urodzin prof. Stanisława Hartmana (2014)](http://www.math.uni.wroc.pl/analiza/2014_Hartman/) — organisers, programme, the 1980 reminiscences “34 lata”.
+  - [Stanisław Hartman — Wikipedia](https://en.wikipedia.org/wiki/Stanis%C5%82aw_Hartman) — Banach Prize 1953, Institute of Mathematics of the Polish Academy of Sciences 1968–1980, son Jan Hartman, “Wspomnienia (lwowskie i inne)”.
+  - [BIP IPN catalogue: Stanisław Zygmunt Hartman](https://katalog.bip.ipn.gov.pl/informacje/162306/pdf) — date of birth, TKN, internment in 1982.
+  - [Stanisław Hartman — wroclaw.pl](https://www.wroclaw.pl/dla-mieszkanca/stanislaw-hartman) — dismissal for supporting the students, KOR, return in 1981.
+  - [Odszedł prof. Jan Mycielski — wroclaw.pl](https://www.wroclaw.pl/akademicki-wroclaw/odszedl-wybitny-matematyk-prof-jan-mycielski-wspolpracowal-z-hartmanem-i-steinhausem) — Mycielski’s doctorate supervised by Hartman.
+  - [O Andrzeju Hulanickim — Nagroda im. Andrzeja Hulanickiego](https://hulanickiaward.math.uni.wroc.pl/o-andrzeju-hulanickim) — Hulanicki’s research topics.
+  - [Marek Bożejko’s profile](/instytut/warto-wiedziec/marek-bozejko) (based on the Institute’s biographical note) — doctorate at the Institute of Mathematics of the Polish Academy of Sciences, topic, reviewers, school of noncommutative harmonic analysis.
+  - [Research achievements – historical overview](/nauka/sukcesy/historia) — Banach Prize for Hartman (1953), Mycielski (1965), Narkiewicz (1968) and Bożejko (1984).
+  - Faculty poster “Mathematicians. University of Wrocław 1945–2017” — information from the Institute.
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 

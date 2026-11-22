@@ -23,7 +23,7 @@ karta:
   haslo_en: "Analysis on Lie groups"
 nazwa_en: "Department of Functional Analysis"
 tresc_en: |
-  The department continues the tradition of the Wrocław school of harmonic analysis founded by Professor Andrzej Hulanicki. Research covers harmonic analysis on Lie groups and homogeneous spaces, Hardy spaces and integral operators, as well as applications of analysis in probability theory, including stochastic recursions and heavy-tailed processes.
+  The department continues the tradition of the Wrocław school of harmonic analysis founded by Prof. Andrzej Hulanicki. Research covers harmonic analysis on Lie groups and homogeneous spaces, Hardy spaces and integral operators, as well as applications of analysis in probability theory, including stochastic recursions and heavy-tailed processes.
 
   Members of the department run the seminar “Harmonic Analysis and Orthogonal Expansions” and carry out numerous projects funded by the National Science Centre.
 opublikowany: true

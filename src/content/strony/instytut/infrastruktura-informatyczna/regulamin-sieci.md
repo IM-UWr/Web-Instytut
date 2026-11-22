@@ -12,11 +12,11 @@ tresc_en: |
   2. the regulations of the University of Wrocław, in particular [Rector's Order No. 142/2017](http://bip.uni.wroc.pl/download/attachment/12922/nr-142_2017_regulamin-bezpieczenstwa-informacji.pdf) on the security of information processed in IT systems and the rules for using the IT infrastructure of the University of Wrocław (Polish);
   3. the Regulations of the Computer Network and the Computer Laboratory of the Mathematical Institute, set out below.
 
-  ## Introduction {#introduction}
+  ## Introduction {#wstęp}
 
   These regulations apply to all users of the computer systems maintained by the Computer Laboratory of the Mathematical Institute.
 
-  ## General provisions {#general-provisions}
+  ## General provisions {#postanowienia-ogólne}
 
   1. A user may use the resources of the Institute network only after an account has been created, i.e. after being assigned a user name (login name) and a password. Being assigned a user name also obliges the user to read and comply with these regulations.
   2. The right to use the resources of the Institute network is granted by the Dean of the Faculty.
@@ -27,7 +27,7 @@ tresc_en: |
   7. During classes only students taking part in those classes according to the timetable may be present in the lab; other users only if the teacher agrees before the class begins.
   8. Outside class hours users may use the computer laboratory during the working hours of the network administrators.
 
-  ## Rights and obligations of the user {#rights-and-obligations-of-the-user}
+  ## Rights and obligations of the user {#prawa-i-obowiązki-użytkownika}
 
   1. The user has the right to privacy of the data stored in the resources of the Institute network.
   2. The Computer Laboratory will make every effort to ensure the security of user data.
@@ -45,7 +45,7 @@ tresc_en: |
   - using processor time economically,
   - using shared disk space (e.g. `/tmp`) economically.
 
-  ## Prohibitions {#prohibitions}
+  ## Prohibitions {#zakazy}
 
   1. An account in the Institute network may be used only by the person to whom it was assigned. Sharing an account or its password with another person will result in the account being blocked immediately.
   2. Using the equipment or software made available to users for commercial purposes is prohibited.
@@ -57,7 +57,7 @@ tresc_en: |
   8. It is forbidden to change the configuration of a computer.
   9. Eating and drinking in the computer laboratories is prohibited.
 
-  ## Sanctions {#sanctions}
+  ## Sanctions {#sankcje}
 
   Users who violate these regulations are subject to the sanctions provided for in Polish law and the disciplinary sanctions set out in the Regulations of the University of Wrocław. For actions contrary to these regulations, the Dean of the Faculty may:
 
@@ -65,7 +65,7 @@ tresc_en: |
   - temporarily suspend the user's right to use the systems,
   - withdraw the right to use the systems.
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

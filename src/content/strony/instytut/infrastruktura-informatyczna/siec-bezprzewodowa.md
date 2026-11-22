@@ -6,7 +6,7 @@ opis_en: "The eduroam network at the Mathematical Institute: who can connect and
 tresc_en: |
   <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
-  ## eduroam {#eduroam}
+  ## eduroam {#sieć-eduroam}
 
   A computer connected to the eduroam network gets a public IP address, so you do not need to set up a proxy in your browser.
 
@@ -26,11 +26,11 @@ tresc_en: |
 
   Download the eduroam installer from [cat.eduroam.org](https://cat.eduroam.org/), then run the downloaded file (e.g. by typing `python file_name` in a terminal).
 
-  ## Other wireless networks at the Institute {#other-wireless-networks-at-the-institute}
+  ## Other wireless networks at the Institute {#inne-sieci-bezprzewodowe-w-instytucie}
 
   The Institute network has an access point called **matematyka** providing wireless internet access. The **matematyka** network is intended only for guests of the Institute; students and staff do not have access to it.
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

@@ -8,24 +8,24 @@ haslo_en: "Network, labs, software"
 tresc_en: |
   <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
-  Computer network and laboratories are run by the Institute computer lab ([staff directory](/en/pracownicy)). Contact the network administrators at [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl) or in room 402.
+  Computer network and laboratories are run by the Institute computer lab ([staff directory](/pracownicy)). Contact the network administrators at [admin@math.uni.wroc.pl](mailto:admin@math.uni.wroc.pl) or in room 402.
 
-  ## Computer network {#computer-network}
+  ## Computer network {#sieć-komputerowa}
 
-  - [Local network regulations](/en/instytut/infrastruktura-informatyczna/regulamin-sieci) — rules for using the network and the computer laboratory.
-  - [Computer network for staff and PhD students](/en/instytut/infrastruktura-informatyczna/siec-dla-pracownikow-i-doktorantow) — administrators, personal web pages, VPN.
-  - [Student network and computer labs](/en/instytut/infrastruktura-informatyczna/siec-studencka) — student accounts, VPN for students.
-  - [Wireless network access](/en/instytut/infrastruktura-informatyczna/siec-bezprzewodowa) — eduroam and the guest network.
+  - [Local network regulations](/instytut/infrastruktura-informatyczna/regulamin-sieci) — rules for using the network and the computer laboratory.
+  - [Computer network for staff and PhD students](/instytut/infrastruktura-informatyczna/siec-dla-pracownikow-i-doktorantow) — administrators, personal web pages, VPN.
+  - [Student network and computer labs](/instytut/infrastruktura-informatyczna/siec-studencka) — student accounts, VPN for students.
+  - [Wireless network access](/instytut/infrastruktura-informatyczna/siec-bezprzewodowa) — eduroam and the guest network.
 
-  ## Computer labs {#computer-labs}
+  ## Computer labs {#pracownie-komputerowe}
 
-  - [Computer lab opening hours](/en/instytut/infrastruktura-informatyczna/godziny-otwarcia-laboratorium) — where the labs are and when they are open.
-  - [Software in the computer labs](/en/instytut/infrastruktura-informatyczna/programy-w-pracowniach) — operating systems and installed programs.
-  - [Interactive whiteboard](/en/instytut/infrastruktura-informatyczna/tablica-interaktywna) — working with the whiteboard in lab 416.
+  - [Computer lab opening hours](/instytut/infrastruktura-informatyczna/godziny-otwarcia-laboratorium) — where the labs are and when they are open.
+  - [Software in the computer labs](/instytut/infrastruktura-informatyczna/programy-w-pracowniach) — operating systems and installed programs.
+  - [Interactive whiteboard](/instytut/infrastruktura-informatyczna/tablica-interaktywna) — working with the whiteboard in lab 416.
 
-  ## Software {#software}
+  ## Software {#oprogramowanie}
 
-  - [Software available to students and staff](/en/instytut/infrastruktura-informatyczna/programy-dla-studentow-i-pracownikow) — MS Office 365, Microsoft programs, STATISTICA, KNOPPIX.
+  - [Software available to students and staff](/instytut/infrastruktura-informatyczna/programy-dla-studentow-i-pracownikow) — MS Office 365, Microsoft programs, STATISTICA, KNOPPIX.
   - [FriCAS](http://axiom-wiki.newsynthesis.org/) — project website (FriCAS is available on the Linux computers in the labs).
 opublikowany: true
 pasek_boczny: brak

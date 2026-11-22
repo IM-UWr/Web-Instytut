@@ -3,7 +3,7 @@ tytul: "Kazimierz Urbanik"
 opublikowany: true
 lata: "1930–2005"
 podpis: "Probabilista, rektor Uniwersytetu, mistrz wrocławskiej probabilistyki"
-podpis_en: ""
+podpis_en: "Probabilist, Rector of the University, master of the Wrocław school of probability"
 liczby:
   - n: "1975"
     n_en: ""
@@ -20,7 +20,7 @@ liczby:
 rocznica_urodzin: "02-05"
 karta:
   zajawka: "Uczeń Steinhausa i Marczewskiego, autor ponad 180 prac, głównie z teorii prawdopodobieństwa. Przez ponad ćwierć wieku kierował Instytutem, był rektorem Uniwersytetu i założył „Probability and Mathematical Statistics”."
-  zajawka_en: ""
+  zajawka_en: "A student of Steinhaus and Marczewski, author of over 180 papers, mainly in probability theory. He led the Institute for over 25 years, was Rector of the University and founded “Probability and Mathematical Statistics”."
   obraz: /pliki/warto-wiedziec/portrety/kazimierz-urbanik.jpg
   obraz_zrodlo: "Ryszard Świtacz, CC BY-SA 3.0"
 na_glownej: true
@@ -28,7 +28,76 @@ ulubione: false
 zawsze: false
 dodano: ""
 format_tresci: "jawne"
-tresc_en: ""
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
+
+  Prof. Kazimierz Urbanik belonged to the generation that studied in post-war Wrocław under [Hugo Steinhaus](/instytut/warto-wiedziec/hugo-steinhaus) and [Edward Marczewski](/instytut/warto-wiedziec/edward-marczewski) and then itself took on responsibility for Wrocław mathematics. He was a probabilist of very broad horizons: he worked on stochastic processes, limit theorems and information theory, as well as universal algebra, and left more than 180 papers. For more than a quarter of a century he headed the Mathematical Institute, he served two terms as Rector of the University of Wrocław, supervised seventeen doctoral students and founded the journal [*Probability and Mathematical Statistics*](/instytut/warto-wiedziec/probability-and-mathematical-statistics). The Wrocław school of probability owes its shape largely to him.
+
+  ## Academic career {#droga}
+
+  He was born on 5 February 1930 in Krzemieniec, a town now in Ukraine. The war interrupted his education at the local secondary school. After the war his family settled in Brzeg, where he passed his secondary school leaving examination in 1948, and in the same year he began studying mathematics and physics at the University of Wrocław. He soon made his mark as an exceptional student: in October 1950, in his third year, he became a deputy assistant. Roman Duda and Aleksander Weron, in their history of the Wrocław school of mathematics, see in him “undoubtedly the greatest mathematical talent of the young generation of that time”.
+
+  The direction of his interests was shaped above all by Steinhaus and Marczewski. He graduated in 1952 and immediately started work at the University. He published his first paper, in topology, in 1953 jointly with [Bronisław Knaster](/instytut/warto-wiedziec/bronislaw-knaster). He soon turned to probability theory: he built stochastic models of cascades of elementary particles, among others in cosmic rays, and on 26 September 1956 he defended his doctoral thesis *Procesy kaskadowe* (Cascade processes), written under Marczewski’s supervision. After that, everything moved very quickly: in 1957 he obtained his habilitation and became a docent, and in 1960, at the age of thirty, a professor. He spent the academic year 1959/1960 at Tulane University in New Orleans.
+
+  In 1965, at the age of 35, he was elected to the Polish Academy of Sciences as one of the youngest members in its history; he later became a full member. In 1966 he gave an invited lecture at the International Congress of Mathematicians in Moscow. He was invited to lecture in Berkeley, Paris, Cambridge, Göttingen, Beijing and Hanoi, among other places, and several times also at Oberwolfach. In the summer of 2000 he retired, but he continued to lecture and run seminars. He died after a long illness on 29 May 2005 in Wrocław.
+
+  ## Key achievements {#osiagniecia}
+
+  His students, describing his work, distinguished five areas: probability theory; stochastic processes; information theory and theoretical physics; universal algebra; and topology, measure theory and analysis. A few results show well the range of these interests.
+
+  **Gaussian measures on groups.** In 1956–1960 he studied random variables with values in groups. He introduced the notion of a Gaussian measure on a locally compact abelian group and showed that such a measure exists exactly when the group is connected — here a purely topological property decides the existence of a probabilistic object.
+
+  **Generalised stochastic processes.** In two extensive papers of 1958 he developed the theory of random processes whose realisations are not ordinary functions but distributions (generalised functions). This language is natural in, among other areas, physics and quantum field theory.
+
+  **Generalised convolutions.** In a paper published in 1964 in *Studia Mathematica* he replaced ordinary convolution — the operation corresponding to adding independent random variables — by a general operation on probability distributions on the half-line, defined by five axioms. Within this framework one can study analogues of infinitely divisible and stable distributions.
+
+  **Decomposability semigroups.** Developing the theory of self-decomposable distributions, that is, Lévy’s class L, he introduced the notion of a decomposability semigroup and a sequence of ever narrower classes of distributions L₀ ⊃ L₁ ⊃ L₂ ⊃ …, beginning with L₀ = L. These ideas were developed further by his students, including Zbigniew J. Jurek and Wiesław Krakowiak.
+
+  **Prediction theory.** He created a theory of prediction for strictly stationary processes, in which Orlicz spaces play a role similar to that of Hilbert spaces in the classical theory. He developed it jointly with Wojbor A. Woyczyński; his lectures in this field appeared in 1967 in Springer’s Lecture Notes in Mathematics series.
+
+  **Information and entropy.** Together with the physicist Roman S. Ingarden he developed an axiomatic, probability-based approach to entropy and information.
+
+  **Universal algebra.** He took up the study of independence in general algebras initiated by Marczewski and described the algebras in which independence behaves like the linear independence of vectors: these are linear or affine spaces over suitable fields.
+
+  ## Students and school {#uczniowie}
+
+  Urbanik supervised seventeen doctoral students. The first of them, Emanuel Strzelecki, defended his thesis in 1962, and the last, Andrzej Wiśniewski, in 1988. They included Wojbor A. Woyczyński, Zbigniew J. Jurek, Jerzy Kucharczak, Wiesław Krakowiak and Bogdan Mincer, as well as doctoral students from Vietnam and Mongolia. His students went on to careers at universities on five continents — from Wrocław through Cleveland and Arlington, Texas, to Hanoi, Ulaanbaatar and Australia. The authors of a memoir of him, themselves his students, write that his fairness, warmth, generosity and devotion to his doctoral students were legendary.
+
+  Roman Duda and Aleksander Weron count the theory of stable measures and processes among the topics widely recognised as a Wrocław speciality, and name Urbanik and his student Woyczyński, among others, as its representatives. For many years Urbanik ran a seminar known simply as the “Monday colloquium at five”; the seminar ran for more than half a century, and he continued to lead it in retirement.
+
+  ## At the Institute and the University {#instytut}
+
+  Urbanik was director of the Mathematical Institute of the University of Wrocław in 1967–1978 and 1981–1996, for more than a quarter of a century in all. From 1975 to 1981, for two terms, he headed the whole university as Rector; he is one of the [four mathematician rectors](/instytut/warto-wiedziec/czterech-rektorow) of the University of Wrocław. From 1972 to 1977 he was president of the Wrocław Branch of the Polish Academy of Sciences, and he also served as vice-president of the Polish Academy of Sciences. His students emphasise that he played an important part in the founding of the Stefan Banach International Mathematical Center.
+
+  In 1980 he founded *Probability and Mathematical Statistics* and was the journal’s editor-in-chief until his death. For decades he also sat on the editorial boards of *Studia Mathematica* (from 1967) and *Colloquium Mathematicum* (from 1968).
+
+  ## Awards and commemoration {#nagrody}
+
+  As a young PhD he received the Stefan Mazurkiewicz Prize of the Polish Mathematical Society. He twice received a State Prize — second class in 1964 and first class in 1973 — and in 1972 a prize of the Polish Academy of Sciences. In 1989 he received the award of the Alfred Jurzykowski Foundation in New York, and in 1993 the Wacław Sierpiński Medal, awarded by the Polish Mathematical Society and the University of Warsaw. In 1995 he received honorary doctorates from the University of Łódź and the Wrocław University of Science and Technology. The year 1998 brought him the Stefan Banach Medal of the Polish Academy of Sciences, the Władysław Orlicz Medal of Adam Mickiewicz University in Poznań, where he gave the Orlicz Lecture, and the Prime Minister’s Award.
+
+  The Faculty Library of the Faculty of Mathematics and Computer Science of the University of Wrocław bears the name of Kazimierz Urbanik. In May 2015, ten years after his death, a scientific session [“Kazimierz Urbanik (1930–2005)”](https://bib.wmi.uni.wroc.pl/sites/default/files/upload_attach/KU.pdf) was held in Wrocław.
+
+  ## Sources {#zrodla}
+
+  <!-- ŹRÓDŁA: Jeden punkt = jedno źródło: [tytuł](link) — co z niego wzięto. Na stronie sekcja jest zwinięta; zostaw {#zrodla}. -->
+  - [Z. J. Jurek, J. Rosiński, W. A. Woyczyński, “Kazimierz Urbanik (1930–2005)”, *Wiadomości Matematyczne* 42 (2006), translated by P. Biler — PDF in the Library of the Faculty of Mathematics and Computer Science, University of Wrocław](https://bib.wmi.uni.wroc.pl/sites/default/files/upload_attach/KU.pdf) — main source: dates, Brzeg, assistantship 1950, career, Polish Academy of Sciences, posts, journals, seminar, description of results, list of 17 doctoral students, prizes and honorary doctorates.
+  - [Z. J. Jurek, J. Rosiński, W. A. Woyczyński, “Kazimierz Urbanik (1930–2005)”, *Probability and Mathematical Statistics* 25.1 (2005) — Digilab UWr](https://digilab.uwr.edu.pl/en/dlibra/publication/50015/kazimierz-urbanik-1930-2005-jurek-zbigniew-j-rosinski-jan-woyczynski-wojbor-a) — the English original of the obituary (metadata).
+  - [Z. J. Jurek, J. Rosiński, W. A. Woyczyński, memoir in *Bernoulli News* (2006)](https://www.bernoullisociety.org/oldnews/06a/bn_1.html) — lecture at the ICM 1966, 17 doctoral students, lectures abroad, PMS 1980–2005, the Banach Center.
+  - [MacTutor History of Mathematics: Kazimierz Urbanik](https://mathshistory.st-andrews.ac.uk/Biographies/Urbanik/) — dates and places, Brzeg, the influence of Steinhaus and Marczewski, habilitation 1957, Tulane, Polish Academy of Sciences 1965, directorship and rectorship, retirement 2000, the paper with Knaster, more than 180 papers.
+  - [IMPAN: Kazimierz Urbanik](https://old.impan.pl/Great/Urbanik) — dates, posts, more than 180 papers, role in building the probability school, students on five continents.
+  - [IMPAN: doctoral students, posts and prizes of K. Urbanik](https://bcc.impan.pl/Great/Urbanik/phdku.pdf) — list of 17 doctoral students, posts (directorship, rectorship, Wrocław Branch of the Polish Academy of Sciences), editorial boards, prizes.
+  - [R. Duda, A. Weron, “Wrocławska szkoła matematyczna”, *Wiadomości Matematyczne* 42 (2006)](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-bc45390f-a74e-48aa-80c4-7d6fec3d7108/c/WiadMat_2006_1_6.pdf) — the quotation about his talent, particle cascades, generalised processes, prediction theory, entropy with Ingarden, stable measures, PMS; dates of degrees.
+  - [University of Wrocław Archives: list of doctorates 1945–2015](https://archiw.uwr.edu.pl/wp-content/uploads/sites/114/2023/01/DR_mat_fiz_chem_1945-2015.pdf) — date (26 September 1956), title and supervisor of the doctorate; dates of his students’ defences.
+  - [Mathematics Genealogy Project: Kazimierz Urbanik](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=61558) — supervisor, year of the doctorate, 18 students.
+  - [IMU: ICM plenary and invited speakers](https://www.mathunion.org/icm-plenary-and-invited-speakers?page=165) — Moscow 1966, half-hour lecture.
+  - [Wikipedia (en): Kazimierz Urbanik](https://en.wikipedia.org/wiki/Kazimierz_Urbanik) — supplementary: dates, ICM 1966, PMS, generalised convolutions and decomposability semigroups, *Lectures on Prediction Theory* (1967).
+  - [Wikipedia (pl): Instytut Matematyczny Uniwersytetu Wrocławskiego](https://pl.wikipedia.org/wiki/Instytut_Matematyczny_Uniwersytetu_Wroc%C5%82awskiego) — rectorship 1975–1981.
+  - [Wrocław Branch of the Polish Academy of Sciences: poster for the 40th anniversary](https://oldwroclaw.pan.pl/images/pliki/40_lecie/pdf_postery/poster11.pdf) — full member of the Polish Academy of Sciences, date of death.
+  - [Library of the Faculty of Mathematics and Computer Science, University of Wrocław — about the library’s patron](https://bib.wmi.uni.wroc.pl/en/node/594) — Urbanik as patron of the library.
+  - [Research achievements – historical overview](/nauka/sukcesy/historia) — ICM 1966, Orlicz Lecture 1998, honorary doctorates 1995.
+  - [Session “Kazimierz Urbanik (1930–2005)”, 22–23 May 2015](http://www.math.uni.wroc.pl/sesja_Urbanik) — memorial session (according to the Institute’s conference calendar).
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 

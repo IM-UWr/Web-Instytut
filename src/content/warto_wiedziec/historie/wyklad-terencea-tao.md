@@ -19,9 +19,13 @@ zawsze: false
 dodano: ""
 format_tresci: "jawne"
 tresc_en: |
-  Fields Medallist Prof. Terence Tao (UCLA) gave an open popular-science lecture, *The Erdős discrepancy problem*, on 6 September 2017. The lecture was part of the conference [Analysis and Applications](/nauka/konferencje#rok-2017) in honour of Professor Elias M. Stein, organised at our Institute on 4–8 September 2017. Its participants included four Fields Medallists: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss and Terence Tao.
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
-  The lecture took place in lecture hall IICDEF at the Faculty of Chemistry of the University of Wrocław, and the hall was packed: we estimate that more than five hundred people came — school and university students, professional mathematicians and enthusiastic amateurs. It was preceded by an introductory lecture by Prof. Paweł Strzelecki of the University of Warsaw, *Fourier series: how to build arbitrary functions from simple building blocks* (in Polish).
+  <!-- TEKST: Zwykły Markdown. Specjalny układ wymaga jawnego znacznika bloku. -->
+
+  Fields Medallist Prof. Terence Tao (UCLA) gave an open popular-science lecture, *The Erdős discrepancy problem*, on 6 September 2017. The lecture was part of the conference [Analysis and Applications](/nauka/konferencje#rok-2017) in honour of Elias M. Stein, organised at our Institute on 4–8 September 2017. Its participants included four Fields Medallists: Jean Bourgain, Charles Fefferman, Elon Lindenstrauss and Terence Tao.
+
+  The lecture took place in lecture hall IICDEF at the Faculty of Chemistry of the University of Wrocław, and the hall was packed: we estimate that more than five hundred people came — school and university students, professional mathematicians and enthusiastic amateurs. It was preceded by an introductory lecture in Polish by Paweł Strzelecki of the University of Warsaw, *Szeregi Fouriera: jak z prostych cegiełek budować dowolne funkcje?* (Fourier series: how to build arbitrary functions from simple building blocks?).
 
   A recording of the lecture is available on the [Institute’s YouTube channel](https://www.youtube.com/channel/UCO0NMxdgMe2ZISJAbEcKH4w).
 zrodla:

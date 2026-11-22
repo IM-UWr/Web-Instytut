@@ -436,6 +436,11 @@ content:
         description: "Krótko, bez „Fot.” (strona dopisuje je sama): autor albo instytucja i licencja, np. „Konrad Jacobs / MFO, CC BY-SA 2.0 DE” albo „Archiwum UWr”. Pokazuje się drobno pod portretem na stronie osoby. Pełny opis z linkiem i licencją dopisz na stronie „O stronie” (Web-Ustawienia). Puste = bez podpisu."
         type: string
         default: ""
+      - name: obraz_zrodlo_en
+        label: Źródło zdjęcia EN
+        description: "Po angielsku, bez „Photo:” (strona dopisuje je sama), np. „University of Wrocław Archives”. Puste = jak po polsku (nazwiska, licencje i „Wikimedia Commons” nie wymagają tłumaczenia)."
+        type: string
+        default: ""
     - name: dodano
       label: Dodano
       description: "Dzień dodania wpisu: przez 30 dni znaczek „Nowe”. Ustaw tylko przy nowym wpisie albo przy publikacji szkicu, nie przy poprawkach. Puste = bez „Nowe”."

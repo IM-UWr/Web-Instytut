@@ -41,7 +41,7 @@ tresc_en: |
   - DVD version: [KNOPPIX V8.1 DVD](http://ftp.uni-kl.de/pub/linux/knoppix-dvd/KNOPPIX_V8.1-2017-09-05-EN.iso) (2017),
   - CD version: [KNOPPIX V7.2 CD](http://ftp.uni-kl.de/pub/linux/knoppix/ADRIANE-KNOPPIX_V7.2.0gCD-2013-07-28-EN.iso) (2013).
 
-  [← IT infrastructure](/en/instytut/infrastruktura-informatyczna)
+  [← IT infrastructure](/instytut/infrastruktura-informatyczna)
 opublikowany: true
 pasek_boczny: brak
 format_tresci: jawne

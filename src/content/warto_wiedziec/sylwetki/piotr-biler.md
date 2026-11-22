@@ -3,7 +3,7 @@ tytul: "Piotr Biler"
 opublikowany: true
 lata: "ur. 1958"
 podpis: "Badacz nieliniowych równań ewolucji i modeli chemotaksji"
-podpis_en: ""
+podpis_en: "Researcher in nonlinear evolution equations and models of chemotaxis"
 liczby:
   - n: "2016"
     n_en: ""
@@ -20,15 +20,72 @@ liczby:
 rocznica_urodzin: ""
 karta:
   zajawka: "Bada, kiedy rozwiązania równań opisujących skupianie się mikroorganizmów lub cząstek grawitujących istnieją dla wszystkich czasów, a kiedy wybuchają. Członek rzeczywisty PAN, dziekan WMI w latach 2008–2016."
-  zajawka_en: ""
+  zajawka_en: "Studies when solutions of equations describing the aggregation of microorganisms or gravitating particles exist for all times and when they blow up. Full member of the Polish Academy of Sciences, Faculty dean in 2008–2016."
   obraz: /pliki/warto-wiedziec/portrety/piotr-biler.jpg
   obraz_zrodlo: "PAN"
+  obraz_zrodlo_en: "Polish Academy of Sciences"
 na_glownej: true
 ulubione: false
 zawsze: false
 dodano: "2026-11-18"
 format_tresci: "jawne"
-tresc_en: ""
+tresc_en: |-
+  <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
+
+  <!-- TEKST: Zwykły Markdown. Wzmiankę o publikacji, która jest w „Źródłach”, zrób linkiem do niej. -->
+
+  Prof. Piotr Biler is a mathematician at the Mathematical Institute of the University of Wrocław and a specialist in nonlinear partial differential equations. He works mainly on evolution equations with diffusion, including nonlocal diffusion. In biology such equations describe chemotaxis, that is, the movement of microorganisms in response to chemical stimuli, and in physics they describe systems of particles that attract one another gravitationally or interact electromagnetically. He is a full member of the Polish Academy of Sciences. From 2008 to 2016 he was Dean of the Faculty of Mathematics and Computer Science, and in the 2024–2026 term he is President of the Wrocław Branch of the Polish Academy of Sciences.
+
+  ## Academic career {#droga}
+
+  He was born in 1958. He defended his doctorate at the University of Wrocław in 1984; his supervisor was [Andrzej Krzywicki](/instytut/warto-wiedziec/andrzej-krzywicki). The dissertation concerned the large-time behaviour of solutions of equations that generalise the Korteweg–de Vries–Burgers equation (a wave model in which nonlinearity, dispersion and viscosity interact). The asymptotics of solutions, that is, their behaviour after a long time, has remained one of the main themes of his research. He completed his habilitation in 1992 with a thesis on the asymptotics of solutions of nonlinear second-order evolution equations. He was awarded the title of professor in 1996.
+
+  In papers from the early 1990s he studied, among other things, attractors of coupled Schrödinger and Klein–Gordon systems and the scattering of small solutions of the generalised Benjamin–Bona–Mahony equation. Later, nonlinear parabolic equations describing interacting particles and cell populations came to the fore.
+
+  He collaborates with mathematicians from several French centres, including Paris, Orsay, Lyon, Toulouse and Bordeaux, and with Case Western Reserve University in Cleveland. He has been a visiting professor at universities in France, the United States and Chile. From September 2021 to January 2022 he was a fellow of the Collegium de Lyon, where, together with the Institut Camille Jordan, he carried out a project on singular solutions in chemotaxis and aggregation models.
+
+  ## Blow-up, collapse and nonlocal diffusion {#osiagniecia}
+
+  **Chemotaxis and the Keller–Segel model.** In this model two tendencies work against each other: diffusion spreads the population out, while chemical attraction draws it together. A solution may therefore exist for all times or “blow up” in finite time. Blow-up means that the density concentrates at a point. Biler is known for results that make it possible to decide which of these cases occurs. Together with his collaborators he gave blow-up criteria, among them optimal ones for radial solutions, and constructed large global and self-similar solutions. In physics, equations of the same type describe, in the mean-field approximation, a system of particles attracting one another gravitationally. Blow-up of a solution then corresponds to gravitational collapse. Papers on such models have appeared in journals including *Mathematische Annalen* (2004), *Advances in Mathematics* (2018) and *Indiana University Mathematics Journal* (2023).
+
+  **Nonlocal diffusion.** In the ordinary diffusion equation the change at a given point depends only on its immediate neighbourhood. In nonlocal diffusion the Laplacian is replaced, for example, by its fractional power, so the change is influenced by the state of the system in the whole space. This line of research includes “fractal” Burgers equations (a paper with T. Funaki and W. A. Woyczyński, 1998) and conservation laws with Lévy operators. It also includes the nonlocal porous medium equation, for which Biler, together with C. Imbert and Grzegorz Karch, studied Barenblatt profiles and other weak solutions (*Archive for Rational Mechanics and Analysis*, 2015). With Karch and R. Monneau he also studied the nonlinear diffusion of the density of dislocations, that is, defects of the crystal lattice (*Communications in Mathematical Physics*, 2010). He led grants devoted to these problems: a Polonium project on evolution equations with Lévy-type diffusion (2009–2010) and the NCN grant “Nielokalne zagadnienia paraboliczne: regularność rozwiązań, wybuchy, osobliwości” (Nonlocal parabolic problems: regularity of solutions, blowup, singularities; 2017–2020).
+
+  **Drift–diffusion systems.** He also studied the Nernst–Planck and Debye–Hückel systems, which describe the motion of charged particles, and the large-time behaviour of their solutions, among others in collaboration with J. Dolbeault (2000).
+
+  He collected his results on chemotaxis in the monograph *[Singularities of Solutions to Chemotaxis Systems](https://portal.mardi4nfdi.de/wiki/Publication:2332801)* (De Gruyter Series in Mathematics and Life Sciences, 2020). The book deals with the model with fractional diffusion in dimension at least 2, including the classical Keller–Segel case. It discusses local and global existence of solutions, global solutions for large radial data and criteria for blow-up in finite time. The final chapter gathers conjectures and open problems.
+
+  ## Books for students, and doctoral students {#uczniowie}
+
+  He is a co-author of two problem books in English. The first is *[Problems in Mathematical Analysis](https://www.routledge.com/Problems-in-Mathematical-Analysis/Biler/p/book/9780367403225)* (with Alfred Witkowski, 1990), which covers sequences, series, measure theory, analytic functions, Fourier series and functional analysis, among other topics. The second is *[Problems and Examples in Differential Equations](https://ci.nii.ac.jp/ncid/BA18223122)* (with Tadeusz Nadzieja, Marcel Dekker, 1992). Like him, both co-authors were doctoral students of Andrzej Krzywicki. Together with Grzegorz Karch, Tadeusz Nadzieja and Dariusz Wrzosek he also prepared the notes *Warsztaty z równań różniczkowych cząstkowych* (Workshops on partial differential equations; Toruń 2003), available in the lecture notes section of our website.
+
+  According to the [Mathematics Genealogy Project](https://mathgenealogy.org/id.php?id=150478) he has supervised three doctoral students: Grzegorz Karch (1995), Michał Olech (2007) and Łukasz Paszkowski (2014). Grzegorz Karch, now a professor at the Institute, is one of his regular co-authors. In 2009–2014 the two of them led the European doctoral programme “Mathematical Methods in Natural Sciences”.
+
+  ## Faculty, Institute and Academy {#funkcje}
+
+  From 2008 to 2016 he was Dean of the Faculty of Mathematics and Computer Science, succeeding [Tomasz Rolski](/instytut/warto-wiedziec/tomasz-rolski) in that office. He heads the Department of Differential Equations. The Department studies nonlinear partial differential equations, including models of chemotaxis and pattern formation, runs the “Differential Equations” seminar and co-organises the Forum of Partial Differential Equations in Będlewo. He has served on the editorial boards of *Colloquium Mathematicum*, *Bulletin of the Polish Academy of Sciences. Mathematics*, *Topological Methods in Nonlinear Analysis* and *Applicationes Mathematicae*. In 2019 he was also one of the editors of [*Wiadomości Matematyczne*](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-33067497-af1a-438c-ad88-7a98ea90b787/c/7054-11756-1-PB.pdf).
+
+  In 2016 the General Assembly of the Polish Academy of Sciences elected him a corresponding member. In December 2021 he was elected a full member, with the rights of membership from 2022. In the 2024–2026 term he is President of the Polish Academy of Sciences Branch in Wrocław. Among those who held this office before him was [Kazimierz Urbanik](/instytut/warto-wiedziec/kazimierz-urbanik), in 1972–1977.
+
+  ## Awards and distinctions {#nagrody}
+
+  He received his first distinctions early in his career. In 1985 he was awarded the Polish Mathematical Society Prize for Young Mathematicians, and in 1988 the Kazimierz Kuratowski Prize. This prize is awarded jointly by the Polish Academy of Sciences and the Polish Mathematical Society for achievements by mathematicians under thirty. In 1992 he received the Stanisław Zaremba Prize of the Polish Mathematical Society. In December 2013 he gave the 21st Władysław Orlicz Lecture in Poznań. The lecture was entitled *Proste nieliniowe równania ze skomplikowaną strukturą rozwiązań* (Simple nonlinear equations with a complicated structure of solutions) and was devoted to the Keller–Segel model. Earlier speakers from the Institute had included Kazimierz Urbanik (1998) and [Andrzej Hulanicki](/instytut/warto-wiedziec/andrzej-hulanicki) (2007).
+
+  ## Sources {#zrodla}
+
+  <!-- ŹRÓDŁA: Jeden punkt = jedno źródło: [tytuł](link) — co z niego wzięto. Na stronie sekcja jest zwinięta; zostaw {#zrodla}. -->
+  - [Piotr Biler — Polish Academy of Sciences member page (Division III)](https://pan.pl/?p=15977) and [English version](https://pan.pl/en/members/piotr-biler/) — date of birth, doctorate 1984, professorship 1996, membership of the Polish Academy of Sciences (2016, 2022), research topics (chemotaxis, gravitating and charged particles, the alternative between global solutions and blow-up, gravitational collapse), cooperation with France and Case Western, selected publications 1990–2023.
+  - [Piotr Biler — Collegium de Lyon, fellows 2021–2022](https://collegium.universite-lyon.fr/m-piotr-biler--219661.kjsp) — year of birth, doctorate under A. Krzywicki (topic), habilitation 1992 (topic), professorship 1996, visiting positions (France, USA, Chile), stay in Lyon from September 2021 to January 2022 and the project carried out there, editorial boards, two books (with Nadzieja; De Gruyter).
+  - [Piotr Biler’s page on the Institute website](https://www.math.uni.wroc.pl/users/biler) and [archived home page](http://www.math.uni.wroc.pl/~biler/) — doctorate 1984, habilitation 1992, professorship 1996; publications (Funaki–Woyczyński 1998, Dolbeault 2000, Imbert–Karch 2015, Karch–Monneau 2010, blow-up criteria for radial solutions, self-similar solutions).
+  - [Mathematics Genealogy Project: Piotr Biler](https://mathgenealogy.org/id.php?id=150478) and [Andrzej Krzywicki](https://mathgenealogy.org/id.php?id=150535) — doctorate 1984, dissertation title, supervisor; three doctoral students; Witkowski and Nadzieja as Krzywicki’s doctoral students.
+  - [History of the Faculty of Mathematics and Computer Science, University of Wrocław](https://wmi.uwr.edu.pl/en/?p=39636) and [website of the exhibition on the history of the Faculty](https://bib.wmi.uni.wroc.pl/en/node/403) — dean 2008–2016, predecessor T. Rolski.
+  - [Władze Oddziału PAN we Wrocławiu 1970–2026 (PDF)](https://wroclaw.pan.pl/app/uploads/2026/04/Wladze-Oddzialu-1970-2026_2.04.2026.pdf) — president 2024–2026; K. Urbanik president 1972–1977; full membership since December 2021.
+  - [Kuratowski Prize — Wikipedia](https://en.wikipedia.org/wiki/Kuratowski_Prize) — recipient in 1988; prize of the Polish Academy of Sciences and the Polish Mathematical Society for mathematicians up to the age of 30.
+  - [Faculty of Mathematics and Computer Science, Adam Mickiewicz University, newsletter, December 2013 (PDF)](https://wmi.amu.edu.pl/__data/assets/pdf_file/0024/218247/2013-grudzien.pdf) — 21st Władysław Orlicz Lecture on 13 December 2013, title and content of the lecture.
+  - [Singularities of solutions to chemotaxis systems — MaRDI / zbMATH](https://portal.mardi4nfdi.de/wiki/Publication:2332801) — details of the monograph (DOI 10.1515/9783110599534) and its contents according to the zbMATH review.
+  - [Problems in Mathematical Analysis — Routledge/CRC Press](https://www.routledge.com/Problems-in-Mathematical-Analysis/Biler/p/book/9780367403225) — co-author, year 1990, scope of the chapters.
+  - [Problems and examples in differential equations — CiNii](https://ci.nii.ac.jp/ncid/BA18223122) — Marcel Dekker 1992, series Monographs and Textbooks in Pure and Applied Mathematics 164.
+  - [Wiadomości Matematyczne 55(2), 2019 — masthead page (PDF)](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-33067497-af1a-438c-ad88-7a98ea90b787/c/7054-11756-1-PB.pdf) — P. Biler on the editorial board.
+  - Data from the Institute website: news items of 3 December 2016, 8 December 2021 and 4 March 2024, and of 19 May 2017 (NCN grant); the “Research achievements – historical overview” page (prizes of 1985, 1988 and 1992, the 2013 Orlicz Lecture and earlier speakers); grants (Polonium 2009–2010, NCN 2017–2020, doctoral programme 2009–2014); the page of the Department of Differential Equations; the “Lecture notes and study materials” page (Warsztaty… 2003).
 ---
 <!-- UKŁAD JAWNY: ## rozpoczyna sekcję w spisie. Nazwę można zmieniać; {#id} zachowuje adres. Bloki :::nazwa … ::: sterują wyglądem; komentarze są tylko instrukcjami dla redaktora. -->
 
